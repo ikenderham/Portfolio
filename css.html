@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-------------------------------------- KILDER STARTER HER  -------------------------------------------------------->             
+            
+
+    <title>Læringsportfolio - Interaktionsdesign - CSS </title>
+
+    <!-- CSS -->
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <!-- Extra styles -->
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+    <!-- Navbar -->        <!-- MENU starter her -->
+     
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><h1>Lærings<b>portfolio</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Menu item (active) -->
+                <li>
+                    <a class="nav-link" href="index.html">Forside</a>
+                </li>
+
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet Kommunikation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kommunikation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                        <a class="dropdown-item" href="grund-kom-teori.html">Grundlæggende kommunikationsteori</a>
+                        <a class="dropdown-item" href="intro-design-thinking.html">Introduktion til design thinking</a>
+                        <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                        <a class="dropdown-item" href="information-arkitektur.html">Informationsarkitektur</a>
+                        <a class="dropdown-item" href="idegenerering.html">Idé-generering</a>
+                        <a class="dropdown-item" href="tekst-som-medie.html">Tekst som medie</a>
+                        <a class="dropdown-item" href="visualiseringsv%C3%A6rktojer.html">Visualiseringsværktøjer</a>
+                        <a class="dropdown-item" href="storytelling.html">Storytelling som brandstrategi</a>
+                        <a class="dropdown-item" href="retorisk-kommunikation.html">Retorisk kommunikationsstrategi</a>
+                        <a class="dropdown-item" href="semiotik.html">Semiotik</a>
+                        <a class="dropdown-item" href="visuel-kommunikation.html">Visuel kommunikation</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kom-reflektion.html">Refkleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for Kommunikation slutter -->
+                
+                
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet virksomhed -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Virksomhed
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="virksomhedens-grundlag.html">Virksomhedens forretningsmæssige grundlag</a>
+                        <a class="dropdown-item" href="ophavsret.html">Ophavsret og licenseringsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                        <a class="dropdown-item" href="udviklingsmetoder.html">Udviklingsmetoder</a>
+                        <a class="dropdown-item" href="udviklingsmetoder-specificering.html">Udviklingsmetoder og specificering af krav</a>
+                        <a class="dropdown-item" href="anvendelseafvaerktojer.html">Anvendelse af værktøjer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="virk-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for virksomhed slutter -->
+
+                <!-- Dette er en dropdown menu der tilhøre menupunktet visualisering -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Design og visualisering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="farveteori.html">Farveteori</a>
+                        <a class="dropdown-item" href="gestaltlovene.html">Gestaltlove og designprincipper</a>
+                        <a class="dropdown-item" href="foto.html">Foto</a>
+                        <a class="dropdown-item" href="typografi.html">Typografi</a>
+                        <a class="dropdown-item" href="photoshop.html">Photoshop</a>
+                        <a class="dropdown-item" href="illustrator.html">Illustrator</a>
+                        <a class="dropdown-item" href="indesign.html">Indesign</a>
+                        <a class="dropdown-item" href="video-production.html">Quick-and-dirty video production</a>
+                        <a class="dropdown-item" href="design-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item end -->
+                
+                <!-- Dette er en dropdown menu der tilhøre menupunktet Interaktion -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interaktion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="internettets-historie.html">Internettets historie</a>
+                        <a class="dropdown-item" href="struktur-i-html.html">Grundlæggende HTML</a>
+                        <a class="dropdown-item" href="css.html">CSS</a>
+                        <a class="dropdown-item" href="versionstyring.html">Versionstyring</a>
+                        <a class="dropdown-item" href="responsivdesign.html">Responsive design</a>
+                        <a class="dropdown-item" href="frameworks.html">Framework Bootstrap</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="inter-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til interaktion slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Projekter -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projekter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="onepage-projekt.html">Onepage projekt</a>
+                        <a class="dropdown-item" href="prototyping-projekt.html">Prototyping projekt</a>
+                        <!--Devider mellem menupunkterne ---->
+                    </div>
+                </li>
+                <!-- Dropdown menu til projekter slutter slutter -->
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Main body --> <!-- DET HER ER MIN SIDEBAR --> 
+    <div class="main">
+        <div class="row">
+            <div class="col-md-2 fixed-sidebar hidden-sm-down d-none d-sm-none d-md-none d-md-block">
+                <div class="nav flex-column nav-pills affix" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" href="#tops">Hvor skriver man css</a>
+                  <a class="nav-link" href="#css-syntax">CSS syntax</a>
+                  <a class="nav-link" href="#selectors">Primære selectors</a>
+                  <a class="nav-link" href="#kaskaderegler">Kaskade regler</a>
+                  <a class="nav-link" href="#boxmodellen">boxmodellen</a>
+                  <a class="nav-link" href="#skrifttyper">Skrifttyper</a>
+                  <a class="nav-link" href="#positions">Positions</a>
+                  <a class="nav-link" href="#float">Float</a>
+                  <a class="nav-link" href="#clear">Clear</a> 
+                  <a class="nav-link" href="#cssgrids">CSS grids</a> 
+                  <a class="nav-link" href="#opgaver">Opgaver</a>
+      
+                </div>
+            </div>
+
+
+ <!---------------------------------------- CSS STARTER HER  ------------------------------------------>           
+<div class="col-md-10 col-sm-12 offset-md-2 sektion1">
+
+    <h2 id="tops">CSS</h2>
+   <p>
+        CSS står for Cascading Style Sheets. Det bruges til, at designe udseendet på sin hjemmeside og refereres og navngives i HTML dokumentet. CSS er med til, at adskille struktur og udsende på en side. CSS bruges eksempelvis til at indsætte baggrundsbillede, baggrundsfarve, skrifttype, skriftstørrelse og meget andet.  CSS bruges også til at loade en side hurtigere, ved brug af eksternt stylesheet. 
+   </p>
+    
+<br>
+<br>
+    <h3>Hvor skriver man CSS?</h3>
+    <p>CSS kan skrives 3 forskellige steder. Man kan vælge at indsætte sin: </p>
+    <ul>
+        <li>
+            <b>Embedded stylesheet</b><br>
+            Indsættes i &lt;stylel&gt; &lt;/style&gt;  i &lt;head&gt; elementet. 
+        </li>
+        <li>
+            <b>Inline stylesheet</b><br>
+            Her skrives CSS koden direkte i html linjerne.
+        </li>
+        <li>
+            <b>Eksternt stylesheet</b><br>
+            Her linkes der til en ekstern stylesheet. Sørger for CSS og HTML er adskilt. 
+        <br>
+            Det gør det også nemmere at rette i sit stylesheet, hvis man har mange HTML sider. Her skal man kun rette i css dokumentet. 
+        </li>
+    </ul>
+
+    </div>        
+<!------------------------------------- CSS SLUTTER HER ----------------------------------------------------->
+            
+            
+            
+<!---------------------------------CSS SYNTAX HER ------------------------------------------->            
+    <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+        <h3 id="css-syntax">CSS Syntax</h3>
+        <p>
+            <b>Selector:</b><br>
+            Beskriver hvad det er, der skal styles på. Det kunne være en bestemt klasse eller et bestemt ID. Det kunne også være header, nav, et heading element, som h1 eller andet på siden.<br><br>  <br>
+
+            I eksemplet nedenfor tager jeg udgangspunkt i en h1 overskrift<br><br>
+
+            Man starter med, at angive hvad man vil style. Hvor efter man indsætter en krøllet parentes, der peger ind mod selector og en krøllet parentes, der peger den anden vej.<br><br>
+
+            <b>Eksempel:</b><br><br>
+
+            h1 { }
+            Ind imellem de to krøllede parenteser skriver vi vores egenskab vi vil ændre på efterfulgt af kolon, det kunne i det tilfælde være skriftstørrelsen på vores h1 tag og skrives således:<br><br>
+
+            h1 {font-size:}
+
+        </p>
+        
+        <p>
+            Efter kolon indsættes værdien, der ønsker vores egenskab skal have og lukker den ved brug af semikolon.  Hvis vi eksempelvis vil have alle h1 tags til at være i størrelse 22px, vil vi skrive sådan:<br><br><br>
+
+            h1 {font-size: 22px;}<br><br><br>
+
+            Vi kan tilføje andre CSS egenskaber og værdier til den samme selector, ved at indsætte dem efter vores semikolon. 
+
+        </p>
+       
+    </div>
+            
+
+ <!---------------------------- CSS SYNTAX SLUTTER HER ----------------------------------------------->    
+
+            
+            
+<!--------------------------------- CSS SYNTAX STARTER HER ------------------------------------------->                
+               
+ <div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+     <a href="img/htmlen.png"> <img src="img/htmlen.png" alt="html" /></a>
+     
+ </div>
+
+ <!--------------------------------- CSS SYNTAX SLUTTER ------------------------------------------->    
+
+            
+<!---------------------------------------- DE PRIMÆRE SELECTORS STARTER ------------------------------------------>           
+<div class="col-md-8 col-sm-12 offset-md-2 sektion1">
+  <h3 id="selectors">DE PRIMÆRE SELECTORS</h3>
+    <ol>
+        <li>
+            <b>Type/element selector</b><br>
+            Bruges til helt almindelige tags som h1, body, header, fotter osv. 
+        </li>
+        <li>
+            <b>Id selector</b><br>
+            Bruges når det er et specifikt element med et bestemt ID der skal styles. Selector i CSS for ID starter med # efterfulgt af ID navn, som eksempelvis:
+        <br>
+        <br>    
+            #undermenu {}
+        </li>
+        <li>
+            <b>Class selector</b><br>
+            Bruges når flere elementer skal styles ens.  Selector i CSS for classes starter med et punktum, efterfulgt af class navn som eksempelvis:
+        <br>
+        <br>
+            .klassenavn  {}
+        </li>
+        <li>
+            <b>Pseudo-class selectors</b><br>
+            Eksempelvis a:link og a:visited
+        </li>
+    </ol>
+        <br>
+        <br>
+    <p><b>Strukturelle selectors (decendant)</b><br> 
+           Med denne form for selector kan man mere specifikt gå ind og udpege et element inde I et andet element. Det kan eksempelvis være vi gerne vil style a i vores nav.Skrives således i css: 
+        <br>
+        <br>
+       a nav{ font-size 22px; }
+    </p>
+    <br>
+    <br>
+    
+    <p> 
+        <b>Child selectors</b><br>
+        Bruges når man gerne vil udpege mere specifikt, hvad man vil have ændret. Her separeres der med en pil ”&gt;”<br>
+        Som eksempel kan vi tage denne kode:<br>
+        <br>
+        div > p {<br>
+            Background-color:yellow;<br>
+                 } 
+<br><br>
+        Den fortæller at alle p’er hvor forældrene er en div og give dem en gul baggrundsfarve. 
+    </p>
+</div>               
+  <!------------------------------------------- SELECTORS SLUTTER -----------------------------> 
+            
+            
+
+<!---------------------------------------- KASKADE REGLER STARTER ------------------------------------------>           
+<div class="col-md-10 col-sm-12 offset-md-2 sektion1">
+  <h3 id="kaskaderegler">Kaskade regler</h3>  
+    <p>
+        Går ud på, at den sidste CSS-regel der er skrevet, er den der gælder.
+    <br>
+    <br>
+        Kunne eksempelvis være vi har et element øverst oppe, som vi har  givet en styling, hvorefter vi definere en styling for p tagget nederst i koden igen. Den nederste kode vil være den, der træder i kraft. 
+    </p>
+    
+</div>
+
+<!---------------------------------------- KASKADE REGLER SLUTTER ------------------------------------------>   
+            
+            
+<!---------------------------------------- BOX MODELLEN STARTER ------------------------------------------>           
+<div class="col-md-5 col-sm-12 offset-md-2 sektion1">
+  <h3 id="boxmodellen">Boxmodellen</h3>  
+    <p>
+        Når vi indsætter indhold i tags, tegner browseren rektangler udenom indholdet. Hver tag bliver vist inde i et rektangel. Boxmodellen udspringer fra de præmisser.  Ved at bruge boksmodellen kan vi fortælle vores browser præcis, hvordan vi vil have vores indhold skal blive vist. CSS boxen indeholder 4 slags kanter, som er relative i forhold til hinanden.
+    </p>
+        <ul>
+            <li>Indeholdets kant</li>
+            <li>Padding kant</li>
+            <li>Border kant</li>
+            <li>Margin kant</li>
+    
+        </ul>
+</div>
+
+<!---------------------------------------- BOX MODELLEN SLUTTER ------------------------------------------>   
+    
+    
+ <!---------------------------------------- BOX MODELLEN ILLUSTRATION STARTER ------------------------------------------>           
+<div class="col-md-3 col-sm-12 offset-md-1 sektion1">
+    <a href="img/boxmodellen.JPG">
+        <img src="img/boxmodellen.JPG" alt="box" class="responsive-image" />
+    </a>
+    
+</div>
+
+<!---------------------------------------- BOX MODELLEN  ILLUSTRATION SLUTTER ------------------------------------------>      
+            
+            
+
+<!--------------------------------------- BOXMODEL FORKLARING STARTER  ------------------------------------->
+<div class="col-md-8 col-sm-12 offset-md-2 sektion1">
+  <h3>Forklaring af boxmodellen</h3>  
+    <p>
+        <b>Padding:</b><br>
+        Når der tilføjes padding på indholdet i boksen, udvider man boxens faktiske størrelse.  Hvis boxen eksempelvis er 100px bred, og man tilføjer en padding der hedder: 20 20 20 20px, rundt om indholdet i den, vil boxens oprindelige størrelse udvides fra 100px til 140px, For at undgå dette kan man tilføje en ”box-sizing: border-box; ”, som fortæller at boksen skal beholde sin oprindelige størrelse, ved at padde indholdet indad i stedet for udaf. <br><br>
+        
+        <b>Border:</b><br>
+        Udenom padding har vi det vi kalder border. Border er synlig i forhold til padding, der fungerer som luft.  En border kan være i forskellige tykkelser og farver. En border kan eksempelvis være solid, dashed eller dotted. Ligesom padding, bliver borderen også tilføjet til boxens bredde. Så hvis vi tilføjer en border med 2px hele vejen rundt, vil den udvide boxens bredde til at være 144px i stedet for de 140, da vi tilføjer 2 px i hver side. <br><br>
+
+        <b>Margin:</b><br>
+        Rundt om border har vi det, der hedder margin. Margin bruges til alt udenfor boxen og er afstanden mellem boksen og elementerne ved siden af. Margin bruges ofte til whitespace. Margin kan gå op, ned, venstre og højre, men kan også gå i negativ retning. <br><br>
+
+
+        <b>Inline:</b> <br>
+        Placere sig ved siden af hinanden<br><br>
+        <b>Block:</b><br>
+        Placere sig i stak efter hinanden. <br><br>
+
+    </p> 
+    
+</div>   
+      
+<!---------------------------- BOXMODEL FORKLARING SLUTTER HER----------------------------------------------->
+            
+<!---------------------------------------- SKRIFTTYPER STARTER HER  ------------------------------------------>           
+<div class="col-md-8 col-sm-12 offset-md-2 sektion1">
+    <h3 id="skriftyper">Skrifttyper</h3>
+    <p>
+        Man har i koden mulighed for at indsætte forskellige skrifttyper i forskellige tykkelser, men man skal at de fonte der er på ens computer, ikke kan vises hos ens brugere, hvis ikke de har den installeret. Derfor er en god ide at bruge skrifttyper som er hostet på nettet, eksempelvis Google fonts eller Adobe Typekit.
+    </p>
+    
+    <ul>
+        <li>
+            <b>Font-size</b><br> 
+            Skriftstørrelse kan angives i eksempelvis px eller em 
+        </li>
+        <li>
+            <b>Font-family</b><br> 
+            Bestemmer hvilken skrifttype der bliver anvendt, kan separeres med komma. Betyder at den vælger den første, hvis ikke den er tilgængelig, tager den nr. 2 osv. 
+        </li>
+        <li>
+            <b>Font-weight</b><br>
+            Skriftens tykkelse. Kan angives som normal, bold, bolder, lighter og kan også angives i tal fra 100 – 900, hvor 400 er normal og 700 er bold
+        </li>
+    </ul>
+</div>
+
+<!---------------------------------------- SKRIFTTYPER SLUTTER ------------------------------------------>             
+            
+            
+<!---------------------------------------- POSITIONS STARTER HER  ------------------------------------------>           
+<div class="col-md-8 col-sm-12 offset-md-2 sektion1">
+    <h3 id="positions">Positions</h3>
+    <p>
+        Positionering går ud på, at positionere sine HTML elementer forskellige steder på siden. Elementer kan positioneres ved hjælp af top, bottom, right og left egenskaberne, som både kan defineres i pixel, men også i %. Som standard får elementerne position static egenskaben. 
+    </p>
+    
+    <br>
+    <p>
+        <b>Static</b>
+    </p>
+    
+    <ul>
+        <li>
+            Er standard ved alle elementer der ikke har fået en position.  
+        </li>
+        <li>
+            Kan ikke benytte, bottom, top, right, left
+        </li>
+    </ul>
+    
+<br>
+    <p>
+        <b>Fixed</b>
+    </p>
+    
+    <ul>
+        <li>
+            Benytter bottom, top, right og left.  
+        </li>
+        <li>
+            Hvis en div boks er sat til position fixed, vil den altid være det samme sted, når vi scroller. Så hvis vi for eksempel gerne vil have den 200px til højre og 10, starter vi med at give vores div en Class eller ID med navnet ”bing”, hvor vi derefter definere position i CSS. I det her tilfælde vil man skrive:<br><br>
+            
+            .bing {
+            Position: fixed;
+            left: 200px;
+            top: 50px; 
+            }
+            
+        </li>
+    </ul>
+    
+<br>
+    <p>
+        <b>Relativ</b>
+    </p>
+    
+    <ul>
+        <li>
+            Placere elmentet relativt i forhold til hvor den normal burde være placeret.   
+        </li>
+        <li>
+            Kan benytte bottom, top, right og left.
+        </li>
+    </ul>
+    
+<br>
+    <p>
+        <b>Absolute</b>
+    </p>
+    
+    <ul>
+        <li>
+            Elementet er placeret på specifikt sted
+        </li>
+        <li>
+            Kan sammenlignes med relativ, udover at elementet ikke følger flowet. 
+        </li>
+    </ul>
+    
+
+</div>
+
+<!---------------------------------------- POSITIONS SLUTTER ------------------------------------------>     
+            
+<!---------------------------------------- FLOAT STARTER HER  ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+    <h3 id="float">Float</h3>
+    <p>
+        Float bruges til at lave et HTML element, flyde til højre eller venstre sammen med de andre elementer, der ligger omkring. Det kunne eksempelvis være et tag med noget tekst og man gerne vil have et billede til at flyder til højre i teksten, som den ligger som en del af teksten.<br><br>
+        Et element kan enten flyde til højre eller til venstre og vil altid flyde så meget muligt til den ene side. <br><br>
+
+        Hvis vi eksempelvis har en div, med et p tag indeni. Hvis vi giver tagget en class i CSS, med værden float-left, vil floate så meget til højre i div boxen, som den kan. 
+
+    </p>
+        <p>
+        Et float element påvirker altid kun de elementer, der er nedenunder og ikke de elementer der er ovenfor. 
+        De påvirkede elementer kan man clear, så reglen ikke gælder dem.
+
+    </p>
+</div>
+
+<!---------------------------------------- FLOAT SLUTTER ------------------------------------------>     
+            
+ <!---------------------------------------- FLOAT ILLUSTRATION STARTER ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+    <a href="img/float.JPG">
+        <img src="img/float.JPG" alt="box" class="responsive-image" />
+    </a>
+    <br>
+    <br>
+    <br>
+    
+    <h3 id="clear">Clear</h3>
+    <p>
+        Clear bruges til at fortælle hvilket element, der ikke skal floate. Her kan man bruge float: left, right, both. 
+    </p>
+</div>
+
+<!---------------------------------------- FLOAT  ILLUSTRATION SLUTTER ------------------------------------------>     
+            
+ 
+            
+            
+            
+            
+ <!---------------------------------------- DESIGN STRATEGIER STARTER HER   ------------------------------------------>           
+<div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+    <h3 id="float">Design strategier</h3>
+    <p>
+        <b>Mobilefirst</b><br>
+        Mobilefirst  er en designstrategi, der går ud på at man som det første tager udgangspunkt i en mobil version. Her udarbejdes mobilen først, hvorefter man udvikler på desktop versionen, på baggrund af det endelige arbejde på mobil. Pga. mobilens begrænsede plads, bliver man nød til som designer at priotere sit indhold og sine funktioner.   I mobilefirst bruger man min-width og går gradvist op i tallet
+    <br>
+    <br>
+        <b>Desktopfirst</b><br>
+        Desktopfirst er den gamle metode, hvor man designer desktop versionen først og på baggrund af den, designer man til mindre skærme. Denne metode er den mest velkendte igennem årene, men er blevet overhalet af mobilefirst, på grund af den stigende popularitet af smartpghones.
+
+        I desktopfirst bruger man typisk max-width, med gradvist mindre tal. 
+    </p>
+
+</div>
+
+<!---------------------------------------- DESIGN STRATEGIER SLUTTER HER ------------------------------------------>                
+            
+            
+            
+            
+   <!---------------------------------------- DESIGN STRATEGIER STARTER HER   ------------------------------------------>           
+<div class="col-md-9 col-sm-12 offset-md-2">
+    <h3 id="cssgrids">CSS grids</h3>
+    <p>
+        Css Grid er den nyeste specifikation i CSS-standarden. Det er et system som omtales som det mest revolutionerende indenfor responsiv webdesign. Css grid er et gittersystem, der gør det muligt for os at opstille vores design i det, både i rækker og kolonner. 
+    <br>
+    <br>
+        Det gør det meget nemmere for os at placere vores elementer der hvor vi gerne vil have dem, eksempelvis hvis vi arbejder med responsiv webdesign, vil vi i nogle tilfælde gerne have ting om rokeret, så det tilpasser sig designet på forskellige skærmstørrelser.  Css grid, gør det muligt at flytte rundt på elementerne, uden nødvendigvis at pille ved html filen. 
+    <br>
+    <br>
+        <b>Eksemplet vises nedenfor:</b> <br><br>
+
+    </p>
+
+</div>
+
+<!---------------------------------------- DESIGN STRATEGIER SLUTTER HER ------------------------------------------>                    
+            
+  
+            
+<!---------------------------------------- 1.SÅDAN FUNGERE CSS GRID STARTER HER  ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-2">
+    <h3 id="fungeregrids">Sådan fungere CSS grids</h3>
+    <p>
+        Systemet fungerer på den måde at man tilføjer et sæt css regler, for et overordnet element og til dets børn.  Det overordnede element har i dette tilfælde fået id-navnet #mitgrid og er det element, der indeholder alle andre elementer.
+    </p>
+</div>
+
+<!---------------------------------------- 1.SÅDAN FUNGERE CSS GRID SLUTTER ------------------------------------------> 
+                    
+  <!---------------------------------------- 1.SÅDAN FUNGERE CSS GRID ILLUSTRATION  STARTER ------------------------------------------>           
+<div class="col-md-2 col-sm-12 offset-md-2">
+    <img src="img/grid1.png" alt="grid" class="responsive-image" />
+    
+    <p>
+        I eksemplet kan man se at vi har en div med id #mitgrid, som indeholder en række &lt;div&gt; med hver deres egen id og indhold.<br><br>
+    </p>
+</div>
+
+<!---------------------------------------- 1.SÅDAN FUNGERE CSS GRID SLUTTER ------------------------------------------>    
+            
+            
+ 
+<!---------------------------------------- 2.SÅDAN FUNGERE CSS GRID STARTER HER  ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-2">
+    <p>
+        Herefter går man ind i cssen og tildeler alle div elementerne inde i mit grid, hver deres eget id og hver deres grid-area navn. Navnet kan være bogstaver eller mere sigende ord, som menuen, footer, header eller andet. I dette eksempel giver jeg dem bogstaver fra a-e  som grid areas.
+    </p>
+</div>
+
+<!---------------------------------------- 2.SÅDAN FUNGERE CSS GRID SLUTTER ------------------------------------------> 
+                    
+  <!---------------------------------------- 2.SÅDAN FUNGERE CSS GRID ILLUSTRATION  STARTER ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-2">
+        <img src="img/grid-area.png" alt="grid" class="responsive-image" />
+    <p>  </p>
+</div>
+
+<!---------------------------------------- 2.SÅDAN FUNGERE CSS GRID SLUTTER ------------------------------------------>    
+                        
+ 
+<!---------------------------------------- 3.SÅDAN FUNGERE CSS GRID STARTER HER  ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-2">
+    <p>Her efter giver vi #mitgrid følgende koder i CSS</p>
+    <ul>
+        <li>
+            <b>Display: grid;</b><br>
+            Fortæller at #mitgrid skal vises i grid. 
+        </li>
+        <li>
+            <b>Grid-template-areas:</b><br>
+            Definere hvordan opstillingen af de forskellige grid areas skal vises.
+        </li>
+        <li>
+            <b>Grid-gap:</b><br>
+            Giver luft mellem kasserne.  
+        </li>
+        <li>
+            <b>Grid-template-column: grid;</b><br>
+            kan defineres med px, %, fraktioner.  Grid template column definere hvor meget kolonnerne skal fylde i bredden. 
+        </li>
+        <li>
+            <b>Grid-template-row:</b><br>
+            Angiver højden af rækkerne, i dette tilfælde får hver række 1 fraktion i højden, hvilket gør alle bokse lige høje.
+            
+        </li>
+    </ul>
+</div>
+
+<!---------------------------------------- 3.SÅDAN FUNGERE CSS GRID SLUTTER ------------------------------------------> 
+                    
+  <!---------------------------------------- 3.SÅDAN FUNGERE CSS GRID ILLUSTRATION  STARTER ------------------------------------------>           
+    <div class="col-md-3 col-sm-12 offset-md-1">
+            <img src="img/mitgrid.png" alt="grid" class="responsive-image" />
+    </div>
+
+<!---------------------------------------- 3.SÅDAN FUNGERE CSS GRID ILLUSTRATION SLUTTER ------------------------------------------>    
+<br>
+            
+            
+  <!---------------------------------------- EKSEMPEL STARTER ------------------------------------------>           
+    <div class="col-md-8 col-sm-12 offset-md-2">
+        <p>
+            I ovenstående eksempel kan vi se at grid-template-areas er sat til følgende rækkefølge:<br>
+            <br>
+            ”a b c”<br>
+            ”d e e”
+        <br>
+        <br>
+        <br>
+            Her har vi givet grid-area: e; 2 pladser, hvilket resultere i at den fylder 2 fraktioner. <br><br>
+            <b>Se eksempel</b><br>
+            <img src="img/g1.png" class="responsive-image" alt="g1" />
+        <br>
+        <br>
+            Ved at ændre på grid-template-areas, kan vi flytte på placeringen af boksene eller størrelse. Hvis vi fx gerne vil have at D fylder 2 fraktioner og at E fylder 1 fraktion kan det skrives således: <br><br>
+            
+            #mitgrid {<br>
+            Display: grid;<br>
+            grid-gap: 5px;<br>
+            Grid-template-columns: 1 fr 1fr 1fr;<br>
+            grid-template-areas:<br>
+        <br>
+            “a b c”<br>
+            “d d e”<br>
+              }
+        <br>
+        <br>
+
+            <b>Se eksempel</b><br>
+            <img src="img/g2.png" class="responsive-image" alt="g1" />
+            
+        <br>
+        <br>
+        <br>
+        <br>
+            <b>Et tomt felt?</b><br>
+            For at lave lade et felt stå tomt, kan vi bytte et af bogstaverne ud med et punktum, hvilket fortæller at det skal stå tomt. 
+        <br>
+        <br>
+            <img src="img/tomtfelt.png" class="responsive-image" alt="g1" />
+            <img src="img/tomtfelt-illustration.png" class="responsive-image" alt="g1" /> 
+        <br>
+        <br>
+        <br>
+            Andre eksempler på hvordan man kan definere størrelser i css grid
+            Der findes også andre måder at definere bredder og højder på i css grid. Det kan eksempelvis gøre ved at man bruger grid-column-start og grid-column-end, som egentlig fungere på den måde at man definere hvor grid column starter og hvor den skal slutte.  
+
+        </p>
+    </div>
+
+<!---------------------------------------- EKSEMPEL SLUTTER ------------------------------------------>              
+
+            
+<!---------------------------------------- OPGAVE 1 STARTER HER  ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+    <h3 id="opgave">Opgave</h3>
+    <p>Vi fik en opgave, hvor vi skulle style en side ved brug af CSS. Opgavebeskrivelsen ses nedenfor</p>
+    
+    <ul>
+        <li>Med udgangspunkt i den samme HTML-fil </li>
+        <li>Lav to vidt forskellige layouts med anvendelse af så meget CSS som muligt </li>
+        <li>Beskriv hvilke CSS-elementer du anvender, og hvordan de virker</li>
+        <li>
+            Læg eksemplerne på serveren. Her er et link til den side jeg fik lavet:
+        <br>
+        <br>
+        
+        </li>
+    </ul>
+
+</div>
+
+<!---------------------------------------- OPGAVE 1 SLUTTER ------------------------------------------> 
+                    
+  <!---------------------------------------- OPGAVE 1 ILLUSTRATION  STARTER ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+    <a href="http://huss0045.web.eadania.dk/introTilCss/grundside_p28.html"> 
+        <img src="img/sejlbaad.JPG" alt="box" class="responsive-image" />
+    </a>
+
+    
+    <p>
+        Klik på billedet for at se et eksempel 
+    </p>
+</div>
+
+<!---------------------------------------- OPGAVE 1 ILLUSTRATION SLUTTER ------------------------------------------>     
+            
+
+<!---------------------------------------- OPGAVE 2 STARTER HER  ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+    <h3 id="opgave2">Dag 4. Opsamling og overblik</h3>
+    <p>
+        På denne dag fik vi stillet en opgave, der gik ud på, at vi i klassen fik fordelt kapitel 4- 15, hvor vi to og to skulle arbejde med et kapitel i Pro HTML bogen, hvorefter vi skulle præsentere det vi har lært for klassen. 
+        I min gruppe skulle vi arbejde med kapitel 13 – som omhandler styling af tabeller.
+    </p>
+    
+    
+
+</div>
+
+<!---------------------------------------- OPGAVE 2 SLUTTER ------------------------------------------> 
+            
+            
+  <!---------------------------------------- OPGAVE 2 ILLUSTRATION  STARTER ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+    <a href="http://huss0045.web.eadania.dk/interaktion/tables-styling/"> 
+        <img src="img/tablestyling.JPG" alt="tablestyling" class="responsive-image" />
+    </a>
+
+    
+    <p>
+        Klik på billedet for at se et eksempel 
+    </p>
+</div>
+
+<!---------------------------------------- OPGAVE 2 ILLUSTRATION SLUTTER ------------------------------------------>                 
+  
+            
+<!---------------------------------------- CSS GRIDS: OPGAVE 1 STARTER HER  ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+    <h3 id="opgave2">Opgaver</h3>
+    
+    <p>
+        I forbindelse med undervisningen fik vi en del øvelser i Css grid, hvor vi skulle  prøve teknikken af ved at rykke rundt på indholdet. Vi skulle lave 4 forskellige øvelser, som hver i sær har deres eget design. 
+    </p>
+    <ul>
+        <li><a href="http://huss0045.web.eadania.dk/interaktion/cssgrids/opgave1/">Øvelse 1</a></li>
+        <li><a href="http://huss0045.web.eadania.dk/interaktion/cssgrids/opgave2/">Øvelse 2</a></li>
+        <li><a href="http://huss0045.web.eadania.dk/interaktion/cssgrids/opgave3/">Øvelse 3</a></li>
+        <li><a href="http://huss0045.web.eadania.dk/interaktion/cssgrids/opgave4/">Øvelse 4</a></li>
+    </ul>
+    
+    
+
+</div>
+
+<!---------------------------------------- CSS GRIDS: OPGAVE 1 SLUTTER ------------------------------------------> 
+            
+            
+  <!---------------------------------------- CSS GRIDS: OPGAVE 1 ILLUSTRATION  STARTER ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-1 sektion1"> 
+        <img src="img/oevelsegrid.JPG" alt="grid-øvelse" class="responsive-image" />
+</div>
+
+<!---------------------------------------- CSS GRIDS: OPGAVE 1 ILLUSTRATION SLUTTER ------------------------------------------>       
+            
+            
+ <!------------------------------------------- KILDER STARTER HER --------------------------->
+   <div class="col-md-10 col-sm-12 offset-md-2 sektion1">
+        <p>
+            Kilder:<br>
+            <a href="https://www.lynda.com/CSS-tutorials/What-CSS-box-model/372544/419405-4.html">https://www.lynda.com/CSS-tutorials/What-CSS-box-model/372544/419405-4.html</a>
+        </p>   
+  </div>
+ <!------------------------------------------- KILDEN SLUTTER HER --------------------------->
+            
+            
+
+            
+
+        </div> <!--------------------------- ROW BLIVER AFSLUTTET HER ----------------------->
+    </div>  <!------------------------------- MAIN BLIVER AFSLUTTET HER --------------------<
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

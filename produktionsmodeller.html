@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <title>Læringsportfolio</title>
+
+    <!-- CSS -->
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <!-- Extra styles -->
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+    <!-- Navbar -->        <!-- MENU starter her -->
+     
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><h1>Lærings<b>portfolio</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Menu item (active) -->
+                <li>
+                    <a class="nav-link" href="index.html">Forside</a>
+                </li>
+
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet Kommunikation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kommunikation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                        <a class="dropdown-item" href="grund-kom-teori.html">Grundlæggende kommunikationsteori</a>
+                        <a class="dropdown-item" href="intro-design-thinking.html">Introduktion til design thinking</a>
+                        <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                        <a class="dropdown-item" href="information-arkitektur.html">Informationsarkitektur</a>
+                        <a class="dropdown-item" href="idegenerering.html">Idé-generering</a>
+                        <a class="dropdown-item" href="tekst-som-medie.html">Tekst som medie</a>
+                        <a class="dropdown-item" href="visualiseringsv%C3%A6rktojer.html">Visualiseringsværktøjer</a>
+                        <a class="dropdown-item" href="storytelling.html">Storytelling som brandstrategi</a>
+                        <a class="dropdown-item" href="retorisk-kommunikation.html">Retorisk kommunikationsstrategi</a>
+                        <a class="dropdown-item" href="semiotik.html">Semiotik</a>
+                        <a class="dropdown-item" href="visuel-kommunikation.html">Visuel kommunikation</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kom-reflektion.html">Refkleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for Kommunikation slutter -->
+                
+                
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet virksomhed -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Virksomhed
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="virksomhedens-grundlag.html">Virksomhedens forretningsmæssige grundlag</a>
+                        <a class="dropdown-item" href="ophavsret.html">Ophavsret og licenseringsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                        <a class="dropdown-item" href="udviklingsmetoder.html">Udviklingsmetoder</a>
+                        <a class="dropdown-item" href="udviklingsmetoder-specificering.html">Udviklingsmetoder og specificering af krav</a>
+                        <a class="dropdown-item" href="anvendelseafvaerktojer.html">Anvendelse af værktøjer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="virk-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for virksomhed slutter -->
+
+                <!-- Dette er en dropdown menu der tilhøre menupunktet visualisering -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Design og visualisering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="farveteori.html">Farveteori</a>
+                        <a class="dropdown-item" href="gestaltlovene.html">Gestaltlove og designprincipper</a>
+                        <a class="dropdown-item" href="foto.html">Foto</a>
+                        <a class="dropdown-item" href="typografi.html">Typografi</a>
+                        <a class="dropdown-item" href="photoshop.html">Photoshop</a>
+                        <a class="dropdown-item" href="illustrator.html">Illustrator</a>
+                        <a class="dropdown-item" href="indesign.html">Indesign</a>
+                        <a class="dropdown-item" href="video-production.html">Quick-and-dirty video production</a>
+                        <a class="dropdown-item" href="design-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item end -->
+                
+                <!-- Dette er en dropdown menu der tilhøre menupunktet Interaktion -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interaktion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="internettets-historie.html">Internettets historie</a>
+                        <a class="dropdown-item" href="struktur-i-html.html">Grundlæggende HTML</a>
+                        <a class="dropdown-item" href="css.html">CSS</a>
+                        <a class="dropdown-item" href="versionstyring.html">Versionstyring</a>
+                        <a class="dropdown-item" href="responsivdesign.html">Responsive design</a>
+                        <a class="dropdown-item" href="frameworks.html">Framework Bootstrap</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="inter-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til interaktion slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Projekter -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projekter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="onepage-projekt.html">Onepage projekt</a>
+                        <a class="dropdown-item" href="prototyping-projekt.html">Prototyping projekt</a>
+                        <!--Devider mellem menupunkterne ---->
+                    </div>
+                </li>
+                <!-- Dropdown menu til projekter slutter slutter -->
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Main body --> <!-- DET HER ER MIN SIDEBAR --> 
+    <div class="main">
+        <div class="row">
+            <div class="col-md-2 fixed-sidebar hidden-sm-down d-none d-sm-none d-md-block">
+                <div class="nav flex-column nav-pills affix" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" href="#de29spg">De 29 spørgsmål</a>
+                  <a class="nav-link" href="#dennyebollemodel">Den nye bollemodel</a>
+
+
+                    
+                    
+                    
+                </div>
+            </div>
+
+
+ <!---------------------------- DE 29 SPØRGSMÅL STARTER HER SEKTION STARTER HER ----------------------->           
+            <div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+                <h2 id="de29spg">Produktionsmodeller</h2><br>
+                <h3 id="de29spg">De 29 spørgsmål til problemløsning</h3>
+                <p>
+                    Denne model er udarbejdet ud fra Harold Lasswells formel: ”Who says what in which channel, to whom, with which effect?” af Jan Krag Jakobsen, der er professor I kommunikation. <br>
+
+                    De 29 spørgsmål er en moderne retorik indenfor planlægning af kommunikation. Disse spørgsmål giver os, en overordnet klarhed over formålet med produktet, og hvordan vi bedst muligt kan markedsføre det uden fejl og mangler. <br><br>
+                    
+                    <b>De 29 spørgsmål kan inddeles således, denne opgave er lavet på klassen</b>
+
+                </p>
+                <p><b>Modtager:</b></p>
+                
+                <ul>
+                    <li>
+                        <b>Hvem er målgruppen</b><br>
+                        Her skal man definere, hvilken gruppe af mennesker, som produktet skal henvende sig til. Hvem er de? Hvad ved vi om dem? Segmenteringsmodeller er en fordel at bruge her. </li>
+                    <li>
+                        <b>Hvilken effekt skal produktet have hos målgruppen?</b><br>
+                        Hvad vil man gerne have, at modtageren gør eller tænker, når de ser budskabet? Det kan f.eks. være et budskab for et politisk parti, hvor den ønskede effekt er at få modtageren til at stemme på netop dette parti.
+                    </li>
+                    <li>
+                        <b>Hvad er formålet med effekten hos målgruppen?</b><br>
+                        Kunden skal ændre sin holdning eller synspunkt til det givne emne eller situation, eller også skal kunden rette sin opmærksomhed mod netop dit produkt.
+                    </li>
+                    <li>
+                        <b>Hvordan påvirkes målgruppen ellers af lignende budskaber?</b><br>
+                        Undersøg om andre spørgsmål inden for emnet som målgruppen kan påvirkes af. Man skal forholde sig til din løsning til produktet og selve produktet, der skal kommunikeres om. Det handler om at få viden, om den betydning modtagerne får, om netop dét emne budskabet handler om. Husk at dit budskab er et af flere i undersøgelsen. 
+                    </li>
+                    
+                </ul>
+
+                
+<p><b>Afsender:</b></p>
+                
+                <ul>
+                    <li>
+                        <b>Hvem er afsenderen?</b><br>
+                        Afsenderen kan både være en virksomhed, de ansatte, men det kan også være kunder. Hvis kunden bidrager med materiale, der skal justeres, så er kunden også medvirkende til at være afsender. Afsenderen er altså den gruppe, der skal ud med et produkt.  </li>
+                    <li>
+                        <b>Indgår produktet i en strategi eller politik?</b><br>
+                        Enhver virksomhed med respekt for sig selv har et værdisæt, der beskriver, hvad virksomheden står for. Produktet skal passe til værdisættet. Hvis eksempelvis en fin restaurant har en dårligt lavet hjemmeside, så er der opstået et mismatch. 
+                    </li>
+                    <li>
+                        <b>Hvilken effekt skal produktet have hos afsenderen og med hvilket formål?</b><br>
+                        Der er altid en årsag til, at en virksomhed fremstiller forskellige former for produkter, men disse årsager kan være vidt forskellige. Det kan eksempelvis være et forsøg på at måle sig med konkurrenterne, tjene masser af penge eller for at styrke sit image. Det skal få virksomheden til at fremstå konkurrencedygtig i forhold til konkurrenterne. 
+                        Det kan også handle om, at flere personers ønsker skal gå op i en højere enhed. Hvis du eksempelvis skal udvikle noget for en virksomhed, du er ansat i, er det din opgave at få dette til at ske, samt at realisere virksomhedens værdisæt i dit produkt. 
+
+                    </li>
+                    <li>
+                        <b>Hvordan påvirkes målgruppen ellers af lignende budskaber?</b><br>
+                        Undersøg om andre spørgsmål inden for emnet som målgruppen kan påvirkes af. Man skal forholde sig til din løsning til produktet og selve produktet, der skal kommunikeres om. Det handler om at få viden, om den betydning modtagerne får, om netop dét emne budskabet handler om. Husk at dit budskab er et af flere i undersøgelsen. 
+                    </li>
+                    
+                </ul>
+
+    <p><b>Rammer:</b></p>
+                
+                <ul>
+                    <li>
+                        <b>Hvad er budskabet?</b><br>
+                        Spørgsmål vedrørende budskabet skal stilles før nogen form for producering. Hvad skal modtageren have ud af det? Hvilken konklusion skal vedkommende drage? Det kan både være et eksplicit og implicit budskab.  </li>
+                    <li>
+                        <b>Hvad er mediet?</b><br>
+                        Hvilket medie skal benyttes for at transportere budskabet fra afsender til modtager? Skal det være en hjemmeside, en avisannonce eller måske noget helt tredje? Dette er helt centralt at vide, når man skal levere en multimedieløsning til en kunde.
+                    </li>
+                    <li>
+                        <b>Hvor, hvornår og hvordan skal målgruppen opleve produktet?</b><br>
+                        Tænk igennem hvor og hvornår målgruppe og produkt skal præsenteres for hinanden. Når du har en plan for, hvornår præsentationen skal foregå, er der en bedre mulighed for, at dit arbejde ikke er spildt. Laver du en intern løsning, skal du trække på den viden, du har om virksomhedens interne processer og faget. Man kan også opstille personaer og scenarier på baggrund af interview og observationsstudier af konkrete oplevelser af, hvordan personer handler i givne situationer i forbindelse med produktet.  
+
+                    </li>
+
+                </ul>
+
+    <p><b>Produkt:</b></p>
+                
+                <ul>
+                    <li>
+                        <b>Er kommunikation løsningen?</b><br>
+                        Dette spørgsmål skal stilles, inden der foregår en form for producering. Ud over at overveje om kommunikation er løsningen, er det også en god idé at overveje, hvorvidt multimedieløsning vil give mening. Desuden kan det være en gode idé at overveje målgruppens rolle ift. kommunikationen. Skal de være opsøgende for at finde frem til eksempelvis produktet, eller skal de skubbes dertil? 
+                    </li>
+                    <li>
+                        <b>Er produktet lavet før?</b><br>
+                        Der er ingen grund til at opfinde den dybe tallerken, når den allerede er opfundet. Typisk kopierer eller bygger man videre på noget, der er lavet før. Kunden har måske set noget hos konkurrenten, og så er det din opgave at lave et produkt, som ikke er en dårlig kopi. Lav nogle kriterier for, hvordan du undersøger, og du skal vide, hvad du kigger efter, og på hvilke grundlag du drager en sammenligning. Derved kan du argumentere for, at din løsning er den bedste. 
+                    </li>
+
+                </ul>
+                
+                <p><b>Etik:</b></p>
+                <ul>
+                
+                    <li> 
+                        
+                        <b>Intimideres målgruppen?</b><br>
+                        Der er måske nogen i målgruppen, som synes, at produktet kommer for tæt på individets intimsfærer, eller at det berører noget, som vedkommende synes er pinligt eller skammer sig over. Modtageren også intimideres, hvis vedkommende ikke føler, at han eller hun tilhører målgruppen. Disse situationer vil gøre modtageren afvisende overfor dit produkt. 
+                    
+                    </li>
+                    
+                
+                
+                </ul>
+                
+            </div>
+            
+            
+
+ <!---------------------------- DE 29 SPØRGSMÅL SLUTTER HER ----------------------->  
+
+<div class="col-md-6 col-sm-12 offset-md-2 sektion1">
+                
+    <h3 id="dennyebollemodel">Den nye bollemodel</h3>
+    <p>
+        Modellen er udviklet af Bruno Ingeman. Modellen bruges til udarbejdelse og igangsættelse af en kundeopgave. <br>
+        Modellen benyttes til, at få udtænkt en kommunikationsplan for et medieprodukt.
+
+        Modellen består af 6 boller, der ved hjælp af dobbeltvendte pile, påvirker hinanden konstant.
+    </p>
+    <p>
+        <b>Modellen består af disse elementer</b><br>
+    </p>
+        
+        <ul>
+            <li>
+                <b>Formål og præmis</b><br>
+                Hvad er formålet? Hvad ønsker vi at gøre opmærksom på? Hvad vil vi gerne formidle?        
+            </li>
+            <li>
+                <b>Effekt</b><br>
+                Har vi nået modtageren?
+                Har modtageren forstået præmissen?
+
+            </li>
+            <li>
+                <b>Indhold</b><br>
+                Hvad er indholdet af kommunikationen?
+            
+            </li>
+            <li>
+                <b>Målgruppe</b><br>
+                Hvem er målgruppen, alder, køn, livsstil, holdninger, viden mm. 
+            </li>
+            <li>
+                <b>Afsender</b><br>
+                Er afsenderne en enkeltperson, virksomhed eller organisation fx 
+
+            </li>
+            <li>
+                <b>Kommunikationsmiljø</b><br>
+                Er din kommunikation i konkurrence med andre?
+                Er der andre der gør det samme?
+
+
+            </li>
+            <li>
+                <b>Medie</b><br>
+                Er mediet givet på forhånd, eller skal man vælge mediet udefra målgruppen og kommunikationsmålet?
+            </li>
+            <li>
+                <b>Udformning</b><br>
+                Hvordan er delelementer, såsom lyd, billeder og tekst organiseret? 
+            </li>
+      
+      
+        </ul>
+      
+    
+                
+            </div>
+
+ <!---------------------------- DEN NYE BOLLEMODEL ILLUSTRATION ----------------------->  
+            
+            <div class="col-md-3 col-sm-12 sektion1">
+            
+                <a href="img/bollemodel.JPG" target="_blank">
+
+                    <img class="responsive-image" src="img/bollemodel.JPG" alt="den nye bollemodel" />
+
+                </a>
+            
+            </div>
+
+            
+            <div class="col-lg-10 col-md-10 col-sm-12 sektion1 offset-md-2">
+            
+                <p>
+                    <small id="kilder">
+                        <b>Kilde:</b><br>
+                    Torben Larsen, Anne Mette Busch m.fl. Kommunikation i Multimediedesign (KIM) 
+                    2. Udgave, 2015, Hans Reitzels forlag ISBN-13:9781568989792 s. 123-124
+
+
+
+                    </small>
+
+                </p>
+            
+            </div>
+                
+                
+                
+               
+            
+         
+
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

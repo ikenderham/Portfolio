@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Læringsportfolio - Kommunikation - Grundlæggende kommunikationsteori</title>
+
+    <!-- CSS -->
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <!-- Extra styles -->
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+    <!-- Navbar -->        <!-- MENU starter her -->
+     
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><h1>Lærings<b>portfolio</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Menu item (active) -->
+                <li>
+                    <a class="nav-link" href="index.html">Forside</a>
+                </li>
+
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet Kommunikation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kommunikation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                        <a class="dropdown-item" href="grund-kom-teori.html">Grundlæggende kommunikationsteori</a>
+                        <a class="dropdown-item" href="intro-design-thinking.html">Introduktion til design thinking</a>
+                        <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                        <a class="dropdown-item" href="information-arkitektur.html">Informationsarkitektur</a>
+                        <a class="dropdown-item" href="idegenerering.html">Idé-generering</a>
+                        <a class="dropdown-item" href="tekst-som-medie.html">Tekst som medie</a>
+                        <a class="dropdown-item" href="visualiseringsv%C3%A6rktojer.html">Visualiseringsværktøjer</a>
+                        <a class="dropdown-item" href="storytelling.html">Storytelling som brandstrategi</a>
+                        <a class="dropdown-item" href="retorisk-kommunikation.html">Retorisk kommunikationsstrategi</a>
+                        <a class="dropdown-item" href="semiotik.html">Semiotik</a>
+                        <a class="dropdown-item" href="visuel-kommunikation.html">Visuel kommunikation</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kom-reflektion.html">Refkleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for Kommunikation slutter -->
+                
+                
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet virksomhed -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Virksomhed
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="virksomhedens-grundlag.html">Virksomhedens forretningsmæssige grundlag</a>
+                        <a class="dropdown-item" href="ophavsret.html">Ophavsret og licenseringsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                        <a class="dropdown-item" href="udviklingsmetoder.html">Udviklingsmetoder</a>
+                        <a class="dropdown-item" href="udviklingsmetoder-specificering.html">Udviklingsmetoder og specificering af krav</a>
+                        <a class="dropdown-item" href="anvendelseafvaerktojer.html">Anvendelse af værktøjer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="virk-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for virksomhed slutter -->
+
+                <!-- Dette er en dropdown menu der tilhøre menupunktet visualisering -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Design og visualisering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="farveteori.html">Farveteori</a>
+                        <a class="dropdown-item" href="gestaltlovene.html">Gestaltlove og designprincipper</a>
+                        <a class="dropdown-item" href="foto.html">Foto</a>
+                        <a class="dropdown-item" href="typografi.html">Typografi</a>
+                        <a class="dropdown-item" href="photoshop.html">Photoshop</a>
+                        <a class="dropdown-item" href="illustrator.html">Illustrator</a>
+                        <a class="dropdown-item" href="indesign.html">Indesign</a>
+                        <a class="dropdown-item" href="video-production.html">Quick-and-dirty video production</a>
+                        <a class="dropdown-item" href="design-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item end -->
+                
+                <!-- Dette er en dropdown menu der tilhøre menupunktet Interaktion -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interaktion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="internettets-historie.html">Internettets historie</a>
+                        <a class="dropdown-item" href="struktur-i-html.html">Grundlæggende HTML</a>
+                        <a class="dropdown-item" href="css.html">CSS</a>
+                        <a class="dropdown-item" href="versionstyring.html">Versionstyring</a>
+                        <a class="dropdown-item" href="responsivdesign.html">Responsive design</a>
+                        <a class="dropdown-item" href="frameworks.html">Framework Bootstrap</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="inter-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til interaktion slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Projekter -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projekter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="onepage-projekt.html">Onepage projekt</a>
+                        <a class="dropdown-item" href="prototyping-projekt.html">Prototyping projekt</a>
+                        <!--Devider mellem menupunkterne ---->
+                    </div>
+                </li>
+                <!-- Dropdown menu til projekter slutter slutter -->
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Main body --> <!-- DET HER ER MIN SIDEBAR --> 
+    <div class="main">
+        <div class="row">
+            <div class="col-md-2 fixed-sidebar hidden-sm-down d-none d-sm-none d-md-block">
+                <div class="nav flex-column nav-pills affix" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" href="#">Paradigmer</a>
+                  <a class="nav-link" href="#imkmodel">IMK modellen</a>
+                  <a class="nav-link" href="#transmissionsmodeller">Transmissionsmodeller</a>
+                  <a class="nav-link" href="#transmissionsmodeller">Kanyleteorien</a>
+                  <a class="nav-link" href="#s-r-modellen">S-R modellen</a>
+                  <a class="nav-link" href="#s-o-r-modellen">S-O-R modellen</a>
+                  <a class="nav-link" href="#laswell">Laswells formel</a>
+                  <a class="nav-link" href="#lazersfelds">Lazersfelds 2 trins-model </a>
+                  <a class="nav-link" href="#userandgratification-teorien">User and Gratifications-teorien  </a>
+                  <a class="nav-link" href="#kotler">Philip kotlers model </a>
+                  <a class="nav-link" href="#opgaven">Opgave </a>
+                </div>
+            </div>
+
+
+ <!---------------------------- GRUNDLÆGGENDE KOMMUNIKATION SEKTION STARTER HER ----------------------->           
+            <div class="col-md-10 col-sm-12 offset-md-2 sektion1">
+                
+                <h2>Grundlæggende kommunikationsteori </h2>
+                <p>
+                    Grundlæggende kan kommunikationsteori deles op i to forskellige paradigmer. Der er to forskellige måder at forstå verdenen og dermed kommunikation på. 
+                    
+                <br>
+                <br>
+                    Et paradigme er de dominerende teorier og metoder indenfor et videnskabeligt arbejdsområde (Sepstrup og Fruensgaard 2010).<br>De to forskellige paradigmer er knyttet til hvert sit videnskabelige område, som hver især har sit eget sæt af teorier og metoder, som begriber noget forskelligt. 
+                    De to paradigmer er:
+
+                </p>
+                
+            </div>
+            
+ <!---------------------------- GRUNDLÆGGENDE KOMMUNIKATION SLUTTER HER ----------------------->  
+            
+            
+ <!---------------------------- SAMFUNDSVIDENSKABELIGE PARADIGMER STARTER HER ----------------------->  
+            <div class="col-md-6 col-sm-12 offset-md-2 sektion1">
+                
+                <h2>Det samfundsvidenskabelige paradigme</h2>
+                <ul>
+                    
+                    <li>
+                        Dette paradigme har fokus på afsenderen og dens placering i omverdenen. 
+                    </li>
+                    <li>
+                        De samfundsvidenskabelige fagområder er samfundsvidenskab, sociologi, politik, økonomi og jura.  
+                    </li>
+                    <li>
+                        I dette paradigme har man en højere tro på at verden er forudsigelig. Dermed kan man planlægge med udgangspunkt i stabile omgivelser og faste strukturer. 
+                    </li>
+                    <li>
+                        For at opbygge i paradigmet, anvendes undersøgningsmetoder, som kan give svar på noget data. 
+                    </li>
+                    
+                
+                </ul>
+                <br><br>
+                
+                
+                                <b>Karaktertræk ved det samfundsvidenskabelige paradigme</b>
+                <ul>
+                    
+                    <li>
+                        Dette paradigme har fokus på afsenderen og dens placering i omverdenen. 
+                    </li>
+                    <li>
+                        De samfundsvidenskabelige fagområder er samfundsvidenskab, sociologi, politik, økonomi og jura.  
+                    </li>
+                    <li>
+                        I dette paradigme har man en højere tro på at verden er forudsigelig. Dermed kan man planlægge med udgangspunkt i stabile omgivelser og faste strukturer. 
+                    </li>
+                    <li>
+                        For at opbygge i paradigmet, anvendes undersøgningsmetoder, som kan give svar på noget data. 
+                    </li>
+                    
+                
+                </ul>
+                
+
+              
+            
+            </div>
+ <!---------------------------- SAMFUNDSVIDENSKABELIGE PARADIGME SEKTION // SLUTTER HER ----------------------->  
+            
+            
+ <!---------------------------- HUMANISTISKE PARADIGME STARTER HER -------------------------------------------->  
+            
+            <div class="col-md-4 col-sm-12 sektion1">
+                
+                <h2>Det humanske paradigme paradigme</h2>
+                <ul>
+                    
+                    <li>
+                       Individet er det primære.  
+                    </li>
+                    <li>
+                        Modtageren ses her som en aktiv og medskabende del. 
+                    </li>
+                    <li>
+                       Der trækkes på de humanistiske fagområder: sprog, kultur, psykologi, læring, organisation, antropologi, kunst og informationsteknologi.  
+                    </li>
+                    <li>
+                       Udgangspunktet for den humanistiske medieforskning i Danmark, er at al menneskelig interaktion bygger på kommunikation. 
+                    </li>
+                    
+                
+                </ul>
+                
+                
+                
+                                <b>Karaktertræk ved det humanske paradigme</b>
+                <ul>
+                    
+                    <li>
+                        Subjektivitet
+                    </li>
+                    <li>
+                        Fortolkning
+                    </li>
+                    <li>
+                        Kvalitativ tilgang
+                    </li>
+                    <li>
+                        Situationsbestemt
+                    </li>
+                    <li>
+                        Modtagerorienteret
+                    </li>
+                    <li>
+                        Interaktion mellem mennesker
+                    </li>
+                    <li>
+                        Nebbesjet ses som aktivt
+                    </li>
+                    
+                
+                </ul>
+
+              
+            
+            </div>
+  <!---------------------------- HUMANISTISKE PARADIGME SLUTTER HER ----------------------->   
+            
+ <!---------------------------- IMK MODELLEN STARTER HER SEKTION STARTER HER ----------------------->  
+            
+            
+         <div class="col-md-6 col-sm-12 offset-md-2 sektion1">
+                
+                <h2 id="imkmodel">IMK-modellen</h2>
+             <p>IMK-modellen er en kommunikationsmodel udformet af Frandsen i 1997. Modellens grundlæggende elementer handler om, at kontekst/kultur samt medier er med til at skabe teksten. I denne model skal både afsender og modtager deltage ligeværdigt i kommunikationssituationen, før der er tale om interaktion. 
+            Her er der tale om, at der ikke er nogen kommunikationssituation, før modtageren deltager.  Her er det ikke nok, at afsenderen sender et budskab.  
+            </p>
+             <b>Modellens grundlæggende elementer</b><br><br>
+             
+             <p><b>Afsender</b></p>
+                <ul>
+                    
+                    <li>
+                        Defineres som den der står bag kommunikationen
+                    </li>
+                    <li>
+                        Står for produktionen
+                    </li>
+                    <li>
+                        Der skelnes mellem to typer afsendere:
+                        <ul>
+                            <li>
+                                Tekstinterne afsender (er den der mere eller mindre er markeret i teksten)
+                            </li>
+                            <li>
+                                Tekstekstern afsender (fx et reklamebureau der har lavet en annonce for en kunde)
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        Der skelnes mellem den primære -og sekundære afsender
+                        
+                        <ul>
+                            <li>
+                                Primære afsender (f.eks en virksomhed som er synlig i annoncen)
+                            </li>
+                            <li>
+                                Ekstern afsender (f.eks en specialist som i en annonce fremhæver et produkt)
+                            </li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                
+             
+             <p>
+                 <b>Modtager</b>
+             </p>
+             
+            <ul>
+                <li>
+                    Defineres som den, der modtager kommunikationen. 
+                </li>
+                <li>
+                   Der skelnes mellem to typer modtagere: 
+                    <ul>
+                        <li><b>Den primære modtager</b> fx en reklame, der henvender sig til børn som konsumenter.</li>
+                        <li><b>Den sekundære modtager</b> fx er børnenes forældre, som samtidig er de økonomiske disponenter. </li>
+                    
+                    </ul>
+                </li>
+                <li>
+                    Derudover skelnes mellem primær og sekundær modtager: 
+                    
+                                        <ul>
+                        <li><b>Tekstintern:</b> Modtageren er markeret i teksten af afsenderen </li>
+                        <li><b>Tekstekstern:</b> Modtageren er ikke nævnt i teksten. Derimod er det den, der læser teksten, selvom modtageren muligvis er udenfor målgruppen. </li>
+                    
+                    </ul>
+                </li>
+             </ul>
+             
+             <p><b>Teksten:</b>
+                 </p>
+            <ul>
+                    <li>Afsender og modtager skaber en kommunikativ instans. </li>
+                    <li> Den kommunikative instans skabes via. Afsenderens produktion og modtagerens reception. </li>
+            </ul>
+             
+             
+             <!-------- REFERENTEN LISTE STARTER HER------------------------>
+                  <b>Referenten</b>
+                <ul>
+                    
+                    <li>
+                        Referenten er det teksten refererer til
+                    </li>
+                    <li>
+                        Referenten kan være: et produkt eller et brand bag et givent produkt
+                    </li>
+                    <li>
+                        Brandet refererer til modtagerens forståelse 
+                    </li>
+                
+                </ul>
+              <!-------- REFERENTEN LISTE slutter her HER------------------------>
+             
+             
+             <!-------- KODEN LISTE STARTER HER------------------------>
+                  <b>Koden</b>
+                <ul>
+                    
+                    <li>
+                        Koden er sproget, som modtageren skulle kunne forstå for at forstå afsenderen 
+                    </li>
+                    <li>
+                        Koden bestemmer hvilken medie og genre man benytter 
+                    </li>
+                    <li>
+                        Alt efter kultur bruges den kode, der passer dertil
+                    </li>
+                
+                </ul>
+              <!-------- KODEN LISTE slutter her HER------------------------>
+             
+                          <!-------- KONTEKST KULTUR LISTE STARTER HER------------------------>
+                  <b>Kontekst/kultur</b>
+                <ul>
+                    
+                    <li>
+                        Den konkrete kommunikations situation: hvem, hvad, hvor og hvornår. 
+                    </li>
+                    <li>
+                        Kulturen påvirker situationen
+                    </li>
+                    <li>
+                     Kultur kan deles op i tre forskellige niveauer: nære, nationale og internationale. 
+                    </li>
+                        <li>
+                     Kontekst/kultur er afgørende for valg af medie, genre og retoriske strategier. 
+                    </li>
+                    <li>
+                     Det som kan være acceptabelt i en kultur, kan være uacceptabelt i en anden kultur. (eksempelvis Mohammedtegningerne) 
+                    </li>
+                
+                </ul>
+              <!-------- KONTEKST KULTUR LISTE slutter her HER------------------------>
+             
+              <!-------- MEDIER LISTE STARTER HER------------------------>
+                  <b>Medier</b>
+                <ul>
+                    
+                    <li>
+                        Medier er det som faciliterer selve kommunationssituationen
+                    </li>
+                    <li>
+                        Medier kan være: et website, trykt medie eller mennesket selv. 
+                    </li>
+                    <li>
+                        Alle slags medier påvirker kommunikationssituationen. 
+                    </li>
+                        <li>
+                        Valg af medie: Gør dig overvejelser omkring anvendelse og situation.  
+                    </li>
+                    <li>
+                        Udvælgelsesparametre ifølge Frandsen 
+                        <ul>
+                            <li>Udgivelsestidspunkt</li>
+                            <li>Hyppighed</li>
+                            <li>Geografisk område</li>
+                            <li>Motager</li>
+                            <li>Betalingsform</li>
+                        
+                        
+                        </ul>
+                        
+                        
+                    </li>
+                
+                </ul>
+              <!-------- MEDIER LISTE slutter her HER------------------------>
+             
+              <!-------- GENRE LISTE STARTER HER------------------------>
+                  <b>Genre:</b>
+                <ul>
+                    
+                    <li>
+                        Genre udpeger hvordan kultur/kontekst, medier og retoriske strategier kan samarbejde. 
+                    </li>
+                    <li>
+                       Genreanalyse foregår trinvist:
+                        <ul>
+                            <li><b>Det kommunikative formål:</b> Set fra både afsenderen- og modtagerens synsvinkel. </li>
+                            <li><b>Træstrukturer:</b> De sproglige træk, som er med til at opfylde en teksts kommunikative formål. Der er tale om tekst med fælles formål ofte har nogle fælles genkendelige træk. Modtageren får dermed nemmere ved at afkode teksten. </li>
+
+                        
+                        </ul>
+                        
+                        
+                        
+                    </li>
+                    <li><b>Retoriske strategier:</b> Det er virkemidler, som gør de forskellige træk tydeligere.
+                        <ul>
+                            <li>
+                            - Anvendelse af fagbegreber, slogans, indforstået ordspil 
+                            </li>
+                            <li>
+                        - Anvendelse af intertekstuelle referencer, logo, farver, komposition
+                            </li>
+                        </ul>
+                
+                </ul>
+              <!-------- GENRE LISTE SLUTTER HER------------------------>
+             <br><br>
+                         
+
+            
+            
+             
+            </div>
+            <!---------------------------- IMK MODELLEN /// SLUTTER HER ----------------------->  
+            
+            <div class="col-md-3 col-sm-12 sektion1">
+                <a href="img/imkmodellen.JPG" target="_blank"><img src="img/imkmodellen.JPG"/></a>
+                <br><br>
+                <!------------------------ KILDERNE ER INDSAT HER ---------------------------------------------->
+                <small><b>Kilder:</b><br>   KIM, 2. udgave, Hans Reitzels forlag, citat s. 71, linje 8-10. <br>
+                      KIM, 2. udgave, Hans Reitzels forlag, citat s. 71, linje 32-33<br>
+                      KIM, 2. udgave, Hans Reitzels forlag, side 72. <br>
+                </small>
+            <!------------------------ KILDER SLUTTER HER ---------------------------------------------->
+                
+            </div>
+            <!------------------------ TRANSMISSIONS MODELLER STARTER HER---------------------------------------------->    
+            <div class="col-md-6 col-sm-12 offset-md-2 sektion1">
+                <h2 id="transmissionsmodeller">Transmissionsmodeller</h2><br><br>
+                
+                <h3>Kanylemetoden</h3>
+                <p>
+                    Kanyleteorien er udformet af den amerikanske politolog og kommunikationsteoretiker Harald D. Lasswell i 1927.<br><br>
+                    Harald mente, at man kan påvirke samfundet via propaganda, ved at indsprøjte holdninger, ideer og tanker til modtageren.  Hvis man eksempelvis som individ ser film med meget vold, vil det have en konsekvens for volden i samfundet. 
+                </p>
+                <p>Teorien illustreres med følgende elementer</p>
+                <ul>
+                    
+                    <li><b>Afsender:</b>
+                    <br>
+                        Her er afsenderen i kanylemodellen eksempelvis et medie som TV, hvor modtageren ikke har mulighed for at kommunikere med afsenderen. Dermed er dette ikke en
+                        interaktion.
+                    </li>
+                    <li><b>Indkodning:</b>
+                    <br>
+                        Her er der tale om afsenderens kode, som han/hun ønsker, at kommunikerer ud til modtageren. 
+                    </li>
+                    <li><b>Støj:</b>
+                    <br>
+                        Støj forhindrer, at modtageren får det rigtige budskab
+                    </li>
+                    <li><b>Afkodning:</b>
+                    <br>
+                        Her afkoder modtageren budskabet fra afsenderen
+                    </li>
+                    <li><b>Modtager</b>
+                    <br>
+                        Modtageren af budskabet er de personer, som afsenderen ønsker at sende et budskab til.  I denne teori menes modtageren, at blive påvirket af afsenderens meninger og handlinger. Her forholder modtageren sig passivt.
+                    </li>
+                    
+                
+                
+                
+                </ul>
+            </div>
+            <!------------------------ TRANSMISSIONS MODELLER MED KANYLEMODELLEN SLUTTER HER ---------------------------------------------->
+            
+            <!------------------------ ILLUSTRATIONER TIL TRANSMISSIONMODELLER STARTER HER---------------------------------------------->    
+            <div class="col-md-3 col-sm-12 sektion1">
+                
+                <h4>Kanylemetoden</h4>
+                <a href="img/kanyle.JPG" target="_blank"><img class="img-responsive" src="img/kanyle.JPG"/></a>
+                <p><small>Egen fremstilling af modellen</small></p>
+            </div>
+                <!------------------------ TRANSMISSIONS MODELLER SLUTTER HER ---------------------------------------------->
+            
+            
+            
+                <!------------------------ S-R MODELLEN STARTER HER---------------------------------------------->    
+            <div class="col-md-6 col-sm-12 offset-md-2 sektion1">
+                <h3 id="s-r-modellen">S-R modellen</h3>
+                <p>
+                    Ligesom kanyleteorien har denne model samme antagelse. Hvor man mener, at mennesket påvirkes eller stimuleres.  S står for stimulus og ”R” står for respons.<br><br>
+
+                    <b>S-R-modellen handler om at:</b><br>
+                    At et afsendt budskab efterfølges af respons. Jo kraftigere et budskab er, des større respons får man tilbage.   
+                    Modellen gør sig stadig gældende i dag.  Eksempelvis kører de samme reklamer på tv og eksponeres igen og igen for den samme modtager. 
+
+                </p>
+                
+               
+            </div>
+            <!------------------------ S-R MODELLEN SLUTTER HER ---------------------------------------------->
+            
+            <!------------------------ ILLUSTRATIONER TIL SR MODELLEN STARTER HER---------------------------------------------->    
+            <div class="col-md-3 col-sm-12 sektion1">
+                
+                <h4>S-R modellen</h4>
+                <a href="img/s-r-model.JPG" target="_blank"><img class="img-responsive" src="img/s-r-model.JPG"/></a>
+                <p><small>Egen fremstilling af modellen</small></p>
+            </div>
+                <!------------------------ S-R ILLUSTRATION SLUTTER HER ---------------------------------------------->
+
+            
+                <!------------------------ S-O-R MODELLEN STARTER HER---------------------------------------------->    
+            <div class="col-md-10 col-sm-12 offset-md-2 sektion1">
+                <h3 id="s-o-r-modellen">S-O-R modellen</h3>
+                <p>
+                    
+
+                    <b>Forklaring på S-O-R modellen</b><br>
+                    Denne model ligner S-R modellen. Forskellen er, at her overføres budskabet ikke direkte, men at budskabet kanaliseres igennem en organisme og dermed får man ikke den direkte respons. Her ser man individet, som værende forskellige og derved vil responsen ikke være ens for alle modtagere.  
+                    Modellen udtrykker, at man skal tage forskellige hensyn til forskellige grupper. 
+
+
+                </p>
+                
+               
+            </div>
+            <!------------------------ S-O-R MODELLEN SLUTTER /// HERHER---------------------------------------------->
+            
+            
+            <!------------------------ LASSWELLS FORMEL STARTER HER---------------------------------------------->    
+            <div class="col-md-6 col-sm-12 offset-md-2 sektion1">
+                <h3 id="laswell">Lasswells formel</h3>
+                <p>
+                    
+                    Lasswells formel er en strukturmodel, som tillægger mediet en betydelig rolle, samt hvilket medie der er talt om. Denne formel har fokus på afsenderen, selvom man også har øje for modtageren.
+
+                    Her begrænses fokus på modtageren. 
+
+
+
+                </p>
+                
+               
+            </div>
+            <!------------------------ LASWELLS FORMEL SLUTTER /// HER---------------------------------------------->
+            
+            
+            
+            <!------------------------ LASWELLS FORMEL ILLUSTRATION STARTER HER---------------------------------------------->    
+            <div class="col-md-3 col-sm-12  sektion1">
+                <h4>Lasswells formel</h4>
+
+                
+                <a href="img/laswells.JPG" target="_blank"><img class="img-responsive" src="img/laswells.JPG" alt="lasswells formel"/></a>
+                <p><small>Egen fremstilling af modellen</small></p>
+                
+               
+            </div>
+            <!------------------------ LASWELLS FORMEL ILLUSTRATION SLUTTER /// HER---------------------------------------------->
+
+            
+            <!------------------------ Lazersfelds 2 trins- MODEL STARTER HER---------------------------------------------->    
+            <div class="col-md-10 col-sm-12 offset-md-2 sektion1">
+                <h3 id="lazersfelds">Lazersfelds 2 trins-model</h3>
+                <ul>
+                    <li>At vi som modtagere ofte påvirkes og inspireres af dem vi ser op til. </li>
+                    <li>Kan udnyttes af massemedierne </li>
+                </ul>
+                
+                <br>
+                
+                
+                    <h3 id="userandgratification-teorien">User and Gratifications-teorien </h3><br>
+                <p>
+                    - Tager udgangspunkt i at modtageren søger efter det der tilfredsstiller deres behov.
+                
+                </p>
+                
+               
+            </div>
+            <!------------------------ LAZERSFELD 2 TRINS- MODEL /// HERHER---------------------------------------------->
+            
+            <!------------------------ PHILIP KOTLER MODE STARTER HER---------------------------------------------->    
+            <div class="col-md-6 col-sm-12 offset-md-2 sektion1">
+                <h3 id="kotler">Philip Kotlers model</h3>
+                
+                <p>
+                    <b>Forklaring:</b><br>Her handler det om, at afsenderen sender et budskab ud, som er ”kodet” på en bestemt måde og her skal modtageren forstå, at afkode budskabet.  Derefter sender modtageren respons tilbage mod afsenderen og dermed får afsenderen feedback. <br><br>Feedbacket kan eksempelvis være i form af steget omsætning. 
+                    Hele denne kommunikationsproces er omgivet af støj.<br>
+                    <b>Støj</b> = Alt der påvirker kommunikationen. Det kan være forståelsesmæssige problemer eller en fejl.  
+
+                
+                </p>
+                
+               
+            </div>
+            <!------------------------ PHILIP KOTLER MODEL /// SLUTTER HER---------------------------------------------->
+            
+            <!------------------------ PHILIP KOTLERS ILLUSTRATION STARTER HER ---------------------------------------------->    
+            <div class="col-md-3 col-sm-12  sektion1">
+                <h4>Lasswells formel</h4>
+
+                
+                <a href="img/kotlersmodel.jpg" target="_blank"><img class="img-responsive" src="img/kotlersmodel.jpg" alt="lasswells formel"/></a>
+                <p><small>Egen fremstilling af modellen</small></p>
+                
+               
+            </div>
+            <!------------------------ PHILIP KOTLERS ILLUSTRATION SLUTTER /// HER---------------------------------------------->
+
+            
+            
+            <!------------------------ OPGAVE I GRUNDLÆGGENDE KOMMUNIKATION STARTER HER---------------------------------------------->    
+            <div class="col-md-6 col-sm-12 offset-md-2 sektion1">
+                <h3 id="opgaven">Opgave:</h3>
+                
+                <p>
+                    Vi har haft en opgave i forbindelse med grundlæggende kommunikationsteori, hvor vi skulle afprøve forskellige teorier</p>
+                    <b>Opgave beskrivelsen lød således:</b><br>
+                <ul>
+                    <li>
+                        Analyse 1. Find et website, og afprøv de forskellige teorier. Hvilke indsigter og svar giver de?
+                    </li>
+                    <li>
+                        Analyser forskellige websites, og forsøg at beskrive hvordan de to paradigmer kommer til udtryk
+                    </li>
+                    <li>
+                        Efterprøv de forskellige teorier i produktionsøjemed. Hvad kan de forskellige teorier bidrage med?
+                    </li>
+                
+                
+                
+                </ul>
+</div>
+            <!------------------------ OPGAVE LINK SEKTION HER ---------------------------------------------->    
+            <div class="col-md-3 col-sm-12 sektion1">
+                <h4><a href="opgaver/grundlaeggende-kommunikation-ovelse-5-1.docx" target="_blank"> Se vores opgavebesvarelse her</a></h4>
+
+                
+               
+            </div>
+            <!------------------------ PHILIP KOTLERS ILLUSTRATION SLUTTER /// HER---------------------------------------------->
+                
+                
+                
+               
+            
+            <!------------------------ PHILIP KOTLER MODEL /// SLUTTER HER---------------------------------------------->            
+
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

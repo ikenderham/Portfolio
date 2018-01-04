@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-------------------------------------- KILDER STARTER HER  -------------------------------------------------------->             
+            
+
+    <title>Læringsportfolio - Interaktionsdesign - Frameworks </title>
+
+    <!-- CSS -->
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <!-- Extra styles -->
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+    <!-- Navbar -->        <!-- MENU starter her -->
+     
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><h1>Lærings<b>portfolio</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Menu item (active) -->
+                <li>
+                    <a class="nav-link" href="index.html">Forside</a>
+                </li>
+
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet Kommunikation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kommunikation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                        <a class="dropdown-item" href="grund-kom-teori.html">Grundlæggende kommunikationsteori</a>
+                        <a class="dropdown-item" href="intro-design-thinking.html">Introduktion til design thinking</a>
+                        <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                        <a class="dropdown-item" href="information-arkitektur.html">Informationsarkitektur</a>
+                        <a class="dropdown-item" href="idegenerering.html">Idé-generering</a>
+                        <a class="dropdown-item" href="tekst-som-medie.html">Tekst som medie</a>
+                        <a class="dropdown-item" href="visualiseringsv%C3%A6rktojer.html">Visualiseringsværktøjer</a>
+                        <a class="dropdown-item" href="storytelling.html">Storytelling som brandstrategi</a>
+                        <a class="dropdown-item" href="retorisk-kommunikation.html">Retorisk kommunikationsstrategi</a>
+                        <a class="dropdown-item" href="semiotik.html">Semiotik</a>
+                        <a class="dropdown-item" href="visuel-kommunikation.html">Visuel kommunikation</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kom-reflektion.html">Refkleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for Kommunikation slutter -->
+                
+                
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet virksomhed -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Virksomhed
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="virksomhedens-grundlag.html">Virksomhedens forretningsmæssige grundlag</a>
+                        <a class="dropdown-item" href="ophavsret.html">Ophavsret og licenseringsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                        <a class="dropdown-item" href="udviklingsmetoder.html">Udviklingsmetoder</a>
+                        <a class="dropdown-item" href="udviklingsmetoder-specificering.html">Udviklingsmetoder og specificering af krav</a>
+                        <a class="dropdown-item" href="anvendelseafvaerktojer.html">Anvendelse af værktøjer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="virk-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for virksomhed slutter -->
+
+                <!-- Dette er en dropdown menu der tilhøre menupunktet visualisering -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Design og visualisering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="farveteori.html">Farveteori</a>
+                        <a class="dropdown-item" href="gestaltlovene.html">Gestaltlove og designprincipper</a>
+                        <a class="dropdown-item" href="foto.html">Foto</a>
+                        <a class="dropdown-item" href="typografi.html">Typografi</a>
+                        <a class="dropdown-item" href="photoshop.html">Photoshop</a>
+                        <a class="dropdown-item" href="illustrator.html">Illustrator</a>
+                        <a class="dropdown-item" href="indesign.html">Indesign</a>
+                        <a class="dropdown-item" href="video-production.html">Quick-and-dirty video production</a>
+                        <a class="dropdown-item" href="design-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item end -->
+                
+                <!-- Dette er en dropdown menu der tilhøre menupunktet Interaktion -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interaktion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="internettets-historie.html">Internettets historie</a>
+                        <a class="dropdown-item" href="struktur-i-html.html">Grundlæggende HTML</a>
+                        <a class="dropdown-item" href="css.html">CSS</a>
+                        <a class="dropdown-item" href="versionstyring.html">Versionstyring</a>
+                        <a class="dropdown-item" href="responsivdesign.html">Responsive design</a>
+                        <a class="dropdown-item" href="frameworks.html">Framework Bootstrap</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="inter-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til interaktion slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Projekter -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projekter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="onepage-projekt.html">Onepage projekt</a>
+                        <a class="dropdown-item" href="prototyping-projekt.html">Prototyping projekt</a>
+                        <!--Devider mellem menupunkterne ---->
+                    </div>
+                </li>
+                <!-- Dropdown menu til projekter slutter slutter -->
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Main body --> <!-- DET HER ER MIN SIDEBAR --> 
+    <div class="main">
+        <div class="row">
+            <div class="col-md-2 fixed-sidebar hidden-sm-down d-none d-sm-none d-md-none d-md-block">
+                <div class="nav flex-column nav-pills affix" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link" href="#tops">Hvad er et framework?</a>
+                    <a class="nav-link" href="#lokalhostet">Lokal eller hostet</a>
+                  <a class="nav-link" href="#komprimeret">Komprimeret eller ej</a>
+                  <a class="nav-link" href="#bootstrap">Bootstrap</a>
+                </div>
+            </div>
+
+
+ <!---------------------------------------- HVAD ER ET FRAMEWORK STARTER  ------------------------------------------>           
+<div class="col-md-10 col-sm-12 offset-md-2 sektion1">
+
+    <h2 id="tops">Hvad er et framework?</h2>
+   <p>
+        Et framework er en platform, der består af færdige kodeelementer, der kan bruges til at opbygget et design og funktionalitet på en hurtig og struktureret måde. Framework er med andre ord, kode som andre har lavet for dig. Det kan bruges og man kan tilpasse som man har lyst til. Med et framework skal man ikke starte fra bunden, da alle CSS klasser, HTML markup og JavaScript scripts er lavet for os. Der findes en række forskellige Open source frameworks, både til frontend, men også backend, som man kan benytte sig af.  
+   </p>
+<!---------------------------------------- HVAD ER ET FRAMEWORK SLUTTER  ------------------------------------------> 
+<br>
+<br>
+    <b>Fordele</b>
+    <ul>
+        <li>
+            Man kan let få opsat et design, der ser godt ud<br>
+        </li>
+        <li>
+            Mange funktioner er i forvejen lavet
+        </li>
+        <li>
+            Det er brugervenligt og responsivt 
+        </li>
+    </ul>
+    <br>
+    <b>Ulemper</b>
+    <ul>
+        <li>
+            Det kan være vanskeligt at lave noget unikt
+        </li>
+        <li>
+            Det tager lang tid, at sætte sig ind i hvordan et framework virker
+        </li>
+        <li>
+            For meget unødvendig kode, der kan sløve hjemmesiden
+        </li>
+        <li>
+            Man kan nemt binde sig fast til det og ikke lære andet kode
+        </li>
+        <li>
+            Man kan ikke være sikker på koden ikke er hacket.
+        </li>
+    </ul>
+
+    </div>        
+<!------------------------------------- CSS SLUTTER HER ----------------------------------------------------->
+            
+            
+            
+<!---------------------------------LOKAL ELLER HOSTET INSTALLATION STARTER HER ------------------------------------------->            
+    <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+        <h3 id="lokalhostet">Lokal eller hostet installation</h3>
+        <p>
+            Hvis du har dit framework lokalt, på samme server som dit website, så har du bedre overblik over sidens filer. Hvis din hjemmeside virker, betyder det at den har adgang til frameworket. Ved brug af framework lokalt, gør det dig i stand til at kunne videreudvikle og teste din side uden internetforbindelse. Hvis du derimod vælger et hostet framework, som ligger på en helt anden server på nettet er du mere afhængig af drift og hastighed på den valgte server. 
+        </p>
+    </div>
+            
+
+ <!---------------------------- LOKAL ELLER HOSTET INSTALLATION SLUTTER HER ----------------------------------------------->    
+
+            
+            
+            
+ <!---------------------------------KOMPRIMERET FRAMEWORK ELLER EJ STARTER HER ------------------------------------------->            
+    <div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+        <h3 id="komprimeret">Et komprimeret framework eller ej?</h3>
+        <p>
+           Med Bootstrap kommer der en masse unødvendig kode, som gør koden rigtig lang og siden rigtig langsom. Derfor er det en fordel, at bruge en komprimeret CSS fil, hvor alle de unødvendige elementer er fjernet, da det er med til at øge hastigheden på sitet, ved at browseren ikke skal læse så meget kode. En komprimeret version af koden giver et bedre overblik. 
+        </p>
+    </div>
+            
+
+ <!---------------------------- KOMPRIMERET FRAMEWORK ELLER EJ  SLUTTER HER ----------------------------------------------->            
+            
+ 
+
+            
+            
+<!---------------------------------BOOTSTRAP STARTER HER ------------------------------------------->            
+    <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+        <h3 id="bootstrap">Bootstrap</h3>
+        <p>
+            Bootstrap er et frontend framework bygget til mobilefirst, som man bruger til at bygge hjemmesider i. De er samtidig responsive. Bootstrap har et helt bibliotek af komponenter, der indeholder forskellige former for typografi, knapper, navigation og meget andet.
+        <br>
+        <br>
+            Bootstrap indeholder HTML, CSS og Javascript filer.<br><br><br>
+
+            <h4>Grids i Bootstrap</h4>
+        <p>
+            Bootstrap er baseret på et gittersystem, der bruger 12 kolonner uanset enhedens størrelse. Grids systemet fungerer som et slags skelet, man kan bygge ud fra. Ved at designe i Grids, kan du skabe fleksible layouts, med et visuelt hierarki af information. 
+        </p>
+        <br>
+        <br>
+        
+        <h4>Bootstrap regler:</h4>
+        <ul>
+            <li>
+                Rækker skal oprettes i en container fixed-width eller container-fluid for at fungere korrekt.</li>
+            <li>
+                Kolonner indsættes i row </li>
+            <li>
+                Brug altid indbyggede klasser som row og col</li>
+            <li>
+                Når et element oprettes angives hvor mange kolonner den skal fylde i forskellige breakpoints, ved brug af eksempelvis col-sm-      12 og col-lg-6. Det betyder, at den skal på en small skærm(sm) fylde 12 kolonner, og når vi kommer op i en stor skærm (lg)         skal den fylde 6 kolonner.
+            </li>
+        </ul>
+    <br>
+    <br>
+    <br>
+        <h4>Bootstrap beakpoints</h4>
+            <ul>
+                <li>xs – mobilversion</li>
+                <li>sm – tabletversion</li>
+                <li>sm – tabletversion</li>
+                <li>lg – større skærme</li>
+        
+            </ul>
+    </div>
+            
+
+ <!---------------------------- BOOTSTRAP SLUTTER HER----------------------------------------------->    
+
+            
+            
+            
+ <!---------------------------------BOOTSTRAP LOGO STARTER HER ------------------------------------------->            
+    <div class="col-md-4 col-sm-12 offset-md-1">
+            <img src="img/bootstrap-logo.jpg" alt="bootstrap" />
+    </div>
+ <!---------------------------- BOOTSTRAP LOGO SLUTTER HER ----------------------------------------------->  
+            
+  
+            
+            
+            
+ <!------------------------------------------- KILDER STARTER HER --------------------------->
+   <div class="col-md-10 col-sm-12 offset-md-2 sektion1">
+        <p>
+            Kilder:<br>
+            <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">
+                https://getbootstrap.com/docs/4.0/getting-started/introduction/
+            </a>
+            <br>
+            <a href="https://fronter.com/eadania/links/files.phtml/1682136815$831952233$/Fag/1.+semester/Interaktionsudvikling/Dag+8+-+Frameworks/bootstrapIntro.pdf">
+                Bootstrapintro.pdf
+            </a>
+        </p>   
+  </div>
+ <!------------------------------------------- KILDEN SLUTTER HER --------------------------->
+            
+            
+
+            
+
+        </div> <!--------------------------- ROW BLIVER AFSLUTTET HER ----------------------->
+    </div>  <!------------------------------- MAIN BLIVER AFSLUTTET HER --------------------<
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

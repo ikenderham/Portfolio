@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Læringsportfolio - tekst som medie</title>
+
+    <!-- CSS -->
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <!-- Extra styles -->
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+    <!-- Navbar -->        <!-- MENU starter her -->
+     
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><h1>Lærings<b>portfolio</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Menu item (active) -->
+                <li>
+                    <a class="nav-link" href="index.html">Forside</a>
+                </li>
+
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet Kommunikation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kommunikation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                        <a class="dropdown-item" href="grund-kom-teori.html">Grundlæggende kommunikationsteori</a>
+                        <a class="dropdown-item" href="intro-design-thinking.html">Introduktion til design thinking</a>
+                        <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                        <a class="dropdown-item" href="information-arkitektur.html">Informationsarkitektur</a>
+                        <a class="dropdown-item" href="idegenerering.html">Idé-generering</a>
+                        <a class="dropdown-item" href="tekst-som-medie.html">Tekst som medie</a>
+                        <a class="dropdown-item" href="visualiseringsv%C3%A6rktojer.html">Visualiseringsværktøjer</a>
+                        <a class="dropdown-item" href="storytelling.html">Storytelling som brandstrategi</a>
+                        <a class="dropdown-item" href="retorisk-kommunikation.html">Retorisk kommunikationsstrategi</a>
+                        <a class="dropdown-item" href="semiotik.html">Semiotik</a>
+                        <a class="dropdown-item" href="visuel-kommunikation.html">Visuel kommunikation</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kom-reflektion.html">Refkleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for Kommunikation slutter -->
+                
+                
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet virksomhed -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Virksomhed
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="virksomhedens-grundlag.html">Virksomhedens forretningsmæssige grundlag</a>
+                        <a class="dropdown-item" href="ophavsret.html">Ophavsret og licenseringsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                        <a class="dropdown-item" href="udviklingsmetoder.html">Udviklingsmetoder</a>
+                        <a class="dropdown-item" href="udviklingsmetoder-specificering.html">Udviklingsmetoder og specificering af krav</a>
+                        <a class="dropdown-item" href="anvendelseafvaerktojer.html">Anvendelse af værktøjer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="virk-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for virksomhed slutter -->
+
+                <!-- Dette er en dropdown menu der tilhøre menupunktet visualisering -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Design og visualisering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="farveteori.html">Farveteori</a>
+                        <a class="dropdown-item" href="gestaltlovene.html">Gestaltlove og designprincipper</a>
+                        <a class="dropdown-item" href="foto.html">Foto</a>
+                        <a class="dropdown-item" href="typografi.html">Typografi</a>
+                        <a class="dropdown-item" href="photoshop.html">Photoshop</a>
+                        <a class="dropdown-item" href="illustrator.html">Illustrator</a>
+                        <a class="dropdown-item" href="indesign.html">Indesign</a>
+                        <a class="dropdown-item" href="video-production.html">Quick-and-dirty video production</a>
+                        <a class="dropdown-item" href="design-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item end -->
+                
+                <!-- Dette er en dropdown menu der tilhøre menupunktet Interaktion -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interaktion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="internettets-historie.html">Internettets historie</a>
+                        <a class="dropdown-item" href="struktur-i-html.html">Grundlæggende HTML</a>
+                        <a class="dropdown-item" href="css.html">CSS</a>
+                        <a class="dropdown-item" href="versionstyring.html">Versionstyring</a>
+                        <a class="dropdown-item" href="responsivdesign.html">Responsive design</a>
+                        <a class="dropdown-item" href="frameworks.html">Framework Bootstrap</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="inter-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til interaktion slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Projekter -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projekter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="onepage-projekt.html">Onepage projekt</a>
+                        <a class="dropdown-item" href="prototyping-projekt.html">Prototyping projekt</a>
+                        <!--Devider mellem menupunkterne ---->
+                    </div>
+                </li>
+                <!-- Dropdown menu til projekter slutter slutter -->
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Main body --> <!-- DET HER ER MIN SIDEBAR --> 
+    <div class="main">
+        <div class="row">
+            <div class="col-md-2 fixed-sidebar hidden-sm-down d-none d-sm-none d-md-block">
+                <div class="nav flex-column nav-pills affix" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" href="#tekstsommedie">Tekst som medie</a>
+                  <a class="nav-link" href="#journalistbegreber">Journalistiske grundbegreber</a>
+                  <a class="nav-link" href="#kilderr">Kilder</a>
+                  <a class="nav-link" href="#billeder">Billeder</a>
+                  <a class="nav-link" href="#opsatning">Opsætning</a>
+                  <a class="nav-link" href="#forskelligeformer">Forskellige former for artikler</a>
+                  <a class="nav-link" href="#brochuren">Brochuren</a>
+                  <a class="nav-link" href="#annoncen">Annoncen</a>
+                  <a class="nav-link" href="#tekstertilweb">Tekster til web</a>
+                  <a class="nav-link" href="#socialemedietekster">Sociale medietekster</a>
+                  <a class="nav-link" href="#opgave">Opgave</a>
+                    <a class="nav-link" href="#kilder">Kilder</a>
+                </div>
+            </div>
+<!-------------------------HER STARTER TEKST PRODUKTION  -------------------------------->
+            <div class="col-md-10 col-sm-10 offset-md-2 sektion1" id="organisering">
+                
+                <h2 id="tekstproduktion">
+                    Tekst produktion
+                </h2>
+                <p>
+                    Guide til hvordan man grundlæggende kan strukturere og producere tekstlig kommunikation, som bruges til flere typer af medier: <br><br>
+                    <b>Artiklen:</b><br> 
+                    Her lærer man at afkode og bruge skelettet, som skal bruges til en klassisk artikelstruktur. 
+                    <br><b>Brochuren:</b><br>
+                    Her lærer man, hvilke ting der er væsentlige at have med, og samtidig hvad man ikke skal have med. Her kan informationsstrukturen bruges til at sortere.  
+                    <br><b>Annoncen:</b><br>
+                    Her lærer man, hvordan den traditionelle opbygning af en annonce skal se ud - både den tekstlige og visuelle designteori. 
+                    <br><b>Tekster til web:</b><br>
+                    Mobiltelefonen hører også indunder her. Her lærer man om interaktion, brugeroplevelser og om god service overfor læseren. Hertil lærer man også om designprincipper for organiseringen af web-indholdet. 
+                    <br><b>Sociale medietekster:</b> <br>Her lærer man en metode, som bruges til at kunne navigere i det store udvalg af sociale medier. Her er der fokus på målgruppen og det handler om at være hurtig på tasterne.   
+
+                </p>    
+                    
+                <br><br>
+                <h3 id="tekstsommedie">Tekst som medie</h3>
+                <p>
+                
+                    Før man opfandt skrifttegn, gik fortællinger fra mund til mund i generationer. Dette ses i nogle af de klassiske værker, som også er skrevet med vers og bogstavrim. Før fortællingerne blev skrevet ned var dette måden, at fortælle en historie videre på, så man bedre kunne huske hvad der blev fortalt. I dag er der mange flader, hvorpå man udtrykker sig skriftligt. Derfor er teksten et vigtigt indholdsmedie, som man ikke må undervurdere, og herunder også begrebet ”Content is king!”  <br><br>
+                    Herunder er ting såsom typografi (tekstens visuelle skriftbillede), film, grafik også vigtigt. <br><br>
+                    Man kan være god til at skrive tekster, så derfor søges de personer tit til et reklamebureau, for at nå helt ud til modtageren af teksten. Det behøver ikke kun, at være journalister, der skriver gode tekster, men kan være en person, der kan få teksten til at tale til modtageren på en bestemt måde. 
+
+                
+                </p>
+                <br>
+                
+                <h3 id="journalistbegreber">Journalistiske grundbegreber</h3>
+                <p>
+                    Det er professionelle kommunikatører, der skaber de gode historier (tekster), da de udvælger og prioriterer mellem stof ud fra nogle specifikke krav/kriterier, også kaldet nyhedskriterier. Jo flere nyhedskriterier man kan få en tekst til at leve op til, jo bedre passer den til målgruppen. De efterfølgende kriterier har en afsendervinkel, som bunder i hvilken afdeling skribenten sidder i. Eksempelvis er der flere redaktioner på en avis, som beskæftiger sig med forskellige emner, såsom indland, udland, kultur og sport. Derudover kan de forskellige redaktioner også beskæftige sig med forskellige stofområder, som kunne være økonomi, forbrug, politik og børn. 
+                </p>
+                <b>De fem nyhedskriterier:</b><br> 
+                    <ul>
+                        <li>Væsentlighed - det handler om at levere relevant ny information til en bestemt målgruppe på det aktuelle tidspunkt.</li>
+                        <li>Sensation - Det handler om, at når noget sensationelt sker, er det ofte dramatisk. Det dramatiske er underholdende ligegyldigt om det er fakta eller fiktion. I denne sammenhæng er underholdning også krig og alvorlige konflikter. Lysten til at blive konfronteret med det dramatiske i henhold til journalistik skyldes fælles intellektuelle, følelsesmæssige samt sociale behov. </li>
+                        <li>
+                            Konflikt - Teksten indeholder ofte en konflikt mellem to eller flere personer.
+                        </li>
+                        <li>Identifikation - Det handler om, at læseren skal kunne genkende sig selv i teksten. Hermed skal det være en tekst/historie der får én til at sige ”Det kunne have     været mig”. 
+                        </li>
+                        <li>
+                            Aktualitet - Det handler om, at det er noget der er et populært emne. Eksempelvis udspringer de fleste nyheder ud fra dette nyhedskriterium.
+                        </li>
+                    </ul>
+                <br><br>
+        <p>
+            <b>Inddeling af stof</b>
+            <br>
+               Her sættes der spørgsmålstegn ved hvordan stoffet skal formidles. Der er forskellige formater, som alle giver forskellige frihedsgrader til at kunne ytre sig. 
+        </p>
+            <b>Man kan inddele stof på følgende måde:</b><br>    
+         <ul>
+            <li>Oplysning / information</li>
+            <li>Debat </li>
+            <li>Underholdning</li>
+        </ul> 
+        <p>Herudover kan man inddele ovenstående punkter alt efter, hvilken grad der er tale om information (objektiv) eller opinion (subjektiv). </p>
+            
+    </div>
+    <!------------------------------------- HER STARTER FIGUR I SIDEN-------------------->
+    <div class="col-md-5 col-sm-10 offset-md-2 sektion1">
+                
+       
+        <p>
+          <b>
+              Figur 17.1:</b><br> Ovenstående figur viser balancen af objektiv information og subjektiv opinion. Det hedder sig, at jo mere objektiv en tekst er, jo højere er sandhedskravet også. På figuren ses der, at et referat er tættest på den objektive information, da det er en mundtlig eller skriftlig gengivelse af et begivenhedsforløb eller noget, der er blevet sagt eller gjort. <br><br>
+              Tilsvarende kan man se, at en kommentar er tættest på den subjektive information, da en kommentar inddrager skribenten. Derved forholder skribenten sig kritisk til andres holdninger i forhold til et aktuelt emne, og dermed også giver udtryk for egen holdning og argumenterer for synspunktet. Det siges, at jo mere subjektiv en tekst er, jo mindre er sandhedskravet. 
+
+
+        </p>
+
+            
+    </div>
+    <!------------------------------------- HER SLUTTER FIGUR I SIDEN----------------------------------------------------------->
+            
+    <!------------------------------------- HER STARTER FELT TIL ILLUSTRATION AF OBJEKTIVITET / SUBJEKTIVITET-------------------->
+    <div class="col-md-5 col-sm-10 offset-md-0 sektion1">
+                
+        
+        <a href="img/objektivsubjektiv.JPG" target="_blank"><img src="img/objektivsubjektiv.JPG"s alt="sekvensmodel"/></a>
+
+            
+    </div>
+    <!------------------------------------- HER SLUTTER FELT TIL ILLUSTRATION AF OBJEKTIVITET / SUBJEKTIVITET -------------------->
+    
+    
+            
+    <!------------------------------------- HER STARTER KILDER ----------------------------------------------------------------->
+    <div class="col-md-10 col-sm-10 offset-md-2 sektion1">
+                
+        
+    <h3 id="kilderr">Kilder:</h3><br> 
+        <ul>
+            <li>
+                <b>Kilder man ikke kan tjekke </b><br>Andenhåndsviden fra internettet, afsenderløs information fra Wikipedia og lignende websites og afsendere med dæknavne.
+            </li>
+            <li>
+                <b>Kilder man har fælles interesser med </b><br>
+                Det kan begrænse i at se alle nuancer, hvis man kommer til at inddrage egne meninger.  
+            
+            <li>
+                <b>Kilder, du personligt godt kan lide </b><br>
+                Her kan man komme til at øge subjektiviteten på det man skriver, hvis det omhandler en person, man har et personligt godt forhold til. 
+            </li>
+        </ul>
+            
+    </div>
+    <!------------------------------------- HER SLUTTER KILDER------------------------------------------------------>
+  
+            
+            
+    <!------------------------------------- HER STARTER KATEGORIER AF BILLEDER ------------------------------------->
+    <div class="col-md-5 col-sm-10 offset-md-2 sektion1">
+                
+            <h3 id="billeder">Billeder</h3><br>
+            Der findes to kategorier af billeder - de virkelige billeder og de arrangerede billeder. 
+        <ol>
+            <li><b>Virkelige billeder:</b> <br>Kameraet har filmet direkte på det vi ser. Det bruges som reportagebilleder eller dokumentation.</li>
+            <li><b>Arrangerede billeder:</b><br> Kameraet har ikke filmet direkte på det vi ser, og derfor er det blevet til på anden vis. Det kan være igennem illustrationer, manipulerede billeder og modelbilleder. Eksempelvis kan en beskæring af et billede virke manipulerende, hvis den ikke beskriver helheden.</li>
+
+        </ol>
+       
+
+            
+    </div>
+    <!------------------------------------- HER SLUTTER KATEGORIER AF BILLEDER------------------------------------------------->
+            
+    <!------------------------------------- HER STARTER OPSÆTNING ----------------------------------------------------------->
+    <div class="col-md-5 col-sm-10 offset-md-0 sektion1">
+             <h3 id="opsatning">Opsætning</h3>   
+        <p>
+            Der findes fagtermer, som journalisterne anvender, når de skal opbygge en tekst: <br><br>
+            <b>Rubrik:</b> <br>Det er overskriften - her handler det om, at overskriften skal være kort, objektiv og dækkende i henhold til en artikels hovedpointe. <br>
+            <br><b>Trompet:</b> <br>Det er en overlinje. Den beskriver eksempelvis hvilket sted, der er tale om, eller hvilken genre artiklen handler om. <br>
+            <br><b>Manchet:</b> <br>Det er en lille tekst i artiklen, som beskriver hovedpointerne af indholdet kort og nøjagtigt. Manchetten er oftest i fed skrift. <br>
+            <br><b>Byline:</b> <br>Det er her skribenten eller fotografen angives. <br>
+            <br><b>Vinkling:</b> <br>Dette sker når journalisten anlægger en bestemt synsvinkel på en historie. Måden journalisten formår at vinkle historien på kan have stor betydning for læserens sympati. 
+
+        
+        
+        
+        </p>
+
+            
+    </div>
+    <!------------------------------------- HER SLUTTER OPSÆTNING  ------------------------------------------->
+    
+  
+        <!------------------------------------- Forskellige former for artikler STARTER HER  -------------------------------------->
+    <div class="col-md-5 col-sm-10 offset-md-2 sektion1">
+                
+        <h3 id="forskelligeformer">Forskellige former for artikler </h3>
+        
+        Den klassiske artikel: 
+        <ul>
+            <li>En samlet betegnelse for en kortere, afsluttet og selvstændig behandling af et emne.</li>
+            <li>Den kan stå i et tidsskrift, en avis, nyhedsmedie online m.m. </li>
+            <li>Teksten kan være: fagligt tematiseret, nyhedspræget eller skrevet fra en personlig vinkel. </li>
+            <li>Metoden går ud på, at skabe interesse ved et hurtigt overblik over et bestemt indhold. </li>
+            <li>Muligvis får læseren først et fuldendt overblik over stoffet, når man når konklusionen eller en uddybende afslutning. </li>
+        
+        </ul>
+    </div>
+    <!------------------------------------- Forskellige former for artikler SLUTTER HER -------------------->
+    
+    
+    <!------------------------------------- HER STARTER NYHEDSARTIKLEN-------------------->
+    <div class="col-md-5 col-sm-10 offset-md-0 sektion1">
+        
+        <h3>Nyhedsartiklen </h3>    
+                
+        <ul>
+            <li>Begynder med en god overskrift </li>
+            <li>Efterfølgende er der et kort resume - beskriver hvad og hvem artiklen handler om. </li>
+            <li>Der skabes mellemrubrikker som fortæller om de enkelte elementers fokus. </li>
+            <li>Der skabes mellemrubrikker som fortæller om de enkelte elementers fokus. </li>
+            <li>De væsentlige ting skal forklares i første del af artiklen. </li>
+        
+        </ul>
+
+            
+    </div>
+    <!------------------------------------- HER SLUTTER NYHEDSARTIKLEN ----------------------------------------------------->        
+
+            
+            
+            
+    <!------------------------------------- HER STARTER DEN SUBJUKTIVE ARTIKEL   -------------------------------------->
+    <div class="col-md-5 col-sm-10 offset-md-2 sektion1">
+          
+        <h3>Den subjektive artikel: </h3>
+        
+        <ul>
+            <li>
+                Her benytter man strukturen kaldet kommoden 
+            </li>
+            <li>
+                Kommoden giver læseren mulighed for at udvælge og dermed undgår læseren at skulle læse alt
+            </li>
+            <li>
+                Kommoden består af: selve rammen, nogle skuffer, en top og en bund 
+            </li>
+            <li>
+                I kommodestrukturen består teksten af en begyndelse og en slutning, som omfatter mindre delfortællinger  
+            </li>
+            <li>
+                Modellen er anvendelig til en portrætartikel - i skufferne er der korte isolerede historier 
+            </li>
+            <li>
+                Kommoden kan anvendes som struktur, hvis man ønsker at lave brugerhistorier for et produkt
+            </li>
+        
+        </ul>
+
+            
+    </div>
+    <!------------------------------------- HER SLUTTER DEN SUBJUKTIVE ARTIKEL-------------------->
+    
+    
+    <!------------------------------------- HER STARTER ILLUSTRATION AF KOMMODEN-------------------->
+    <div class="col-md-5 col-sm-10 offset-md-0 sektion1">
+                
+    <a href="img/kommode-strukturen.JPG" target="_blank"><img class="responsive-image" src="img/kommode-strukturen.JPG" alt="kommoden"/></a>
+
+            
+    </div>
+    <!------------------------------------- HER SLUTTER ILLUSTRATION AF KOMMODEN -------------------->        
+
+    <!------------------------------------- PRODUKT ELLER EMNEARTIKLEN   -------------------------------------->
+    <div class="col-md-5 col-sm-10 offset-md-2 sektion1">
+          
+        <h3 id="produkt-emne">Produkt- eller emneartiklen:</h3>
+        
+        <ul>
+            <li>
+                Artiklen er kort
+            </li>
+            <li>
+                Artiklen gør det muligt, at opnå et adfærdsresultat, også kaldet call to action (ændring af læserens adfærd) 
+            </li>
+            <li>
+                <i>Call to action</i> - modtageren skal lave en aktiv handling for at få et produkt - såsom gå til hjemmesiden. 
+            </li>
+            <li>
+                Her kan <i>Hey- You- See- So</i>-modellen anvendes, som er en strategisk model for skriveprocessen   
+            </li>
+        </ul>
+
+            
+    </div>
+    <!------------------------------------- HER SLUTTER DEN PRODUKT ELLER EMNEARTIKLEN  -------------------->
+    
+    
+    <!------------------------------------- HER HEYYOUSEE METODE ILLUSTRATION-------------------->
+    <div class="col-md-5 col-sm-10 offset-md-0 sektion1">
+                
+    <a href="img/heyyousee.JPG" target="_blank"><img class="responsive-image" src="img/heyyousee.JPG" alt="heyyousee"/></a>
+
+            
+    </div>
+    <!------------------------------------- HER SLUTTER ILLUSTRATION HEYYOUSEE -------------------->  
+  
+            
+    <!------------------------------------- Forskellige former for artikler STARTER HER  -------------------------------------->
+    <div class="col-md-5 col-sm-10 offset-md-2 sektion1">
+                
+        <h3 id="brochuren">Brochuren </h3>
+        
+        <b>Den klassiske artikel: </b>
+        <ul>
+            <li>Kræver grundig struktur</li>
+            <li>Tænk over typografi og billeder </li>
+        </ul>
+        
+        <b>Enkel opbygning af brochuren: </b>
+        <ul>
+            <li>Overordnet formål (viklen)</li>
+            <li>Målgruppe </li>
+            <li>Produkt/emne</li>
+            <li>Stilvalg for tekst og visuelt design</li>
+            <li>Medieformatets detaljer </li>
+            <li>Distribution</li>
+            <li>Informationsarkitektur</li>
+            <li>Siderne 2 og 3</li>
+            <li>Bagsiden</li>
+        </ul> 
+        
+    </div>
+    <!------------------------------------- Forskellige former for artikler SLUTTER HER -------------------->
+    
+    
+    <!------------------------------------- HER STARTER FREMGANGSMÅDEN-------------------->
+    <div class="col-md-5 col-sm-10 offset-md-0 sektion1">
+        
+        <h3>Fremgangsmåden</h3>    
+                
+        <ul>
+            <li>Definer strategi, målgruppe, informationsarkitektur m.m</li>
+            <li>Skriv tekstens dele med det valgte medie og målgruppen i tankerne</li>
+            <li>Teksten opsættes typografisk samt de relevante grafiske dele</li>
+            <li>Juster i forhold til pladsen</li>
+            <li>Vær opmærksom på: kort er godt</li>
+            <li>Find andre eksempler og lad dig inspirere</li>
+        
+        </ul>
+    </div>
+    <!------------------------------------- HER SLUTTER FREMGANGSMÅDEN ----------------------------------------------------->                    
+
+            
+    <!------------------------------------- ANNONCEN STARTER HER   -------------------------------------->
+    <div class="col-md-5 col-sm-10 offset-md-2 sektion1">
+                
+        <h3 id="annoncen">Annoncen </h3>
+        
+        <b>Den klassiske artikel: </b>
+        <ul>
+            <li>Et klassisk medie, som taler hurtigt og nøjagtigt til målgruppen </li>
+            <li>Overskriften skal have en målrettet appel, som målgruppen hurtigt ser </li>
+        </ul>
+        
+        <b>Annoncens klassiske tekstelementer:  </b>
+        <ul>
+            <li>Overskriften skal være kort og fængende i forhold til målgruppen. </li>
+            <li>Motiv, billede eller grafik skal virke som en bekræftelse af overskriften eller en ironisk kommentar</li>
+            <li>Brødteksten skal være kort og præcis. </li>
+            <li>Budskabet skal indskrænkes til det meste basale. </li>
+            <li>Logoet er ofte efterfulgt af et payoff </li>
+            <li>Pligtteksten er til forbehold og begrænsninger i et tilbud (copyright-info)</li>
+            <li>AIDA-modellen kan benyttes til den rigtige opbygning af annonce eller plakat. </li>
+        </ul> 
+        
+    </div>
+    <!------------------------------------- ANNONCEN SLUTTER HER --------------------------------------------->
+    
+    <!------------------------------------- AIDA MODEL ILLUSTRATION------------------------------------------>
+    <div class="col-md-5 col-sm-10 offset-md-0 sektion1">
+                
+    <a href="img/aida.JPG" target="_blank"><img class="responsive-image" src="img/aida.JPG" alt="heyyousee"/></a>
+
+            
+    </div>
+    <!------------------------------------- AIDA MODEL ILLUSTRATION-------------------------------------------------->   
+            
+            
+    <!------------------------------------- HER STARTER TEKSTER TIL WEB   -------------------------------------->
+    <div class="col-md-5 col-sm-10 offset-md-2 sektion1">
+                
+        <h3 id="tekstertilweb">Tekster til web</h3>
+        
+        <ul>
+            <li>Kapløb om læserens opmærksomhed.  </li>
+            <li>Hurtig levering af klare artikler og klare links til målgruppens søgen.</li>
+            <li>Skabelse af en brugervenlig platform </li>
+            <li>Tekstlinks, der er placeret i enkle layouts, gør det nemmere for brugere af nettet at navigerer. </li>
+            <li>Indholdet med højeste prioritet placeres i det øverste venstre hjørne. </li>
+            <li>Webartikler er inddelt i en korttekst og en heltekst.</li>
+            <li>Korttekst: det man ser på netavisens forside, bestående af en overskrift, et billede samt et kort resume (beskriver hvem og hvad)  </li>
+            <li>Heltekst: selve artiklen - findes ved at klikke på korttekstens link.</li>
+            <br>
+            <li><b>Ved heltekster er det vigtigt at huske:</b><br>
+                <ul>
+                    <li>Gå ikke ud fra, at læseren har læst anden tekst på websitet. </li>
+                    <li>Tekster på nettet læses ikke lineært</li>
+                    <li>Et afsnit skal kunne stå alene. </li>
+                </ul>
+            
+            
+            
+            </li>
+        </ul> 
+        
+        
+    </div>
+    <!------------------------------------- TEKSTER TIL WEB SLUTTER HER --------------------------------------------->
+            
+            
+            
+    
+    <!------------------------------------- TEKSTER TIL WEB ILLUSTRATION------------------------------------------>
+    <div class="col-md-5 col-sm-10 offset-md-0 sektion1">
+                
+    <a href="img/tekstertilweb.JPG" target="_blank"><img class="responsive-image" src="img/tekstertilweb.JPG" alt="heyyousee"/></a>
+    <p>
+        Her ses opsætningen af elementerne på en standard hjemmeside.    
+        
+    </p>
+            
+    </div>
+    <!------------------------------------- AIDA MODEL ILLUSTRATION SLUTTER-------------------------------------------------->   
+            
+            
+
+    <!------------------------------------- SOCIALE MEDIETEKSTER STARTER HER  -------------------------------------->
+    <div class="col-md-5 col-sm-10 offset-md-2 sektion1">
+                
+        
+        
+        <h3 id="socialemedietekster">Sociale medietekster: </h3>
+            <ul>
+                <li>Styrk fortællingen og brandet i dialogen med de netværk, der er på de sociale medier</li>
+                <li>Hurtig reaktion når der kommer klager eller grove kommentarer.</li>
+            </ul>
+    </div>
+   <!------------------------------------- SOCIALE MEDIETEKSTER SLUTTER-------------------------------------------------->   
+            
+            
+            
+    <!------------------------------------- Goethes farvesymbolik-------------------------------------------->
+    <div class="col-md-5 col-sm-10 sektion1">
+        <p>
+            Man kan bruge modellen, som er baseret på Hans Peter Försters (2004) kreative brug af Goethes farvesymbolik. Strategien kan bruges til at briefe et hold.  
+        </p>
+            <ul>
+                <li><b>Blå:</b> information og facts - fokus på tal, datoer, præcision og information</li>
+                <li><b>Grøn:</b> garantier og kvalitet - fokus på garantier, tradition, orden og kvalitet</li>
+                <li><b>Gul</b> Oplevelser - fokus på ideer, visioner, sjov, spontanitet, oplevelser</li>
+                <li><b>Rød:</b> kontakt og følelser - fokus på sympati, følelser, empati, varme og åbenhed</li>
+            </ul>
+
+    </div>      
+<!------------------------------------- Goethes farvesymbolik SLUTTER HER--------------------------------------------->        
+
+<!------------------------------------- OPGAVEN STARTER HER--------------------------------------------->
+    <div class="col-md-5 col-sm-10 offset-md-2 sektion1">
+        <h3 id="opgave">Opgave tilknyttet - forklar begreber</h3>
+        <p>Vi har lavet denne opgave i klassen, hvor vi skulle forklare de forskellige begreber</p>
+        
+        
+
+
+    <ul>
+       <b>Subjektiv</b> <li>
+            Når man kommer med egne holdninger om et emne
+        </li>
+        <b>Objektiv</b>
+        <li>
+            Har man ser på noget uden egne holdninger, men mere faktuelt 
+        </li>
+        <b>Information</b>
+        <li>Man forholder sig objektiv til emnet</li>
+        <b>Opinion</b>
+        <li>Man giver udtryk for egen holdning, subjektivt</li>
+        <b>Referat</b> 
+        <li>Når man gengiver noget der er sket, en samtale, begivenhed osv, bare i kortere version </li>
+        <li>Mere dybdegående end et resume  </li>
+        <b>Reportage</b>
+        <li>Når man gengiver en begivenhed man er tilstede ved</li>
+        <li>Journalisten er subjektiv og fortæller hvad personen ser</li>
+        <b>Interview</b>
+        <li>Journalisten har en samtale med en kilde</li>
+        <li>Her kan man indhente viden til sin artikel</li>
+        <b>Baggrund</b>
+        <li>Giver læseren en bedre forståelse for en sag, så man derefter kan danne sig et bedre overblik </li>
+        <li>Kan bygge på interviews med eksperter </li>
+        <b>Feature </b>
+        <li>Minder meget om en reportage, men tager ikke nødvendigvis udgangspunkt i en aktuel begivenhed </li>
+        <li>Subjektiv</li>
+        <b>Anmeldelse </b>
+        <li>Subjektiv mening fra journalisten omkring en bog, koncert eller begivenhed</li>
+        <b>Kommentar</b>
+        <li>En persons mening om et aktuelt emne</li>
+        <li>Kan både være journalist, men også en læser</li>
+        <li>Indeholder gode argumenter og stærk mening</li>
+
+</ul>
+
+ </div>      
+<!------------------------------------- OPGAVEN SLUTTER HER--------------------------------------------->   
+<!------------------------------------- HER STARTER OPGAVE SEKTION 2--------------------------------------------->            
+            
+    <div class="col-md-5 col-sm-10 sektion1">
+        <h3 id="opgave">Opgave med tekster</h3>
+        <p>Vi har fået en opgave for, hvor vi skulle skrive vores egne tekster.<br>
+            Vi skulle skrive en avisartikel, samt en socialmedie tekst og en produkt beskrivelse.<br>
+            <a href="opgaver/Tekst-opgave.docx" target="_blank">Klik her for at se opgaven </a>
+        
+        </p>
+    </div>
+<!------------------------------------- HER SLUTTER OPGAVE SEKTION 2--------------------------------------------->    
+    <!------------------------------------- KILDER -------------------->   
+         <div class="col-md-10 col-sm-10 offset-md-2 sektion1" id="kilder">   
+<p>       
+<small><b>Kilder:</b><br>
+  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 235<br>
+  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 236<br>
+  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 236.<br>
+  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 237<br>
+  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 238.<br>
+  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 239. <br>
+  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 241.<br>
+  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 242<br>
+  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 245<br>
+  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 247<br>
+  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 249-250. <br>
+    </small>
+</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

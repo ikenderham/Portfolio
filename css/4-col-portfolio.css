@@ -1,0 +1,141 @@
+/*!
+ * Start Bootstrap - 4 Col Portfolio (https://startbootstrap.com/template-overviews/4-col-portfolio)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/blob/master/LICENSE)
+ */
+
+/*DETTE ER MIT CUSTOM CSS TIL PORTEFOLIEN
+LAVET AF: HUSSEIN HUSSEIN
+UDDANNELSE: MULTIMEDIEDESIGNER.;
+DATO: 4/1-2018
+Kode: HTML OG CSS
+VERSION 1.0
+
+*/
+body {
+    padding-top: 20px;
+    line-height: 1.62;
+    font-size:1em;
+}
+
+a {
+	color:#e8491d;
+ }
+
+a:hover {color:white;}
+.main {
+    padding: 30px; /*RYKKER INDHOLDET IND*/
+}
+
+.fixed-sidebar { /*MIN SIDE BAR ER FIXED */
+	position: fixed;
+	margin-bottom:200px;
+	font-family: Montserrat;
+}
+
+.nav-pills .nav-link { 
+	margin-bottom: -5px; /*DENNE STYRE MELLEMRUM MELLEM MENUERNE*/
+	font-size:0.8em;
+	color:black;
+	font-family: Montserrat;
+}
+
+
+.main {
+    	padding: 30px; /*RYKKER INDHOLDET IND*/
+}
+
+
+
+.sektion1{
+	
+	padding-top:85px; /* DENNE STYRE AFSTANDEN MELLEM SEKTIONERNE */
+
+}
+
+
+
+
+
+.dark-box {
+	background-color:grey;
+	color:black;
+}
+
+.sektion1 img {
+border: 4px solid #35424a;
+}
+
+img{
+	max-width: 100%
+
+}
+
+.navbar-brand { /* DENNE STYRE LOGO */
+  padding: 0 0px;
+  
+  font-family: Montserrat;
+  color:white;
+}
+
+
+.fixed-sidebar {
+
+	margin-top:5.3em;
+} /* Ændre højden på sidebaren */
+
+
+
+.nav-link{
+	font-size:1em;
+}
+
+..navbar-nav{
+	background-color:#4083c6 !important /*SPØRG NIELS OM DET ER OK AT ÆNDRE DEN SÅDAN. */
+	color:#000000; 
+}
+
+
+.navbar-light .navbar-nav .nav-link { /* DENNE ÆNDRE FARVEN PÅ LINKS I HOVEDMENUEN. */
+	color:white;
+}
+
+
+.navbar-brand h1{ /*ÆNDRE FARVEN PÅ LOGO TEKSTEN*/
+	color:#ffffff;
+	padding-top:15px;
+	font-family: Montserrat;
+	font-size:32px;
+}
+
+
+.specialp{
+	font-size:22px;
+	background-color:rgba(0,0,0,.9);
+	color:white;
+	padding:22px;}
+
+
+
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link
+{
+	color:white;
+}/* DENNE ÆNDRE FARVE PÅ CURRENT LINK farve*/
+
+
+#ter1{
+
+	line-height: 2.8; /*DENNE ER TIL AT STYRE LINJEAFSTAND I EN P TAG PÅ FARVETEORI SIDEN*/
+
+}
+
+ul.liste-style{list-style-type: square;/* DENNE LAVER FIRKANTEDE LISTER */
+
+} 
+
+
+
+.navbar-nav:hover{
+	color:#ffffff;
+}

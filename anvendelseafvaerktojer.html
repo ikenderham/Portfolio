@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Læringsportfolio - Kommunikation - Anvendelse af værktøjer - færdiggørelse, test og overdragelse </title>
+
+    <!-- CSS -->
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <!-- Extra styles -->
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+    <!-- Navbar -->        <!-- MENU starter her -->
+     
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><h1>Lærings<b>portfolio</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Menu item (active) -->
+                <li>
+                    <a class="nav-link" href="index.html">Forside</a>
+                </li>
+
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet Kommunikation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kommunikation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                        <a class="dropdown-item" href="grund-kom-teori.html">Grundlæggende kommunikationsteori</a>
+                        <a class="dropdown-item" href="intro-design-thinking.html">Introduktion til design thinking</a>
+                        <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                        <a class="dropdown-item" href="information-arkitektur.html">Informationsarkitektur</a>
+                        <a class="dropdown-item" href="idegenerering.html">Idé-generering</a>
+                        <a class="dropdown-item" href="tekst-som-medie.html">Tekst som medie</a>
+                        <a class="dropdown-item" href="visualiseringsv%C3%A6rktojer.html">Visualiseringsværktøjer</a>
+                        <a class="dropdown-item" href="storytelling.html">Storytelling som brandstrategi</a>
+                        <a class="dropdown-item" href="retorisk-kommunikation.html">Retorisk kommunikationsstrategi</a>
+                        <a class="dropdown-item" href="semiotik.html">Semiotik</a>
+                        <a class="dropdown-item" href="visuel-kommunikation.html">Visuel kommunikation</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kom-reflektion.html">Refkleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for Kommunikation slutter -->
+                
+                
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet virksomhed -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Virksomhed
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="virksomhedens-grundlag.html">Virksomhedens forretningsmæssige grundlag</a>
+                        <a class="dropdown-item" href="ophavsret.html">Ophavsret og licenseringsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                        <a class="dropdown-item" href="udviklingsmetoder.html">Udviklingsmetoder</a>
+                        <a class="dropdown-item" href="udviklingsmetoder-specificering.html">Udviklingsmetoder og specificering af krav</a>
+                        <a class="dropdown-item" href="anvendelseafvaerktojer.html">Anvendelse af værktøjer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="virk-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for virksomhed slutter -->
+
+                <!-- Dette er en dropdown menu der tilhøre menupunktet visualisering -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Design og visualisering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="farveteori.html">Farveteori</a>
+                        <a class="dropdown-item" href="gestaltlovene.html">Gestaltlove og designprincipper</a>
+                        <a class="dropdown-item" href="foto.html">Foto</a>
+                        <a class="dropdown-item" href="typografi.html">Typografi</a>
+                        <a class="dropdown-item" href="photoshop.html">Photoshop</a>
+                        <a class="dropdown-item" href="illustrator.html">Illustrator</a>
+                        <a class="dropdown-item" href="indesign.html">Indesign</a>
+                        <a class="dropdown-item" href="video-production.html">Quick-and-dirty video production</a>
+                        <a class="dropdown-item" href="design-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item end -->
+                
+                <!-- Dette er en dropdown menu der tilhøre menupunktet Interaktion -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interaktion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="internettets-historie.html">Internettets historie</a>
+                        <a class="dropdown-item" href="struktur-i-html.html">Grundlæggende HTML</a>
+                        <a class="dropdown-item" href="css.html">CSS</a>
+                        <a class="dropdown-item" href="versionstyring.html">Versionstyring</a>
+                        <a class="dropdown-item" href="responsivdesign.html">Responsive design</a>
+                        <a class="dropdown-item" href="frameworks.html">Framework Bootstrap</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="inter-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til interaktion slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Projekter -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projekter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="onepage-projekt.html">Onepage projekt</a>
+                        <a class="dropdown-item" href="prototyping-projekt.html">Prototyping projekt</a>
+                        <!--Devider mellem menupunkterne ---->
+                    </div>
+                </li>
+                <!-- Dropdown menu til projekter slutter slutter -->
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Main body --> <!-- DET HER ER MIN SIDEBAR --> 
+    <div class="main">
+        <div class="row">
+            <div class="col-md-2 fixed-sidebar hidden-sm-down d-none d-sm-none d-md-none d-md-block">
+                <div class="nav flex-column nav-pills affix" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" href="#tops">Formel overdragelse af produkt</a>
+                  <a class="nav-link" href="#agilsystemudvikling">Agil systemudvikling og drift</a>
+                  <a class="nav-link" href="#opsamling">Opsamling af ønsker til videreudvikling</a>
+                  <a class="nav-link" href="#roller">Roller</a>
+                    <a class="nav-link" href="#salgsogkundemodet">SALGS- OG KUNDEMØDET </a>
+                </div>
+            </div>
+
+
+ <!------------------ Anvendelse af værktøjer - færdiggørelse, test og overdragelse starter her  ----------------------->           
+<div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+
+    <h2 id="tops">Anvendelse af værktøjer - færdiggørelse, test og overdragelse </h2><br><br>
+
+    <h3 id="formeloverdragelse">Formel overdragelse af produkt til kunde:</h3>
+
+   <p>
+        Når det færdige it-system står klar til levering til kunden, skal det afleveres på en måde, der kaldes juridisk overtagelse. 
+        Et it-system som skal leveres til kunden er omfattet af købeloven. Hvis projektet er til det offentlige er det ofte kommet gennem en udbudsforretning. Herefter vil man indgå en kontrakt som er en af følgende: K01, K02, eller K03. Kontrakterne K01 og K02 er ikke egnet til agil systemudvikling, men det er K03 derimod.   
+        Når kunden har fået leveret systemet, gennemgår kunden i overtagelsesprøven systemet og kommer med eventuelle fejl og rettelser. Her skal man kigge på kravsspecifikationen, som er blevet udarbejdet, så man kan se hvad der er aftalt og ønskes.  
+
+   </p>
+<br>            <b>Fire muligheder efter overdragelsesprøven: </b>
+              <ol>
+                    <li>
+                        <b>Kunden accepterer systemet og underskriver overtagelsesdokumentet </b><br>
+                        Her undersøger man målgruppen og deres behov. Udefra målgruppen og brugernes behov, vurdere man hvad der er vigtigst at udvikle på først og hvornår det skal gøres.<br>
+                  </li>
+                    <li>
+                        <b>Kunden accepterer systemet med en liste over mangler, som skal rettes inden en aftalt dato  </b><br>
+                        Betaling udløses med undtagelse af et restbeløb. <br>
+                  </li>  
+                    <li>
+                        <b>Design</b><br>
+                        Udefra kravene designes løsningen. Der designes på produktets opbygning, struktur og grænseflade. 
+                  </li>  
+                    <li>
+                        <b>Kunden accepterer ikke systemet, grundet fejl og mangler </b><br>
+                        Der rettes op på fejlene og der lægges en plan for hvornår overtagelsen kan ske.  
+                  </li>  
+                   <li>
+                        <b>Kunden afviser leverancen og vil ikke benytte leverandøren mere </b><br>
+                        Her har man fokus på at produktet forsat bliver videreudviklet, efter det er taget i brug.  
+                  </li>
+              </ol>
+    <br>
+              <p>
+                    Ved et hvert projekt laver man et overdragelsesdokument, hvor delen af virksomheden, som modtager systemet underskriver. Når man har afleveret et system går der noget tid før driften kører automatisk og uden komplikationer. Efter dette skal der være en driftsprøve. Denne prøve skal vise, om systemet og driften lever op til kvalitetskravene. 
+              </p>
+    
+        <br><br>
+                 <h4 id="agilsystemudvikling">Agil systemudvikling og drift:</h4><br>
+            <p>
+                 Mange systemer nu om dage udvikles af forskellige slags agile systemudviklingsmetoder (især hjemmesider). Det har både sine fordele og ulemper i forhold til drift situationen. 
+            </p>
+<!--------------------------------Fordele starter her ----------------------->
+                <b>Fordele:</b>
+            <ul>
+                <li>Systemet er hurtigt ude</li>
+                <li>Man får erfaringer med brugen. Her ses reaktionen hos brugeren</li>
+                <li>Udvikleren kender metoden og kunderne kender systemet og ved bedre, hvad de ønsker</li>
+            </ul>
+<!--------------------------------Fordele slutter her ----------------------->  
+
+<!--------------------------------Ulemper starter her ----------------------->
+                <b>Ulemper:</b>
+            <ul>
+                <li>
+                    Udviklingen af systemet har måske mindre fokus på arkitektur, og kan være svært at videreudvikle, medmindre man skal lave ændringer af systemet.
+                </li>
+                <li>
+                    Kodningen er for hurtig
+                </li>
+                <li>
+                    Testen har draget sig om brugervenlighed, og måske for lidt om backend-systemerne.  
+                </li>
+            </ul>
+    </div>
+<!--------------------------------Ulemper slutter her ----------------------->      
+        
+            
+
+
+ <!----------------- Anvendelse af værktøjer - færdiggørelse, test og overdragelse SLUTTER HER ----------------------->  
+            
+            
+            
+            
+            
+ <!----------------- OPSAMLING AF ØNSKER TIL VIDERE UDVIKLING STARTER HER ----------------------->  
+    <div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+        <h3 id="opsamling">Opsamling af ønsker til videreudvikling:</h3>
+        <p>
+            Her ses på hvor ønsker stammer fra og hvordan man fastholder dem. De kan bagefter blive til nye tilpasninger og projekter. 
+        <br>
+        <br>
+            <b>Backlog</b><br>
+            Det er en opgørelse over hvilke ønsker man har til systemet i fremtiden. Det kan være en user-story samt betydningen og hvem der ønsker det. Det kan være alt fra: fejlrettelse, justeringer, vedligeholdelse, ny funktioner m.m. 
+        <br>
+        <br>
+            Backloggen skal indeholde beskrivelser af fejl retninger og tilpasnings- og udviklingsønsker.  
+        <br>
+        <br>
+            <b>Visitering</b><br>
+            Der er ingen ændrings- eller udviklings-ønsker, før det har været gennem visiteringsprocessen. Processen indeholder en vurdering og kategorisering af informationen. Her er brugerinput guld værd, så kunden skal altid have muligheden for at kommentere brugen af en hjemmeside.  
+        </p>
+    <br>
+
+        <b>Inputtet kan inddeles i to grupper:</b>
+
+        <ul>
+            <li>
+                <b>Fejlgruppen</b><br>
+                Kan indeholde alt fra ubetydelige fejl til ændringer, der skal rettes op på med det samme. Hånd i hånd med rettelserne, skal man samtidig finde ud af hvem der skal betale for rettelserne. 
+            </li>
+
+            <li>
+                <b>Ønskegruppen:</b><br>
+                Her skrives ønskerne så de bliver konkrete og operationelle.  
+            </li>
+            </ul>
+    </div>
+            
+
+ <!---------------------------- OPSAMLING AF ØNSKER TIL VIDERE UDVIKLING SLUTTER HER ------------->    
+
+            
+            
+<!---------------------------------ROLLER  starter her ------------------------------------------->            
+    <div class="col-md-5 col-sm-12 offset-md-2 sektion1">
+        <h3 id="roller">Roller</h3>
+        <p>
+            <b>Lovgivning:</b><br>
+            Efter årsskiftet sker der tit nye opdateringer i mange af systemerne. Der kommer samtidig mange ændringer, som kræver systemændringer og nyudvikling. Politikerne holder gang i it-branchen, da der kommer nye love. 
+        <br>
+        <br>
+            <b>Systemadministratorer:</b><br>
+            Her er der en hjemmeside, som har en eller flere som interne brugere af det givne system. De søger for at opdatere med produkter, informationer, skabe ideer til videreudvikling og nye funktioner. Samtidig vil en skulle have styr på brugernes id.  
+        <br>
+        <br>
+            <b>Brugere:</b><br>
+            De personer, der anvender systemet.
+        <br>
+        <br>
+            <b>Kunder eller opgavestillere:</b><br>
+            Det er dem, der bestiller opgaven. Nogle gange er kunden målrettet og ved præcist hvad systemet skal kunne, og i andre tilfælde er det op til leverandøren at gå i dialog med kunden og koordinerer en fælles udvikling. 
+        <br>
+        <br>
+            <b>Udviklingsteam:</b><br>
+            Teamet har den interne forståelse af systemet. Der kan have lagt et tidspres og det resulterer måske i flere fejl. 
+        <br>
+        <br>
+            <b>Drift:</b><br>
+            Selve driften kan opleve problemer. Det kan være at systemet kræver meget database- eller serverkraft og derfor skal der en opdatering til. 
+        <br>
+        <br>
+            <b>Systemansvarlig eller produktejer:</b><br>
+            Det er den person, som har det formelle ansvar for systemet. Han/hun skal søge for at der er en strategi for videreudviklingen. Det er samtidig den person, som står for idriftsættelsen, hvis der skal laves en videreudviklet udgave af det givne system.  
+
+        </p>
+    <br>
+    <br>
+            Inputtet kan inddeles i to grupper:
+
+        <ul>
+            <li>
+                <b>Fejlgruppen</b><br>
+                Kan indeholde alt fra ubetydelige fejl til ændringer, der skal rettes op på med det samme. Hånd i hånd med rettelserne, skal man samtidig finde ud af hvem der skal betale for rettelserne. 
+            </li>
+
+            <li>
+                <b>Ønskegruppen:</b><br>
+                Her skrives ønskerne så de bliver konkrete og operationelle.  
+            </li>
+            </ul>
+    </div>
+            
+
+ <!---------------------------- ROLLER SLUTTER HER ----------------------------------------------->    
+            
+<!---------------------------------ROLLER ILLUSTRATION ------------------------------------------->            
+    <div class="col-md-3 col-sm-12 offset-md-1 sektion1">
+        <a href="img/roller.JPG" target="_blank" >
+            <img src="img/roller.JPG" alt="roller">
+        </a>
+    </div>
+<!------------------------------- ROLLER SLUTTER HER ----------------------------------->
+            
+            
+            
+            
+            
+            
+ <!-------------------------- SALGS OG KUNDEMØDET STARTER HER --------------------------------------->  
+    <div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+        <h2 id="salgsogkundemodet">SALGS- OG KUNDEMØDET </h2>
+        <p>
+           
+        </p>
+    <br>
+
+        <b>Igangsættelse af kommunikationsopgave: </b>
+
+        <ul>
+            <li>
+                Klarhed over hvad kunden ønsker
+            </li>
+
+            <li>
+                Du skal vide hvad kundens forventninger er og ud fra det udfordre og give kunden mere end han selv havde fantasi til at bede om.
+            </li>
+            <li>
+               Rådgiv kunden – tag udgangspunkt i hans ønsker og behov.  
+            </li>
+        </ul>
+        
+        <br>
+        <br>
+        
+        <h3 id="opstartsfasen">Opstartsfasen med kunden</h3>
+        <p>
+            Når du skal i gang med en opgave er det afgørende, at rammerne er klare, før det bliver en succes.
+    <br>
+    <br>
+            Det allerførste møde med kunden er afgørende for, hvordan resten af processen vil foregå. Her skal både du og kunden vise hvem i er og hvad i forventer af hinanden. Gør dit arbejde hjemmefra, før du sidder med kunden. 
+        </p>
+    <br>
+    <br>
+        <h3 id="kendkunden">Kend kunden</h3>
+        Find ud af så meget som muligt om kunden
+        <ul>
+            <li>
+                Hvem er han?
+            </li>
+
+            <li>
+                Hvilken forhistorie har han?
+            </li>
+            <li>
+               Hvordan er hans forretning?
+            </li>
+            <li>
+               Hvilket marked er han på?
+            </li>
+            <li>
+               Hvor står han henne på markedet?
+            </li>
+        </ul>
+        <p>Søg bredt på internettet. Søg både om virksomheden og personen du skal mødes med.  </p>
+
+    <br>
+    <br>
+        <h3 id="digselv">Dig selv</h3>
+        Forbered en lille præsentation
+        <ul>
+            <li>
+                Hvem er du?
+            </li>
+
+            <li>
+                Hvem er din virksomhed?
+            </li>
+        </ul>
+        
+        <p>
+            Overvej hvad der er strategisk klogt at fortælle kunden. Gør dig tanker om hvad kunden ved om dig i forvejen. Hvad kan han se om dig på nettet? Hvorfor vælger han netop dig? Spørg kunden om det med fordel, når man er kommet godt ind på hinanden. 
+        </p>
+        
+        <ul>
+            <li>
+                Hvad kan du vise ham af referencer der er relevant for situationen. Hvordan underbygger du det billede kunden måske har i forvejen af dig?
+            </li>
+
+            <li>
+                Hvad er du i stand til at tilbyde kunden nu? Hvordan ser situationen ud med opgaver og hvornår kan du levere?
+            </li>
+
+            <li>
+                Hvor meget skal kunden levere for at du kan løse opgaven indenfor inden for en given økonomisk/tidsmæssig ramme? Du behøver ikke vide det, men have en fornemmelse af hvad du kan gå ind i inden første møde. 
+            </li>
+
+            <li>
+                Hvilken krav skal du stille til kundens medvirken? 
+            </li>
+        </ul>
+    <br>
+    <br>
+        <h3 id="samtalen">Samtalen</h3>
+            <p>Forsøg at styre samtalen, men husk at det er kunden der er i centrum. Brug denne struktur hvis handlen ikke er i hus.</p>
+            <ol>
+                <li>
+                    <b>Forberedelsen</b><br>
+                    Indskrænk ovenstående til dig selv, kunden og samtalen
+                    lav en rollefordeling, hvad skal i gøre og hvordan. Hvis i er flere til mødet, så lav en rollefordeling, hvem der føre ordet og hvem der skriver ned. 
+                </li>
+
+                <li>
+                    <b>Indledende snak</b><br>
+                    Præsenter dig som beskrevet – kunden i centrum. Begræns dig. Vis hvem du er ved at spørge ind til kunden. 
+                </li>
+
+                <li>
+                    <b>Behovsafklaring og behovsaktualisering</b><br>
+                    Spørg ind til kundens nuværende situation så du kan sælge produkter der løser hans problemer. HUSK: Udgangspunktet skal være hans problem og ikke dit produkt.
+                </li>
+                
+                <li>
+                    <b>Udbytte præsentation</b><br>
+                    Sæt ord på den løsning du kan tilbyde, som løser kundens problemer
+                    Pas på ikke at gå i detaljer. Tal til følelser og intellekt.  Få kunden til at bide på.
+
+                </li>
+
+                <li>
+                    <b>Produkt præsentation</b><br>
+                    Når det følelsesmæssig er angageret – gå i detaljer om løsningen. Vis kunden noget du kan leve op til.  IK lov noget du ikke kan overholde
+                </li>
+                
+                <li>
+                    <b>Indvendinger</b><br>
+                    Accepter indvendinger. Lad vær med at diskutere – vis forståelse for kundens modargumenter uden at give køb på din egen holdning. Forsøg at skabe en win-win situation.
+                </li>
+                
+                <li>
+                    <b>Afslutte salget eller tage næste skridt: </b><br>
+                    Forsøg ikke at sælge kunden mere, når han har vist han er klar til en aftale. Er kunden ikke klar? Forslå at du vender tilbage dagen efter med et konkret tilbud. 
+                </li>
+                
+                <li>
+                    <b>Opfølgning</b><br>
+                    Uanset om i har en aftale eller ej, så kontakt kunden igen og bede om at få bekræftet hvad i har aftalt. Det styrker relationen mellem jer begge og gør jeres arbejde nemmere.  Husk at notere undervejs
+                </li>
+                
+                <li>
+                    <b>Din egen evaluering</b><br>
+                    Lav et notat om, hvad der er aftalt, men du har det i klar erindring.  Husk at notere alle forhold og uafklarede punkter undervejs.
+                </li>
+                
+            </ol>
+        
+            <br>
+            <br>
+                <p>
+                    <b>Forventningsafstemning</b><br>
+                    – Hvem der skal levere hvad og hvornår. Skabe klare linjer for at planlægge produktionen. <br><br>
+                    Afklaring om hvad kunden gerne vil have og om det er muligt. (Hvilket it-system har kunden og kan den løsning vi tilbyder fungere?)<br><br>
+                    Fælles for alle møder er = at gøre sig tanker om hvad man vil have med hjem.  
+
+        
+                </p>
+    </div>
+            
+
+ <!---------------------------- SALGS OG KUNDEMØDET  SLUTTER HER ------------->    
+            
+            
+            
+            
+            
+            
+            
+  <!---------------------------- KILDER STARTER HER  ------------------------------------>             
+            
+<div class="col-md-10 col-sm-12 offset-md-2 sektion1">   
+    
+    <p>
+     
+        <b>Kilder:</b><br>
+                  Torben Larsen, Anne Mette Busch, m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 301-302. <br/>
+                  Torben Larsen, Anne Mette Busch, m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 303. <br/>
+                  Torben Larsen, Anne Mette Busch, m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 305. <br/>
+                  Torben Larsen, Anne Mette Busch, m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 308. <br/>
+                  Torben Larsen, Anne Mette Busch, m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 309. <br/>
+                  Torben Larsen, Anne Mette Busch, m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 310. <br/>
+                  Torben Larsen, Anne Mette Busch, m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 310. <br/>
+                  Torben Larsen, Anne Mette Busch, m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 310-312.<br/>
+                  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683. s, 107. <br/>
+                  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683. s, 107 <br/>
+                  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683. s, 108. <br/>
+                  Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683. s,108-110. <br/>
+
+    </p>                
+</div>   
+  <!---------------------------- KILDER SLUTTER HER   ------------------------------------>  
+               
+            
+         
+
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

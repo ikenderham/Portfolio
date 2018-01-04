@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Læringsportfolio - Kommunikation - Udviklingsmetoder og specificering af krav</title>
+
+    <!-- CSS -->
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <!-- Extra styles -->
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+    <!-- Navbar -->        <!-- MENU starter her -->
+     
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><h1>Lærings<b>portfolio</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Menu item (active) -->
+                <li>
+                    <a class="nav-link" href="index.html">Forside</a>
+                </li>
+
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet Kommunikation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kommunikation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                        <a class="dropdown-item" href="grund-kom-teori.html">Grundlæggende kommunikationsteori</a>
+                        <a class="dropdown-item" href="intro-design-thinking.html">Introduktion til design thinking</a>
+                        <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                        <a class="dropdown-item" href="information-arkitektur.html">Informationsarkitektur</a>
+                        <a class="dropdown-item" href="idegenerering.html">Idé-generering</a>
+                        <a class="dropdown-item" href="tekst-som-medie.html">Tekst som medie</a>
+                        <a class="dropdown-item" href="visualiseringsv%C3%A6rktojer.html">Visualiseringsværktøjer</a>
+                        <a class="dropdown-item" href="storytelling.html">Storytelling som brandstrategi</a>
+                        <a class="dropdown-item" href="retorisk-kommunikation.html">Retorisk kommunikationsstrategi</a>
+                        <a class="dropdown-item" href="semiotik.html">Semiotik</a>
+                        <a class="dropdown-item" href="visuel-kommunikation.html">Visuel kommunikation</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kom-reflektion.html">Refkleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for Kommunikation slutter -->
+                
+                
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet virksomhed -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Virksomhed
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="virksomhedens-grundlag.html">Virksomhedens forretningsmæssige grundlag</a>
+                        <a class="dropdown-item" href="ophavsret.html">Ophavsret og licenseringsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                        <a class="dropdown-item" href="udviklingsmetoder.html">Udviklingsmetoder</a>
+                        <a class="dropdown-item" href="udviklingsmetoder-specificering.html">Udviklingsmetoder og specificering af krav</a>
+                        <a class="dropdown-item" href="anvendelseafvaerktojer.html">Anvendelse af værktøjer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="virk-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for virksomhed slutter -->
+
+                <!-- Dette er en dropdown menu der tilhøre menupunktet visualisering -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Design og visualisering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="farveteori.html">Farveteori</a>
+                        <a class="dropdown-item" href="gestaltlovene.html">Gestaltlove og designprincipper</a>
+                        <a class="dropdown-item" href="foto.html">Foto</a>
+                        <a class="dropdown-item" href="typografi.html">Typografi</a>
+                        <a class="dropdown-item" href="photoshop.html">Photoshop</a>
+                        <a class="dropdown-item" href="illustrator.html">Illustrator</a>
+                        <a class="dropdown-item" href="indesign.html">Indesign</a>
+                        <a class="dropdown-item" href="video-production.html">Quick-and-dirty video production</a>
+                        <a class="dropdown-item" href="design-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item end -->
+                
+                <!-- Dette er en dropdown menu der tilhøre menupunktet Interaktion -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interaktion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="internettets-historie.html">Internettets historie</a>
+                        <a class="dropdown-item" href="struktur-i-html.html">Grundlæggende HTML</a>
+                        <a class="dropdown-item" href="css.html">CSS</a>
+                        <a class="dropdown-item" href="versionstyring.html">Versionstyring</a>
+                        <a class="dropdown-item" href="responsivdesign.html">Responsive design</a>
+                        <a class="dropdown-item" href="frameworks.html">Framework Bootstrap</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="inter-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til interaktion slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Projekter -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projekter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="onepage-projekt.html">Onepage projekt</a>
+                        <a class="dropdown-item" href="prototyping-projekt.html">Prototyping projekt</a>
+                        <!--Devider mellem menupunkterne ---->
+                    </div>
+                </li>
+                <!-- Dropdown menu til projekter slutter slutter -->
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Main body --> <!-- DET HER ER MIN SIDEBAR --> 
+    <div class="main">
+        <div class="row">
+            <div class="col-md-2 fixed-sidebar hidden-sm-down d-none d-sm-none d-md-none d-md-block">
+                <div class="nav flex-column nav-pills affix" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" href="#tops">Hvad er et krav?</a>
+                  <a class="nav-link" href="#hvordan-beskriver">Hvordan beskriver vi kravene?</a>
+                  <a class="nav-link" href="#brugere-kravene">De forskellige brugere af kravener</a>
+                  <a class="nav-link" href="#produktvision">Produktvision</a>
+                  <a class="nav-link" href="#produkt-backlog">Produkt backlog</a>
+                  <a class="nav-link" href="#moscow">MosCoW</a>
+                  <a class="nav-link" href="#personaer">Brugerprofiler, personas og aktører</a>
+                  <a class="nav-link" href="#scenarier">Scenarier</a>
+                  <a class="nav-link" href="#prototyper">Prototyper</a>
+
+                </div>
+            </div>
+
+
+ <!---------------------------- Projektarbejde og udviklingsmetoder starter her  ----------------------->           
+            <div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+                
+                <h2 id="tops">Udviklingsmetoder - specificering af krav</h2><br><br>
+
+               <p>
+                    Når man skal udvikle et it-system, app eller en hjemmeside, er det vigtigt at kende sine brugere og forstå hvilke behov de ønsker at få opfyldt. Vi har behov for at forstå vores brugere, så man ved hvordan produktet, der udvikles kan hjælpe dem i deres problemstilling. Vi har også behov for at kende nogle krav, så vi har noget at designe og udvikle ud fra.  Vi har behov for at afklare kravene, så vi kan indgå en aftale med kunden omkring hvad produktet skal kunne og hvad det kommer til at koste. 
+                    Her er et overblik over forskellige teknikker der kan bruges til at danne og beskrive kravene for et it-produkt. 
+
+              </p>
+<br>
+<br>
+                <h3 id="hvaderetkrav">Hvad er et krav?</h3>
+              <p>
+                  Et krav er en beskrivelse af hvad et it-produkt skal kunne gøre for brugeren, hvordan det bliver brugt og hvordan der virker. Kravene bliver skrevet i en kravspecifikation, som er det dokument der danner aftalegrundlag for det produkt der skal udvikles. I en god kravspecifikation bliver der beskrevet hvordan it-produktet opfylder brugernes behov og hvordan den tilfører værdi til virksomheden. 
+                
+              </p>
+<br>
+                <h3 id="hvordan-beskriver">Hvordan beskriver vi kravene?</h3>
+              <p>
+                  Vi finder frem til kravene ved, at man som udvikler samarbejder med kunder og brugere, ved at indsamle data fra vores kunder og brugere, kan vi få defineret kravene. Der findes forskellige metoder at indsamle data på, som kan bruges enten hver for sig, men kan med fordel kombineres.
+                
+              </p>
+                    Her er nogle af dem
+              <ul>
+                    <li>
+                        <b>Spørgeskema</b><br>
+                        Spørgeskemaer bruges til at nå en bred målgruppe<br>
+                  </li>
+                    <li>
+                        <b>Spørgeskema</b><br>
+                        Bruges til specifikke målgrupper<br>
+                  </li>  
+                    <li>
+                        <b>Gruppeinterview</b><br>
+                  </li>  
+                    <li>
+                        <b>Observationer</b><br>
+                        Bruges til at forstå opgavens sammenhæng<br>
+                  </li>  
+                    <li>
+                        <b>Observationer</b><br>
+                        Der udarbejdes en prototype tidlig i processen, der kan testes på brugerne. <br><br>
+                  </li>  
+              </ul>    
+        <br><br>
+             <p>
+                 <b>Dataindsamling kan foregå forskelligt, alt efter projekt størrelse og type.</b> <br><br>
+                 <b>Et lille vedligeholdelsesprojekt</b>
+                Her bliver ændringsønsket ofte aftalt mellem kunden og designeren/udvikleren. Kravspecificeringen foregår typisk over nogle screenshots, hvor man skriver eller tegner de ønsker man har. <br><br> 
+
+
+                <b>Et mindre projekt</b><br>
+                Er det derimod et projekt hvor kunden skal fx skal have udviklet en hjemmeside, med fx et bookingsystem og han/hun kender kravene på forhånd, udarbejdes kravspecifikationen typisk mellem designer/udvikler og kunden. Her bliver brugeren ikke involveret, da kunden i forvejen kender kravene og har en ide over hvad siden skal kunne. <br><br>
+
+                <b>Store projekter</b><br>
+                Ved større projekter, hvor en større virksomhed f.eks. har et ønske om at få udviklet et system der understøtter deres daglige arbejdsopgaver, bliver der foretaget en analyse af organisationen og dets brugere og opgaver. Analysen udarbejdes med henblik på at vurdere behovet for it-systemet og forbedringer af arbejdsgangene. Når opgaven bliver sat i gang laves der en kravspecifikation. 
+    
+                
+            </p>    
+            </div>
+
+ <!----------------------------Projektarbejde og udviklingsmetoder SLUTTER HER ----------------------->  
+
+
+            
+            
+<!---------------------------------De forskellige brugere af kravene starter her ------------------------------------------->            
+        <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+            <br>
+                        <h2 id="brugere-kravene">De forskellige brugere af kravene</h2><br>
+                        <p>
+                            <b>Designeren/udvikleren</b>
+                            Bruges så de kan se hvad der udvikles<br><br>
+                            <b>Ledelsen</b>
+                            Bruges til at vurdere tid, omkostninger og til at se om opgaven er realistisk at gennemføre. Bruges også som grundlag for kontrakten. 
+                            Kravene skal være en mellemting mellem at kommunikere til kunden og at definere præcist og detaljeret for udvikleren/designeren hvad der skal    
+                        </p>
+            <br>
+            
+            <br>
+
+        </div>       
+
+ <!---------------------------- De forskellige brugere af kravene SLUTTER HER----------------------->  
+ 
+            
+<!--------------------------------- ROLLER STARTER HER ------------------------------------------->    
+            
+            
+            <div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+                
+                <h5>Der findes to forskellige kravs typer:</h5><br>
+                <p><b>Funktionelle krav</b><br>
+                Beskriver hvad produktet skal kunne 
+    <br>
+    <br>
+                <p><b>Ikke-funktionelle krav</b><br></p>
+                                                    
+
+                Beskriver hvilke begrænsninger der er i udviklingen af produktet
+            <ul>
+                <li>Hjemmesiden skal være brugervenlig</li>
+                <li>Der skal bruges en bestemt farve i logoet, hvilket giver begrænsninger i designet</li>
+                <li>Hjemmesiden skal kunne ses i forskellige browsere</li>
+                <li>Der skal være mulighed for at kunne shoppe med appen</li>
+            </ul>
+                
+            </div>
+
+ <!----------------------------ROLLER SLUTTER HER ----------------------->  
+<div class="col-md-10 col-sm-12 offset-md-2 sektion1">
+    <b>I multimediedesign bør følgende krav overvejes udover de funktionelle</b>
+    <ul>
+        <li>Hjemmesiden skal være brugervenlig</li>
+        <li>Der skal bruges en bestemt farve i logoet, hvilket giver begrænsninger i designet</li>
+        <li>Hjemmesiden skal kunne ses i forskellige browsere</li>
+        <li>Der skal være mulighed for at kunne shoppe med appen</li>
+    </ul>
+    
+</div>
+            
+<!---------------------------------Belbins teamrollerstarter her ------------------------------------------->            
+<div class="col-md-5 col-sm-12 offset-md-2 sektion1">
+    <br>
+                <h2 id="produktvision">Produktvision</h2><br>
+    
+               <ul>
+                    <li>
+                        Bruges til at give overblik over målene
+                   </li>
+                    <li>
+                        Bruges til at give overblik over de forretningsmæssige baggrunde for systemet, dets brugere, samt interessanter
+                   </li>
+                    <li>
+                        Bruges til at give overblik over de vigtigste features
+                   </li>
+                    <li>
+                        Bruges ofte på baggrund af den dataindsamling man har foretaget. 
+                    <li>
+                        Bruges til at danne en fælles forståelse for hvad der skal laves og bruges. 
+                   </li>
+                    <li>
+                        Kan bruges til at beskrive hvordan modtageren ser afsenderen
+                   </li>
+                    <li>
+                        Kan bruges til at definere målgruppen  
+                   </li>
+                    <li>
+                        Bruges til at beskrive hvordan budskabet skal ud, så man får den bedst mulige virkning 
+                   </li>
+    
+    
+    
+    
+               </ul>
+
+    
+</div>       
+            
+ <!---------------------------- Belbins teamroller SLUTTER HER----------------------->  
+ 
+            
+<!--------------------------------- Kravlister ------------------------------------------->    
+            
+            
+    <div class="col-md-4 col-sm-12 offset-md-0 sektion1">
+                
+                    <b>Kravlister</b>
+            <ul>
+                <li>Indeholder både de funktionelle og ikke funktionelle krav</li>
+                <li>Her anvendes feature og un-feature list</li>
+                <li>Skitser af data og informationsstruktur, kan benyttes sammen med</li>
+                <li>Der skal være mulighed for at kunne shoppe med appen</li>
+    </ul>
+                
+            </div>
+
+ <!----------------------------Kravlister ----------------------->   
+
+
+<!--------------------------------- Produktbacklog STARTER HER ------------------------------------------->    
+            
+            
+    <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+                
+                    <h3 id="produkt-backlog">Produktbacklog</h3><br>
+                    Produktbackloggen bruges ved agilemetoder, fx Scrum
+            <ul>
+                <li>Kravene bliver priorteret og bliver tilføjet løbende</li>
+                <li>Detaljeringsgraden er mindre – kun de højeste krav uddybes/li>
+                <li>Features kaldes for items</li>
+                <li>Kravene bliver skrevet i form af user stories i et storykort</li>
+                    <ul>
+                        <li>Indeholder både storynavn og ID</li>
+                        <li>"As a” (f.eks.  ”som køber”)"</li>
+                        <li>I want to (f.eks. ”vil jeg gerne”)</li>
+                        <li>So that (f.eks. ”så jeg kan”</li>
+                        <li>Estimate (Den forventede tid)</li>
+                        <li>Actual (Faktisk tid) </li>
+                        <li>Priority (prioritet)  </li>
+                    </ul>
+            </ul>
+                
+    </div>
+
+ <!----------------------------Produktbacklog SLUTTER HER ----------------------->   
+
+            
+<!--------------------------------- MoSCoW-skalaen STARTER HER ------------------------------------------->       
+            
+    <div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+                
+                    <h3 id="moscow">MoSCoW-skalaen</h3><br>
+                    Et hjælpeværktøj man kan benytte til at prioritere kravene
+            <ul>
+                <li>
+                    <b>Must have</b><br>
+                    Det nødvendige for at produktet kan fungere
+                </li>
+                <li>
+                    <b>Should have</b><br>
+                    Noget der har værdi for kunden eller brugeren, som burde være med, men som dog ikke er en nødvendighed for produktets succes
+                </li>
+                <li>
+                    <b>Could have/nice to have</b><br>
+                    Er noget der har en værdi for brugeren, men som man sagtens kan undværes?
+                </li>
+                <li>
+                    <b>Wont have/would like to have</b><br>
+                    Noget man har tænkt over, men som ikke har noget værdi endnu. Kan blive aktuelt senere 
+                </li>
+            </ul>
+                
+    </div>
+
+ <!---------------------------- MoSCoW-skalaen SLUTTER HER ------------------------------------------>   
+            
+            
+<!--------------------------------- Brugerprofiler, personas og aktører STARTER HER ------------------------------------------->       
+            
+    <div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+                
+            <h3 id="personaer">Brugerprofiler, personas og aktører</h3><br>
+            <p>
+                Brugerprofilbeskrivelse: Er en vigtig del af kravspecifikationen og er en beskrivelse af brugernes mål med anvendelse af it-produktet.
+            <br>
+            <br>
+                <b>Personas:</b><br>
+                Er nogle fiktionelle personer som repræsentere forskellige typer brugere, som interessere sig for fx en hjemmeside.  En brugerprofil omfatter blandt andet navn, demografi, uddannelse, job, interesser, erfaringer i anvendelse af nettet samt mål med brug af siden. 
+                Brugerprofilerne bruges til at inddrage igennem udviklingsprocessen, så man hele tiden holder sig på sporet. Sådan er brugerprofilerne med til at danne de funktioner og den brugervenlige version, der skal til for at danne en hjemmeside.   
+
+
+            </p>
+            
+            <b>Aktør</b>
+            <ul>
+                <li>
+                    En aktør er rollen, som en persona kan have i forhold til brugen af et system. 
+                </li>
+                <li>
+                    Aktøren er med til at klargøre brugen af hjemmesiden 
+                </li>
+                <li>
+                    Aktøren behøver nødvendigvis ikke at være en person, men kan også være et system.  
+                </li>
+            </ul>
+                
+    </div>
+
+ <!---------------------------- Brugerprofiler, personas og aktører SLUTTER HER ------------------------------------------>    
+            
+            
+<!--------------------------------- Scenarier og use-cases STARTER HER ------------------------------------------->       
+            
+    <div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+                
+            <h3 id="scenarier">Scenarier og use-cases</h3><br>
+            <p>
+                Brugerprofilbeskrivelse: Er en vigtig del af kravspecifikationen og er en beskrivelse af brugernes mål med anvendelse af it-produktet.
+            <br>
+            <br>
+                Scenarier og use-cases er omfattende og har mange detaljer i forhold til stories. Man bruger det til at kunne samle kravene og gruppere dem i forhold til de mål brugerne ønsker at opnå. Begge bruges til at demonstrerer systemets funktionalitet, som findes i ens kravliste eller produkt backlock. 
+            </p>
+            
+            <b>Scenarier:</b>
+            <ul>
+                <li>
+                    Konkrete historier om hvordan personaer kommer til at bruge det givne produkt. 
+                </li>
+                <li>
+                    Beskriver hvordan den enkelte bruger handler og tænker. s
+                </li>
+                <li>
+                    Er med til at danne et grundlag for hvilke krav brugerne har, ved hjælp af diskussion og udforskning. 
+                </li>
+                <li>
+                    Understøttes ofte af prototyper 
+                </li>
+                <li>
+                    Foretrækkes ved mindre formelle beskrivelser  
+                </li>
+                <li>
+                    Kan bruges til at beskrive brugerne og de følelser de udtrykker ved det de gør.   
+                </li>
+            </ul>
+    <br>
+    <br>
+        
+            <b>User-cases</b>
+            <ul>
+                <li>
+                    Der fokuseres på interaktion mellem bruger og system. 
+                </li>
+                <li>
+                    Er som regel mindre omfattende 
+                </li>
+                <li>
+                    Kan være en beskrivelse af hvordan et køb foregår. 
+                </li>
+                <li>
+                    Hvis en sekventiel orden finder sted bruges use-cases. 
+                </li>
+                <li>
+                    Bruges hvis det visuelle har en lille betydning.   
+                </li>
+            </ul>
+                
+    </div>
+
+ <!---------------------------- Scenarier og use-cases SLUTTER HER ------------------------------------------>      
+
+            
+<!--------------------------------- Brugerprofiler, personas og aktører STARTER HER ------------------------------------------->       
+            
+    <div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+                
+            <h3 id="prototyper">Prototyper</h3><br>
+            
+            <b>Aktør</b>
+            <ul>
+                <li>
+                    En skitse af forestillingen om hvordan et design kan se ud. 
+                </li>
+                <li>
+                    Evalueres sammen med brugeren, så man kan om de vigtige elementer/funktioner er med og om tingene står i den rigtige rækkefølge. 
+                </li>
+                <li>
+                    Er velegnet til at udforske og præcisere krav 
+                </li>
+                <li>
+                    Kan være et supplement til produktbackloggen samt kravspecifikationen.   
+                </li>
+            </ul>
+                
+    </div>
+
+ <!---------------------------- Brugerprofiler, personas og aktører SLUTTER HER ------------------------------------------>    
+            
+  <!---------------------------- KILDER STARTER HER  ------------------------------------>             
+            
+<div class="col-md-10 col-sm-12 offset-md-2 sektion1">   
+    
+        <p>
+               
+              <b>Kilder:</b><br>
+              Torben Larsen, Anne Mette Busch m. fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 150-151<br>
+              Torben Larsen, Anne Mette Busch m. fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 152<br>
+              Torben Larsen, Anne Mette Busch m. fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 153<br>
+              Torben Larsen, Anne Mette Busch m. fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 155<br>
+              Torben Larsen, Anne Mette Busch m. fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 156-160<br>
+              Torben Larsen, Anne Mette Busch m. fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 160-162<br>
+              Torben Larsen, Anne Mette Busch m. fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 162<br>
+
+        </p>                
+</div>   
+  <!---------------------------- KILDER SLUTTER HER   ------------------------------------>  
+               
+            
+         
+
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

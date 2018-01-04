@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Læringsportfolio - Design og visualisering - Gestaltlovene</title>
+
+    <!-- CSS -->
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <!-- Extra styles -->
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+    <!-- Navbar -->        <!-- MENU starter her -->
+     
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><h1>Lærings<b>portfolio</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Menu item (active) -->
+                <li>
+                    <a class="nav-link" href="index.html">Forside</a>
+                </li>
+
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet Kommunikation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kommunikation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                        <a class="dropdown-item" href="grund-kom-teori.html">Grundlæggende kommunikationsteori</a>
+                        <a class="dropdown-item" href="intro-design-thinking.html">Introduktion til design thinking</a>
+                        <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                        <a class="dropdown-item" href="information-arkitektur.html">Informationsarkitektur</a>
+                        <a class="dropdown-item" href="idegenerering.html">Idé-generering</a>
+                        <a class="dropdown-item" href="tekst-som-medie.html">Tekst som medie</a>
+                        <a class="dropdown-item" href="visualiseringsv%C3%A6rktojer.html">Visualiseringsværktøjer</a>
+                        <a class="dropdown-item" href="storytelling.html">Storytelling som brandstrategi</a>
+                        <a class="dropdown-item" href="retorisk-kommunikation.html">Retorisk kommunikationsstrategi</a>
+                        <a class="dropdown-item" href="semiotik.html">Semiotik</a>
+                        <a class="dropdown-item" href="visuel-kommunikation.html">Visuel kommunikation</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kom-reflektion.html">Refkleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for Kommunikation slutter -->
+                
+                
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet virksomhed -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Virksomhed
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="virksomhedens-grundlag.html">Virksomhedens forretningsmæssige grundlag</a>
+                        <a class="dropdown-item" href="ophavsret.html">Ophavsret og licenseringsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                        <a class="dropdown-item" href="udviklingsmetoder.html">Udviklingsmetoder</a>
+                        <a class="dropdown-item" href="udviklingsmetoder-specificering.html">Udviklingsmetoder og specificering af krav</a>
+                        <a class="dropdown-item" href="anvendelseafvaerktojer.html">Anvendelse af værktøjer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="virk-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for virksomhed slutter -->
+
+                <!-- Dette er en dropdown menu der tilhøre menupunktet visualisering -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Design og visualisering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="farveteori.html">Farveteori</a>
+                        <a class="dropdown-item" href="gestaltlovene.html">Gestaltlove og designprincipper</a>
+                        <a class="dropdown-item" href="foto.html">Foto</a>
+                        <a class="dropdown-item" href="typografi.html">Typografi</a>
+                        <a class="dropdown-item" href="photoshop.html">Photoshop</a>
+                        <a class="dropdown-item" href="illustrator.html">Illustrator</a>
+                        <a class="dropdown-item" href="indesign.html">Indesign</a>
+                        <a class="dropdown-item" href="video-production.html">Quick-and-dirty video production</a>
+                        <a class="dropdown-item" href="design-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item end -->
+                
+                <!-- Dette er en dropdown menu der tilhøre menupunktet Interaktion -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interaktion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="internettets-historie.html">Internettets historie</a>
+                        <a class="dropdown-item" href="struktur-i-html.html">Grundlæggende HTML</a>
+                        <a class="dropdown-item" href="css.html">CSS</a>
+                        <a class="dropdown-item" href="versionstyring.html">Versionstyring</a>
+                        <a class="dropdown-item" href="responsivdesign.html">Responsive design</a>
+                        <a class="dropdown-item" href="frameworks.html">Framework Bootstrap</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="inter-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til interaktion slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Projekter -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projekter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="onepage-projekt.html">Onepage projekt</a>
+                        <a class="dropdown-item" href="prototyping-projekt.html">Prototyping projekt</a>
+                        <!--Devider mellem menupunkterne ---->
+                    </div>
+                </li>
+                <!-- Dropdown menu til projekter slutter slutter -->
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Main body --> <!-- DET HER ER MIN SIDEBAR --> 
+    <div class="main">
+        <div class="row"> <!---------------------ROW STARTER HER -------------------------------------->
+            <div class="col-md-2 fixed-sidebar hidden-sm-down d-none d-sm-none d-md-none d-md-block">
+                <div class="nav flex-column nav-pills affix" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" href="#top">Gestaltlove i webdesign </a>
+                  <a class="nav-link" href="#proximity">Proximity</a>
+                  <a class="nav-link" href="#similarity">Similarity</a>
+                  <a class="nav-link" href="#continuty">Continuty</a>
+                  <a class="nav-link" href="#commonfate">Common fate</a>
+                  <a class="nav-link" href="#symmetry">Symmetry</a>
+                  <a class="nav-link" href="#closure">Closure</a>
+                  <a class="nav-link" href="#whitespace">White space</a>
+                  <a class="nav-link" href="#figureground">Figure ground</a>
+                  <a class="nav-link" href="#ruleofthirds">Rule of thirds</a>
+                  <a class="nav-link" href="#goldensection">Golden section</a>
+                  <a class="nav-link" href="#grids">Grids</a>
+                  <a class="nav-link" href="#opgave">Opgave</a>
+
+                </div>
+            </div>
+
+
+ <!---------------------------- GESTALTLOVE INTRO STARTER HER ----------------------->           
+            <div class="col-md-8 col-sm-12 offset-md-2 sektion1">
+                
+                <h2>Gestaltlovene</h2><br>
+                <p>
+                    Gestaltlovene handler om perception (helhed). Gestaltlovene går ud på, at se tingene som helhed og samtidig er de med til at skabe overblik. Gestaltlovene er design principper, der hjælper med at organisere sine informationer, så brugeren nemt kan overskue det.
+                </p>
+                <br>
+                <br>
+                
+                    <h4 class="gestalt-web">Gestaltlove i webdesign</h4>
+                <p>
+                    Ved at bruge lovene når du designer din hjemmeside, skaber du overblik i dit design, så design og funktionalitet går hånd i hånd.
+                </p>
+            </div>
+
+ <!----------------------------GESTALTLOVE INTRO SLUTTER HER ------------------------------------------>  
+            
+ <!---------------------------- PROXIMITY STARTER HER --------------------------------------------->           
+            <div class="col-md-5 col-sm-12 offset-md-2 sektion1">
+                    <h3 id="proximity">Proximity</h3>
+                <p>
+                    Objekter der ligner hinanden, opfatter vi som en gruppe.  Similarity kan bruges med farve, størrelse, tekstur og fonte. Som eksempel kan vi tage boksene nedenfor. Her vi vil opfatte boksene som 2 grupper - en lyseblå og en mørkeblå gruppe.  
+                </p>
+
+            </div>
+
+ <!----------------------------PROXIMITY SLUTTER HER ------------------------------------------>  
+                        
+ <!---------------------------- PROXIMITY ILLUSTRATION STARTER HER----------------------------------------------->  
+            
+            <div class="col-md-2 col-sm-12 sektion1 offset-md-2">
+                
+                <h3>Illustration</h3><br>
+                
+                <a href="img/proximity.JPG"><img src="img/proximity.JPG" alt="proximity" class="responsive-image"/></a><br>
+                <small>Kilde: Egne illustrationer</small>
+            
+            </div>
+  <!---------------------------- STRATEGI OVERBLIK illustration SLUTTER HER ----------------------->        
+
+
+            
+ <!---------------------------- SIMILARITY STARTER HER ----------------------------------------------------->           
+            <div class="col-md-5 col-sm-12 offset-md-2 sektion1">
+                    <h3 id="similarity">Similarity</h3>
+                <p>
+                    Ved at placere objekter tæt på hinanden opfatter man dem relaterede i forhold til objekter, som er placeret langt væk fra hinanden. 
+                </p>
+
+            </div>
+
+ <!---------------------------- SIMILARITY STARTER HER HER ----------------------->  
+            
+ <!---------------------------- SIMILARITY  illustration starter her ----------------------------------------------->  
+            
+            <div class="col-md-2 col-sm-12 sektion1 offset-md-2">
+                
+                <h3>Illustration</h3><br>
+                
+                <a href="img/similarity.JPG"><img src="img/similarity.JPG" alt="similarity" class="responsive-image"/></a><br>
+                <small>Kilde: Egne illustrationer</small>
+            
+            </div>
+  <!---------------------------- SIMILARITY  illustration SLUTTER HER ----------------------->    
+            
+
+            
+<!---------------------------- CONTINUTY STARTER HER ------------------------------------->  
+            <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+                
+                <h3 id="continuty">Continuty - Kontinuitet</h3>
+                <p>
+                    Continuty går ud på, at ens design leder øjet mod en bestemt retning eller kurve. Objekter der følger samme kurve, opfattes som relaterede.  
+                </p>
+
+            
+            </div>
+ <!---------------------------- CONTINUTY SLUTTER HER ----------------------->  
+ 
+ <!---------------------------- CONTINUTY  illustration starter her  -------------------------------------------->  
+            
+            <div class="col-md-4 col-sm-12 sektion1 offset-md-1">
+                
+                <h3>Illustration</h3><br>
+                
+                <a href="img/continuty.JPG"><img src="img/continuty.JPG" alt="continuty" class="responsive-image"/></a><br>
+                <small>Kilde: Egne illustrationer</small>
+            
+            </div>
+  <!---------------------------- CONTINUTY illustration SLUTTER HER ----------------------->    
+            
+            
+            
+  <!---------------------------- COMMON FATE & SYMMETRY STARTER HER ------------------------------------->  
+<div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+
+        <h3 id="commonfate">Common fate</h3>
+        <p>
+            Når elementer opfører sig på samme måde, så opfatter vi dem som relateret.  Eksempelvis kan vi se at alle tre fugle flyver i samme retning.  Vi opfatter common fate ofte meget instinktivt, da det optræder mange steder i vores dagligdag, og på den måde ligger det i vores underbevidsthed. 
+        </p>
+    <br>
+        <h3 id="symmetry">Symmetry</h3>
+        <p>
+            Symmetry er med til at give ro, harmoni og overblik, i forhold til asymmetri, der kan få ting til at se rodet ud.  Symmetry kan i nogle tilfælde virke kedeligt, hvorimod asymmetry kan være med til at skabe liv og spænding i et design. 
+        </p>
+    
+    
+        <ul>
+            <li><b>Translation:</b><br>
+                Når der findes to eller flere elementer forskellige steder i kompositionen</li>
+            <li><b>Rotation</b><br>
+                Kan være når elementerne er roteret ud fra et bestemt punkt, men ikke nødvendigvis. </li>
+            <li><b>Reflektion</b><br>
+                Når elementerne er spejlet eller reflekteret om en spejlingsakse.</li>
+        </ul>
+</div>
+ <!---------------------------- COMMON FATE & SYMMETRY SLUTTER HER ----------------------->  
+ 
+                   
+            
+ <!---------------------------- COMMON FATE & SYMMETRY starter her  -------------------------------------------->  
+            
+            <div class="col-md-4 col-sm-12 sektion1 offset-md-1">
+                
+                <h3>Illustration</h3>
+                
+                <a href="img/symmetry.JPG"><img src="img/symmetry.JPG" alt="strategisk" class="responsive-image"/></a><br>
+                <small>Kilde: Egne illustrationer</small>
+            
+            </div>
+  <!---------------------------- COMMON FATE & SYMMETRY illustration SLUTTER HER ------------------------------------>    
+            
+  
+  <!---------------------------- CLOSURE  STARTER HER ------------------------------------->  
+<div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+
+        <h3 id="closure">Closure</h3>
+        <p>
+            Closure opstår når en figur ikke er afsluttet eller et område ikke er lukket. Closure handler om, at vi selv udfylder formen.  
+        </p>
+    <br>
+
+</div>
+ <!---------------------------- CLOSURE SLUTTER HER------------------------------------------------------------<
+            
+            
+            
+            
+ <!---------------------------- COMMON FATE & SYMMETRY starter her  -------------------------------------------->  
+            
+            <div class="col-md-4 col-sm-12 sektion1 offset-md-1">
+                <h3>Illustration</h3>
+                
+                
+                <a href="img/closure.JPG"><img src="img/closure.JPG" alt="strategisk" class="responsive-image"/></a><br>
+                <small>Kilde: Egne illustrationer</small>
+            
+            </div>
+  <!---------------------------- COMMON FATE & SYMMETRY illustration SLUTTER HER ------------------------------------>  
+ 
+             
+            
+   <!---------------------------- WHITESPACE modellen STARTER HER ------------------------------------->  
+            <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+                
+                <h3 id="whitespace">White space</h3>
+                <p>
+                    Whitespace er et designprincip, der er med til at forbedre brugeroplevelsen på hjemmesider og eksempelvis tryksager. Whitespace er alt den luft vi har rundt om vores indholdselementer. Whitespace kan bruges i tekst i form af linjeafstand eksempelvis eller på billeder, knapper og andet.
+                <br>    
+                <br>
+
+                    Som eksempel kan vi se, at Google bruger whitespace til at sætte fokus på det vigtigste element på siden og det er søgefunktionen. 
+
+
+                </p>
+            </div>
+ <!---------------------------- WHITESPACE - modellen SLUTTER HER ----------------------->  
+ 
+            
+            
+            
+            
+ <!---------------------------- WHITESPACE illustration starter her  -------------------------------------------->  
+            
+            <div class="col-md-4 col-sm-12 sektion1 offset-md-1">
+                
+                <h3>Illustration</h3>
+                
+                
+                <a href="img/whitespace.JPG"><img src="img/whitespace.JPG" alt="whitespace" class="responsive-image"/></a><br><br>
+                <small><b>Kilde:</b><br>http://www.youtube.com </small>
+            </div>
+  <!---------------------------- WHITESPACE illustration SLUTTER HER ------------------------------------>               
+
+<!---------------------------- FIGURE GROUND STARTER HER  -------------------------------------------->  
+            
+            <div class="col-md-4 col-sm-12 sektion1 offset-md-2">
+                <h3 id="figureground">Figure ground</h3>
+
+                <p>Det handler om at adskille en genstand fra omgivelsern. Alt afhængigt af farve eller størrelse. Kontrast opfatter mennesket </p>
+                           
+            
+            </div>
+  <!---------------------------- FIGURE GROUND SLUTTER HER ------------------------------------>  
+            
+  <!---------------------------- FIGURE GROUND ILLUSTRATION STARTER HER ------------------------------------>    
+
+            <div class="col-md-4 col-sm-12 sektion1 offset-md-1">
+                <h3>Illustration</h3>
+                <a href="img/figureground.JPG" target="_blank"><img src="img/figureground.JPG" alt="figureground" class="responsive-image" /></a>
+                <br><br>
+                <small><b>Kilde:</b><br>http://www.youtube.com </small>
+          
+            </div>
+  <!---------------------------- FIGURE GROUND ILLUSTRATION SLUTTER HER ------------------------------------>      
+            
+            
+ <!---------------------------- RULE OF THIRDS CANVAS  starter her  -------------------------------------------->  
+            
+            <div class="col-md-4 col-sm-12 sektion1 offset-md-2">
+                <h3 id="ruleofthirds">Rule of thirds</h3>
+                <p>
+                    Handler om at skabe et interessepunkt i eksempelvis et billede, og er med til at skabe et balanceret og naturligt foto.  
+                </p>
+            <br>
+            <br>
+                <ol>
+                      <li>
+                          Del billedet op i 9 lige store felter
+                      </li>
+                      <li>
+                          Lad to vandrette streger gå ned igennem billedet
+                      </li>
+                      <li>
+                          Skæringspunkterne danner dine interesse punkter
+                      </li>
+
+                </ol>            
+            
+            </div>
+  <!---------------------------- RULE OF THIRDS SLUTTER HER ------------------------------------>  
+            
+  <!---------------------------- RULE OF THIRDS ILLUSTRATION STARTER HER ------------------------------------>    
+
+            <div class="col-md-4 col-sm-12 sektion1 offset-md-1">
+                <h3>Illustration</h3>
+                <a href="img/ruleofthirds.JPG" target="_blank"><img src="img/ruleofthirds.JPG" alt="ruleofthirds" class="responsive-image" /></a>
+                <br><br>
+                <small><b>Kilde:</b><br>https://www.photovideoedu.com/Learn/Articles/jim-zuckerman-on-composition-the-rule-of-thirds.aspx </small>
+          
+            </div>
+            
+  <!---------------------------- RULE OF THIRDS ILLUSTRATION SLUTTER HER ------------------------------------>     
+            
+            
+<!---------------------------- GOLDEN SECTION STARTER HER  -------------------------------------------->  
+            
+            <div class="col-md-4 col-sm-12 sektion1 offset-md-2">
+                <h3 id="goldensection">Golden section</h3>
+                <p>
+                    Golden section eller også kendt som den gyldne spiral, har altid eksisteret i naturen. Begrebet blev dog udviklet senere. Som eksempel kan vi tage et sneglehus. Hvis man forestiller sig tværsnittet af et sneglehus, så kan man se den gyldne spiral. Den yderste linjes afstand bevæger sig hele tiden længere væk fra fokuspunktet.
+                </p>
+                
+              
+            </div>
+  <!---------------------------- GOLDEN SECTION SLUTTER HER  ------------------------------------>     
+
+            
+  <!----------------------------  GOLDEN SECTION ILLUSTRATION starter her ------------------------------------> 
+            
+            <div class="col-md-4 col-sm-12 sektion1 offset-md-1">
+                <h3>Illustration</h3>
+                <a href="img/golden-section.JPG" target="_blank"><img src="img/golden-section.JPG" alt="golden-section" class="responsive-image" /></a>
+                <br><br>
+                <small><b>Kilde:</b><br>http://www.apogeephoto.com/how-to-use-the-golden-ratio-to-improve-your-photography/</small>
+          
+            </div>
+            
+  <!----------------------------  GOLDEN SECTION ILLUSTRATION SLUTTER HER ------------------------------------> 
+   
+            
+<!---------------------------- GRIDS STARTER HER  -------------------------------------------->  
+            
+            <div class="col-md-4 col-sm-12 sektion1 offset-md-2">
+                <h3 id="grids">Grids</h3>
+
+                <p>Grids er et gittersystem, der kan opdeles både vertikale og horisontale kolonner. Det er et godt værktøj til at strukturere sit design, så tingene står snore lige og dermed giver et bedre overblik. Grids kan bruges i webdesign, men også design af tryksager eksempelvis brochure og plakater. Grids bliver brugt mere og mere på nettet til at skabe et godt udtryk i webdesignet. Som eksempel kan vi tage YouTube, som benytter sig af grids. </p>
+                           
+            
+            </div>
+  <!---------------------------- GRIDS SLUTTER HER ------------------------------------>  
+            
+  <!---------------------------- GRIDS ILLUSTRATION STARTER HER ------------------------------------>    
+
+            <div class="col-md-4 col-sm-12 sektion1 offset-md-1">
+                <h3>Illustration</h3>
+                <a href="img/grids.JPG" target="_blank"><img src="img/grids.JPG" alt="ruleofthirds" class="responsive-image" /></a>
+                <br><br>
+                <small><b>Kilde:</b><br>http://www.youtube.com </small>
+          
+            </div>
+  <!---------------------------- GRIDS ILLUSTRATION SLUTTER HER ------------------------------------>         
+            
+            
+<!---------------------------- OPGAVE STARTER HER  -------------------------------------------->  
+            
+            <div class="col-md-6 col-sm-12 sektion1 offset-md-2">
+                <h3 id="opgave">Opgave</h3>
+
+                <p>
+                    I denne opgave blev vi inddelt i grupper, hvor vi i hver gruppe skulle skrive om 2 gestaltlove. Derefter skulle vi lave en præsentation foran klassen. Min gruppe og jeg fik simplicity og whitespace som emne. <br><br>
+                    
+                    <b>Opgavebeskrivelse:</b><br>
+                    Beskriv med egne ord designprincipperne og kom med konkrete visuelle eksempler på hvilken sammenhæng de benyttes.  
+                </p>
+                    <ol>
+                        <li>Enkeltvis – dan jer et overblik over designprincippet</li>
+                        <li>I gruppen – diskuter forståelsen af designprincipperne</li>
+                        <li>Brainstorm, find eksempler og fabriker eksempler</li>
+                        <li>Udarbejd et samlet kompendie med alle designprincipper og aflever som PDF fil</li>
+                
+                    </ol>
+            
+            </div>
+  <!---------------------------- OPGAVE SLUTTER HER ------------------------------------>  
+            
+  <!---------------------------- OPGAVE ILLUSTRATION STARTER HER ------------------------------------>    
+
+            <div class="col-md-2 col-sm-12 sektion1 offset-md-1">
+                <h3>Filer</h3>
+                <p id="ter1">
+                    <a href="opgaver/simplicity-whitespace.pptx" target="_blank">Powerpointen vi lavede</a><br>
+                    <a href="opgaver/design-folder.pdf" target="_blank">Design kompendie</a>
+                </p>
+            </div>
+  <!---------------------------- OPGAVE ILLUSTRATION SLUTTER HER ------------------------------------>         
+               
+        
+            
+<div class="col-md-10 col-sm-12 offset-md-2 sektion1">   
+    
+<p>
+      <small> 
+                <b>Kilder:</b><br>
+          <br>
+                  PDF om gestaltlove fra karsten. <br>
+      </small>
+</p>                
+</div>               
+               
+            
+         
+
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

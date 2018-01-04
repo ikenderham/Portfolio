@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Læringsportfolio -Visualiseringsværktøjer</title>
+
+    <!-- CSS -->
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <!-- Extra styles -->
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+    <!-- Navbar -->        <!-- MENU starter her -->
+     
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><h1>Lærings<b>portfolio</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Menu item (active) -->
+                <li>
+                    <a class="nav-link" href="index.html">Forside</a>
+                </li>
+
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet Kommunikation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kommunikation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                        <a class="dropdown-item" href="grund-kom-teori.html">Grundlæggende kommunikationsteori</a>
+                        <a class="dropdown-item" href="intro-design-thinking.html">Introduktion til design thinking</a>
+                        <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                        <a class="dropdown-item" href="information-arkitektur.html">Informationsarkitektur</a>
+                        <a class="dropdown-item" href="idegenerering.html">Idé-generering</a>
+                        <a class="dropdown-item" href="tekst-som-medie.html">Tekst som medie</a>
+                        <a class="dropdown-item" href="visualiseringsv%C3%A6rktojer.html">Visualiseringsværktøjer</a>
+                        <a class="dropdown-item" href="storytelling.html">Storytelling som brandstrategi</a>
+                        <a class="dropdown-item" href="retorisk-kommunikation.html">Retorisk kommunikationsstrategi</a>
+                        <a class="dropdown-item" href="semiotik.html">Semiotik</a>
+                        <a class="dropdown-item" href="visuel-kommunikation.html">Visuel kommunikation</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kom-reflektion.html">Refkleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for Kommunikation slutter -->
+                
+                
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet virksomhed -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Virksomhed
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="virksomhedens-grundlag.html">Virksomhedens forretningsmæssige grundlag</a>
+                        <a class="dropdown-item" href="ophavsret.html">Ophavsret og licenseringsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                        <a class="dropdown-item" href="udviklingsmetoder.html">Udviklingsmetoder</a>
+                        <a class="dropdown-item" href="udviklingsmetoder-specificering.html">Udviklingsmetoder og specificering af krav</a>
+                        <a class="dropdown-item" href="anvendelseafvaerktojer.html">Anvendelse af værktøjer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="virk-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for virksomhed slutter -->
+
+                <!-- Dette er en dropdown menu der tilhøre menupunktet visualisering -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Design og visualisering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="farveteori.html">Farveteori</a>
+                        <a class="dropdown-item" href="gestaltlovene.html">Gestaltlove og designprincipper</a>
+                        <a class="dropdown-item" href="foto.html">Foto</a>
+                        <a class="dropdown-item" href="typografi.html">Typografi</a>
+                        <a class="dropdown-item" href="photoshop.html">Photoshop</a>
+                        <a class="dropdown-item" href="illustrator.html">Illustrator</a>
+                        <a class="dropdown-item" href="indesign.html">Indesign</a>
+                        <a class="dropdown-item" href="video-production.html">Quick-and-dirty video production</a>
+                        <a class="dropdown-item" href="design-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item end -->
+                
+                <!-- Dette er en dropdown menu der tilhøre menupunktet Interaktion -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interaktion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="internettets-historie.html">Internettets historie</a>
+                        <a class="dropdown-item" href="struktur-i-html.html">Grundlæggende HTML</a>
+                        <a class="dropdown-item" href="css.html">CSS</a>
+                        <a class="dropdown-item" href="versionstyring.html">Versionstyring</a>
+                        <a class="dropdown-item" href="responsivdesign.html">Responsive design</a>
+                        <a class="dropdown-item" href="frameworks.html">Framework Bootstrap</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="inter-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til interaktion slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Projekter -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projekter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="onepage-projekt.html">Onepage projekt</a>
+                        <a class="dropdown-item" href="prototyping-projekt.html">Prototyping projekt</a>
+                        <!--Devider mellem menupunkterne ---->
+                    </div>
+                </li>
+                <!-- Dropdown menu til projekter slutter slutter -->
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Main body --> <!-- DET HER ER MIN SIDEBAR --> 
+    <div class="main">
+        <div class="row">
+            <div class="col-md-2 fixed-sidebar hidden-sm-down d-none d-sm-none d-md-block">
+                <div class="nav flex-column nav-pills affix" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" href="#top">Rough sketching</a>
+                  <a class="nav-link" href="#sketching">Layoutet</a>
+                  <a class="nav-link" href="#layoutet">Finish layout</a>
+                  <a class="nav-link" href="#finish">Opgave </a>
+                </div>
+            </div>
+
+
+ <!---------------------------- Visualiseringsværktøjer INTRO STARTER HER ----------------------->           
+            <div class="col-md-10 col-sm-12 offset-md-2 sektion1">
+                
+                <h2>Visualiseringsværktøjer </h2>
+            </div>
+   
+<!---------------------------- Visualiseringsværktøjer  INTRO // SLUTTER HER ----------------------->   
+
+            
+            
+            
+ <!---------------------------- rough-sketching STARTER HER  ------------------------------------->  
+            <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+                
+                <h3 id="sketching">Rough sketching for visuel prototyping og storyboarding: </h3>
+                <p>
+                    Ordet rough er et engelsk ord der betyder ”rå”. Rough sketching handler om, at man laver en rå skitse af sit grundlæggende layout, før man sætter sig til computeren. En grovskitse indeholder kun det basale layout idé man har. På et rough sketching ses ikke den endelig skrift, farvevalg, styrke og placering. 
+                </p>
+                
+                    
+            
+            </div>
+ <!---------------------------- rough-sketching // SLUTTER HER ----------------------->  
+ 
+            
+            
+            
+            
+ <!---------------------------- rough-sketching  illustration starter her  -------------------------------------------->  
+            
+            <div class="col-md-2 col-sm-12 sektion1 offset-md-3">
+                
+                
+                
+            <img src="img/rough-sketch.jpg" alt="sketch" class="responsive-image"/>
+            
+            </div>
+  <!---------------------------- rough-sketching  illustration SLUTTER HER ----------------------->   
+            
+ <!---------------------------- layout-sketching STARTER HER  ------------------------------------->  
+            <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+                
+                <h3 id="layoutet">Layoutet </h3>
+                <p>
+                    
+                    I denne proces sætter man overskriften ind, i den skrifttype der er udtænkt. Billederne bliver beskåret og sat ind i den rigtige størrelse og næsten de rigtige farver.  På den måde får din kunde et designudkast tidligt i processen.  På den måde får kunden en nøjagtig forestilling om hvordan tryksagen kommer til at se ud.
+
+                </p>
+
+                    
+            
+            </div>
+ <!---------------------------- layout-sketching // SLUTTER HER ----------------------->  
+ 
+            
+            
+            
+            
+ <!---------------------------- layouth-sketching  illustration starter her  -------------------------------------------->  
+            
+            <div class="col-md-2 col-sm-12 sektion1 offset-md-3">
+                
+                
+                
+            <img src="img/layout-sketch.jpg" alt="sketch" class="responsive-image"/>
+            
+            </div>
+  <!---------------------------- layout-sketching  illustration SLUTTER HER ----------------------->      
+            
+            
+            
+            
+ <!---------------------------- finish-sketching STARTER HER  ------------------------------------->  
+            <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+                
+                <h3 id="finish">Finish layout </h3>
+                
+                
+                <p>
+                  I denne fase udarbejdes et såkaldt finishlayout. Et finishlayout er et layout, der viser den rigtige tekst og skrifttype. Det rigtige billede bliver sat ind i den rigtige størrelse og beskæring. Farverne er så tætte på det færdige produkt, som muligt. 
+                </p>
+
+                    
+            
+            </div>
+ <!---------------------------- finish-sketching // SLUTTER HER ----------------------->  
+ 
+            
+            
+            
+            
+ <!---------------------------- finish-sketching  illustration starter her  -------------------------------------------->  
+            
+            <div class="col-md-2 col-sm-12 sektion1 offset-md-3">
+                
+                
+                
+            <img src="img/finish-layout.jpg" alt="sketch" class="responsive-image"/>
+            
+            </div>
+  <!---------------------------- finish-sketching  illustration SLUTTER HER ----------------------->    
+            
+
+
+            
+            
+            <!------------------------ OPGAVE I GRUNDLÆGGENDE KOMMUNIKATION STARTER HER---------------------------------------------->    
+    <div class="col-md-6 col-sm-12 offset-md-2 sektion1">
+                <h3 id="finish">Opgave:</h3>
+                
+                <p>
+                   Vi har i undervisningen haft et kursus i rough teknik.  Dagen startede med at vi fik præsenteret en redskaber i og materialer man bruger til at til rough sketching i form af markers i forskellige tykkelser, waterproof papir og  et lysbord.
+                </p>
+                    
+                    <b>Følgende opgaver lavede vi på kurset:</b>
+                <ol>
+                    <li>
+                        <b>Skift redskab:</b><br>
+                        Denne opgave gik ud på at bruge de rigtige markers til at tegne med. Alt efter hvad motivet er. 
+                    </li>
+                    <li>
+                        <b>Udfyldning af flader</b><br>
+                        I denne øvelse skulle vi lære hvordan man udfylder flader bedst 
+                        <ul>
+                            <li>Udfyld kanterne rundt om rammen</li>
+                            <li>Markér blomsten derefter</li>
+                            <li>Undgå  at tvære for meget rundt i det når du markere.</li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Lær at iagttage og kopiere</b><br>
+                        I denne øvelse gik ud på vi skulle tegne nogle figure af på denne måde:
+                         <ul>
+                            <li>Kopier tegningerne. Læg først forlægget under en side på blokken og tegn den kraftige streg af med en penol 700 marker </li>
+                            <li>Tegn derefter de tynde streger med Pilot SC UF</li>
+                            <li>Giv derefter figurerne gråtoner med nr. 2, så de fremstår mere 3-dimensionelle</li>
+
+                        </ul>                       
+                    </li>
+                    <li>
+                        <p>
+                            <b>Øvelse: Markering af billeder </b><br>
+                            I denne øvelse skulle vi lære at markere billeder af, ved hjælp af et tegnebord med lys og markers i forskellige gråtoner.
+                        </p>    
+                    
+                    </li>
+                    <li>
+                        
+                            <b>Øvelse: Typografi</b><br>
+                            
+                                I denne øvelse skulle vi øve os på neutral tekst, efter styrestreger.
+
+                        <ul>
+                            <li>Læg forlægget under en side på blokken og skriv/tegn efter med Penol 700 </li>
+                            <li>Tegn derefter styrestregerne, som du ser under forlægget, op med en blyant og kopier bogstaverne og talene på fri hånd</li>
+                            <li>Gentag øvelsen indtil du synes at resultatet er ligeså godt som det du ser på modsatte side og du kan gøre det hurtigt og fri. </li>
+
+                        </ul>
+
+                    </li>
+
+                </ol>
+        
+        <br>
+        <br><br>
+                <p>
+        
+                    <b>Sidste opgave:</b><br>
+                    I den sidste opgave vi havde skulle vi prøve at tegne en skitse af vores sidemand, med den teknik vi har lært. Vi skulle tage et billede af os selv, hvor vi derefter skulle bytte med sidemanden. 
+
+        
+        
+                </p>
+    </div>
+            <!------------------------ OPGAVE LINK SEKTION HER ---------------------------------------------->    
+            <div class="col-md-2 col-sm-12 offset-md-1 sektion1">
+                
+                <img src="img/skiftredskab.jpg" alt="streger"/> <br><br>
+                <img src="img/udfyldflader.jpg" alt="udfyldflader"/><br><br>
+                <img src="img/kopir.jpg" alt="kopir"/><br><br>
+                
+                
+                <br><br>        
+                
+        <p>
+        
+            <a href="https://fronter.com/eadania/links/files.phtml/1682136815$662399696$/Fag/1.+semester/Kommunikation+og+formidling/BSH/SKETCHING-TEKNIK/Rough+Sketching/Rough-teknik+kursusmateriale.pdf" target="_blank">Klik her for at se opgaven</a>
+        
+        </p>
+             
+
+            </div>
+            
+            <div class="col-md-10 col-sm-12 offset-md-2 sektion1">
+                <P>
+                    <small>
+                            <b>Kilder:</b>
+                        
+                        <br>
+                        
+                          https://fronter.com/eadania/links/files.phtml/1682136815$662399696$/Fag/1.+semester/Kommunikation+og+formidling/BSH/SKETCHING-TEKNIK/Rough+Sketching/Rough-teknik+kursusmateriale.pdf
+                        
+                        
+
+                        
+                        
+                    </small>
+                </P>
+
+            </div>
+     
+
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

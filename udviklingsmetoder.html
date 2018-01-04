@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Læringsportfolio - Kommunikation - Udviklingsmetoder</title>
+
+    <!-- CSS -->
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <!-- Extra styles -->
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+    <!-- Navbar -->        <!-- MENU starter her -->
+     
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><h1>Lærings<b>portfolio</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Menu item (active) -->
+                <li>
+                    <a class="nav-link" href="index.html">Forside</a>
+                </li>
+
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet Kommunikation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kommunikation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                        <a class="dropdown-item" href="grund-kom-teori.html">Grundlæggende kommunikationsteori</a>
+                        <a class="dropdown-item" href="intro-design-thinking.html">Introduktion til design thinking</a>
+                        <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                        <a class="dropdown-item" href="information-arkitektur.html">Informationsarkitektur</a>
+                        <a class="dropdown-item" href="idegenerering.html">Idé-generering</a>
+                        <a class="dropdown-item" href="tekst-som-medie.html">Tekst som medie</a>
+                        <a class="dropdown-item" href="visualiseringsv%C3%A6rktojer.html">Visualiseringsværktøjer</a>
+                        <a class="dropdown-item" href="storytelling.html">Storytelling som brandstrategi</a>
+                        <a class="dropdown-item" href="retorisk-kommunikation.html">Retorisk kommunikationsstrategi</a>
+                        <a class="dropdown-item" href="semiotik.html">Semiotik</a>
+                        <a class="dropdown-item" href="visuel-kommunikation.html">Visuel kommunikation</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kom-reflektion.html">Refkleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for Kommunikation slutter -->
+                
+                
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet virksomhed -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Virksomhed
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="virksomhedens-grundlag.html">Virksomhedens forretningsmæssige grundlag</a>
+                        <a class="dropdown-item" href="ophavsret.html">Ophavsret og licenseringsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                        <a class="dropdown-item" href="udviklingsmetoder.html">Udviklingsmetoder</a>
+                        <a class="dropdown-item" href="udviklingsmetoder-specificering.html">Udviklingsmetoder og specificering af krav</a>
+                        <a class="dropdown-item" href="anvendelseafvaerktojer.html">Anvendelse af værktøjer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="virk-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for virksomhed slutter -->
+
+                <!-- Dette er en dropdown menu der tilhøre menupunktet visualisering -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Design og visualisering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="farveteori.html">Farveteori</a>
+                        <a class="dropdown-item" href="gestaltlovene.html">Gestaltlove og designprincipper</a>
+                        <a class="dropdown-item" href="foto.html">Foto</a>
+                        <a class="dropdown-item" href="typografi.html">Typografi</a>
+                        <a class="dropdown-item" href="photoshop.html">Photoshop</a>
+                        <a class="dropdown-item" href="illustrator.html">Illustrator</a>
+                        <a class="dropdown-item" href="indesign.html">Indesign</a>
+                        <a class="dropdown-item" href="video-production.html">Quick-and-dirty video production</a>
+                        <a class="dropdown-item" href="design-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item end -->
+                
+                <!-- Dette er en dropdown menu der tilhøre menupunktet Interaktion -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interaktion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="internettets-historie.html">Internettets historie</a>
+                        <a class="dropdown-item" href="struktur-i-html.html">Grundlæggende HTML</a>
+                        <a class="dropdown-item" href="css.html">CSS</a>
+                        <a class="dropdown-item" href="versionstyring.html">Versionstyring</a>
+                        <a class="dropdown-item" href="responsivdesign.html">Responsive design</a>
+                        <a class="dropdown-item" href="frameworks.html">Framework Bootstrap</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="inter-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til interaktion slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Projekter -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projekter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="onepage-projekt.html">Onepage projekt</a>
+                        <a class="dropdown-item" href="prototyping-projekt.html">Prototyping projekt</a>
+                        <!--Devider mellem menupunkterne ---->
+                    </div>
+                </li>
+                <!-- Dropdown menu til projekter slutter slutter -->
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Main body --> <!-- DET HER ER MIN SIDEBAR --> 
+    <div class="main">
+        <div class="row">
+            <div class="col-md-2 fixed-sidebar hidden-sm-down d-none d-sm-none d-md-none d-md-block">
+                <div class="nav flex-column nav-pills affix" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" href="#tops">Udviklingsmetoder</a>
+                  <a class="nav-link" href="#vandfaldsmodellen">Vandfaldsmodellen</a>
+                  <a class="nav-link" href="#prototyping">Prototyping og evolutionær systemudvikling</a>
+                  <a class="nav-link" href="#agiludvikling">Agil udvikling</a>
+                  <a class="nav-link" href="#agile-manifest">Det agile manifest</a>
+                    <a class="nav-link" href="#scrum">Scrum</a>
+                  <a class="nav-link" href="#kilder">Kilder</a>
+
+                </div>
+            </div>
+
+
+ <!---------------------------- Udviklingsmetoder starter her  ----------------------->           
+            <div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+                
+                <h2 id="tops">Udviklingsmetoder</h2><br>
+
+               <p>
+                    Indenfor systemudvikling findes der en række metoder, man kan bruge til at planlægge og organisere sit arbejde på. Alle metoder arbejder med disse:
+              </p>
+<br>
+              <ul>
+                    <li>
+                        <b>Forudundersøgelse</b><br>
+                        Her undersøger man målgruppen og deres behov. Udefra målgruppen og brugernes behov, vurdere man hvad der er vigtigst at udvikle på først og hvornår det skal gøres.<br>
+                  </li>
+                    <li>
+                        <b>Kravspecifikation</b><br>
+                        Her finder man ud af hvilke krav produktet har. Det kunne eksempelvis være hvad produktet skal kunne, hvilken kvalitet og med hvilken teknologi skal man bruge.<br>
+                  </li>  
+                    <li>
+                        <b>Design</b><br>
+                        Udefra kravene designes løsningen. Der designes på produktets opbygning, struktur og grænseflade. 
+                  </li>  
+                    <li>
+                        <b>Konstruktion</b><br>
+                        Her påbegyndes programmeringen af produktet på baggrund af designet, så det kan anvendes af brugerne. Her tester man undervejs for fejl. Før produktet bliver frigivet, udføre man en række accepttest af brugerne.
+                  </li>  
+                    <li>
+                        <b>Videreudvikling</b><br>
+                        Her har man fokus på at produktet forsat bliver videreudviklet, efter det er taget i brug.  
+                  </li>  
+              </ul>    
+        <br><br>
+             <p>
+                 <b>Udviklingsmetodernes grundlæggende syn</b> <br><br>
+                <b>Lineært syn</b><br>
+                Dette syn afspejles blandt andet i vandfaldsmodellen, som bygger på at alle krav til et system kan defineres på forhånd. Man analyserer og designer systemet i dybden først, og derefter udvikler. Kaldes en plandrevet proces, da man laver planer for projektet i starten af processen.<br><br>
+
+
+                <b>Evolutionært syn</b><br>
+                Med dette syn mener man ikke, at man kan definere kravene på forhånd, men først når man er færdig vil man kende kravene. Her udvikler man lidt af gangen, hvor brugeren undervejs giver feedback og man tilpasser løbende, ud fra de nye erkendelser.<br><br>
+
+                <b>Store projekter</b><br>
+                Ved større projekter, hvor en større virksomhed f.eks. har et ønske om at få udviklet et system der understøtter deres daglige arbejdsopgaver, bliver der foretaget en analyse af organisationen og dets brugere og opgaver. Analysen udarbejdes med henblik på at vurdere behovet for it-systemet og forbedringer af arbejdsgangene. Når opgaven bliver sat i gang laves der en kravspecifikation. 
+    
+                
+            </p>    
+            </div>
+
+ <!---------------------------- Udviklingsmetoder SLUTTER HER ----------------------->  
+
+
+            
+            
+<!---------------------------------VANDFALDSMODELLEN starter her ------------------------------------------->            
+        <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+            <h2 id="vandfaldsmodellen">Vandfaldsmodellen</h2>
+            <p>
+                Vandfaldsmodellen er en af de første udviklingsmodeller og er inspireret af (Fowler 2000). Det er er en klassisk lineær model der går igennem faserne: Forundersøgelse, krav, design, konstruktion og test.  Her laver man en forundersøgelse og derefter beskriver man kravene. Dernæst begynder man, at designe løsningen og til slut konstrueres og testet.  I hver fase producere man et eller flere dokumenter, som skal godkendes af både udvikler og kunde, før fasen kan ses som afsluttet. Her involveres brugeren ikke før produktet er færdig og testet. Vandfaldsmodellen er en plandrevet proces. I en plandrevet proces skal alle aktiviteter være planlagt, før man kan begynde at udvikle på det.  
+            </p>
+        <br>
+        <br>
+            
+            <h4>Fordele og ulemper ved modellen:</h4>
+
+            <ul>
+                <li>Den er nem at bruge</li>
+                <li>Nemt at videreudvikle produktet pga. den grundige dokumentation</li>
+                <li>Klare ansvarsområder</li>
+                <li>Der er risiko for at man laver fejl i og med at brugeren ikke inddrages tidligt i processen.</li>
+            </ul>
+            
+            <p>
+                Modellen er god at anvende, hvis kunden ved hvad han/hun skal have. Modellen bliver stadig meget anvendt og passer godt på kortvarige projekter, hvor man kender kravene og domæne.         
+            </p>
+        </div>       
+
+ <!---------------------------------------- VANDFALDSMODELLEN SLUTTER HER ---------------------------------------------->  
+ 
+            
+<!------------------------------------------ Fordele og ulemper ved modellen: STARTER HER -------------------------------------------------------->    
+            
+            
+            <div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+            <img src="img/vandfald.jpg">    
+                
+            </div>
+
+ <!----------------------------Fordele og ulemper ved modellen: SLUTTER HER----------------------->  
+            
+<!------------------------------------------ Kritik af traditionelle metoder: STARTER HER -------------------------------------------------------->    
+<div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+    <b>Kritik af traditionelle metoder:</b>
+    <ul>
+        <li>
+            Man kan ikke kende alle de krav og behov der er. Det med at stille krav fra starten af er vanskeligt da krav kan ændre sig på 2 måder. Krav reelt ændrer sig. Eksempelvis:” vi skal lave noget der køre i en bestemt opløsning der er moderne – men 3 år efter er denne opløsning ikke moderne. Hvad er det for en platform vi arbejder på – platformen kan ændre sig.
+        </li>
+        <li>
+            Kundegruppen ændrer sig
+        </li>
+        <li>
+            Har vi et langvarigt projekt kan ting ændre sig. 
+        </li>
+        <li>
+            Nye elementer, teknologier kan gøre at vi ændre kravene. 
+        </li>
+    </ul>
+    
+</div>
+ <!---------------------------- Kritik af traditionelle metoder:  SLUTTER HER----------------------->  
+            
+<!------------------------------------------ Dårlige erfaringer STARTER HER -------------------------------------------------------->    
+<div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+    <b>Dårlige erfaringer</b>
+    <ul>
+        <li>
+            Ofte overraskelser undervejs
+        </li>
+        <li>
+            Ofte forsinkelser og dyre
+        </li>
+        <li>
+            Man kan opleve at det produkt vi ude med ikke dækker behovene. (kan skyldes at man har planlagt dårligere)
+        </li>
+    </ul>
+    
+</div>
+ <!---------------------------- Dårlige erfaringer SLUTTER HER----------------------->  
+            
+<!---------------------------------Prototyping og evolutionær systemudvikling STARTER HER ------------------------------------------->            
+<div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+                <h2 id="prototyping">Prototyping og evolutionær systemudvikling</h2>
+                <p>
+                   Her bygger man på en antagelse af, at kravene er uforudsigelige og at man ikke har mulighed for at fastlægge dem på forhånd. Man danner kravene i takt med udviklingen ved at simulere hvordan man har tænkt sig at produktet skal virke. Der udvikles lidt af gangen samtidig med at man viser resultatet til brugeren, så man kan videreudvikle på deres feedback. 
+                   En prototype er med andre ord en grovskitse i form af en tidlig version af systemet, som man bruger til at vise sin ide med, så man kan få feedback på sin ide og dermed danne nye ideer.  
+ 
+                </p>
+
+</div>       
+            
+ <!---------------------------- Prototyping og evolutionær systemudvikling SLUTTER HER----------------------->  
+ 
+ <!--------------------------------- Prototyping illustration STARTER HER------------------------------------------->    
+            
+            
+    <div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+                
+        <img src="img/proto-typing%20proces.jpg" alt="proto"/>
+                
+    </div>
+
+ <!---------------------------- Prototyping illustration SLUTTER HER ----------------------------------------------->   
+           
+           
+<!--------------------------------- Agiludvikling STARTER HER------------------------------------------->    
+            
+            
+    <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+                
+                    <h2 id="agiludvikling">Agil udvikling</h2>
+        <p>
+            Agil udvikling kan oversættes til fleksibel udvikling.  Og er en udviklingsmetode hvor man har en grundlæggende antagelse om, at verden forandre sig hurtigt og kræver derfor at vi har en omstillingsdygtig udviklingsproces, hvor man hurtigt kan håndtere de skiftende krav.
+        <br>
+        <br> 
+
+            Et opgør med dokumentation og administration: Man dokumenterer meget tidligt og dokumenterne låser sig fast. Hvis vi kan dokumentere lidt mindre, kan man være mere effektiv. SCRUM er en af de mest anvendte agile metoder. 
+
+        </p>
+                
+    </div>
+
+ <!---------------------------- Agiludvikling SLUTTER HER ----------------------------------------------->   
+
+   <!--------------------------------- Det agile manifest illustration STARTER HER------------------------------------------->    
+            
+            
+    <div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+                
+        <img src="img/detagilemanifest.jpg" alt="proto"/>
+                
+    </div>
+
+ <!---------------------------- Det agile manifest illustration SLUTTER HER ----------------------------------------------->             
+
+
+<!--------------------------------- Det agile manifest: STARTER HER ------------------------------------------->    
+            
+            
+    <div class="col-md-8 col-sm-12 offset-md-2 sektion1">
+                
+                    <h3 id="agile-manifest">Det agile manifest</h3>
+            <ul>
+                <li>
+                    <b>Individer og samarbejde frem for processer og værktøjer</b><br>
+                    Der kan gå for meget proces i det – i stedet for at arbejde meget i processen kan man vælge at arbejde sammen.  Gør projektdeltagerne til mindre maskine og mere individ, ved fx ikke at styre deltagerne for stramt. 
+        
+                </li>
+                <li>
+                    <b>Velfungerende software frem for omfattende dokumentation </b><br>
+                    Hænger sammen med ovenstående. Her tager man fat i dokumentationen og kigger på hvad fokus man skal have, på software og måske lidt mindre på dokumenter. Et vigtigt dokument er kontrakten. 
+        
+                </li>
+                <li>
+                    <b>Samarbejde med kunden frem for kontraktforhandling</b><br>
+                    Kontraktforhandlingen er vigtig, men er ikke det vigtigste. Nogle gange er det bedre at samarbejde med kunden fremfor at gå op i kontraktforhandlingen. Kunden frem for det juridiske. (måden vi er på)
+        
+                </li>
+                <li>
+                    <b>Håndtering af forandringer frem for fastholdelse af en plan</b><br>
+                    Hænger sammen med ovenstående.  (Måden vi ser os på)  
+        
+                </li>
+
+            </ul>
+                
+    </div>
+
+ <!---------------------------- Det agile manifest: SLUTTER HER ----------------------->   
+
+            
+<!--------------------------------- SCRUM STARTER HER ------------------------------------------->       
+            
+    <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+                
+                    <h3 id="scrum">Scrum</h3>
+            <p>
+                Er en agil metode, der bruges til at beskrive hvordan man skal planlægge og gribe projekter an. Metoden tager ikke stilling til hvordan udviklingen skal foregå. Der findes bliver brugt rigtig meget i tiden, idet mange virksomheder bruger denne metode til at få styr på deres projekter. I Scrum udarbejdes et såkaldt ”sprint”, som er et forløb. Ved hver sprints afslutning, skal der være noget færdigt, der i teorien kan gives til kunden. Scrum bruges for at opnå en effektiv kommunikation og commitment.             
+            </p>
+            <br>
+        
+            <b>Kendetegn ved metoden:</b>
+            <ul>
+                <li>
+                    De tre roller, som består af en produktejer, Scrum-master og et team.
+                </li>
+                <li>
+                    Der foregår 3 ceremonier, som er: Sprintplanlægningsmøde, dagligt stand up-møde og sprint review samt ”retrospective”
+                </li>
+                <li>
+                    Består af 3 værktøjer, som er produktbacklog, sprintbacklog og burn down-graf
+                </li>
+            </ul>
+                
+    </div>
+
+ <!---------------------------- SCRUM SLUTTER HER ------------------------------------------>   
+ 
+<!--------------------------------- SCRUM illustration STARTER HER------------------------------------------->    
+            
+            
+    <div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+                
+        <img src="img/scrum-principper.jpg" alt="proto"/>
+                
+    </div>
+
+ <!---------------------------- SCRUM SLUTTER HER ----------------------------------------------->          
+            
+<!--------------------------------- Elementer i scrum STARTER HER ------------------------------------------->       
+            
+    <div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+                
+            <h4 id="scrum-elementer">Elementer i scrum</h4><br>
+            <p>
+                <b>Produktejer:</b><br>
+                Er den produktansvarlig, der prioritere og bestemmer hvad der skal laves. Den produktansvarlige skal sørge for at prioritere kundernes interesser og opstille et mål for et sprint. <br><br>
+
+                <b>Produktbacklog</b><br>
+                Backloggen fungere som en slags kravspecifikation og det er her alle krav og ønsker registreres. Backloggen skal danne overblik over krav og specifikation. Man opstiller de højst prioriterede krav øverst i backloggen.<br><br> 
+
+                <b>Sprint</b><br>
+                Før man kan begynde på et nyt sprint, skal produktejer prioritere produktbackloggen på ny sammen med kunden, hvor man derefter kan fastlægge målet for sprintet. <br><br>
+
+                Når udviklingen af et nyt sprint sættes i gang må produktejer ikke ændre på tingene eller tilføje nye opgaver. <br><br>
+
+                <b>Sprintplanlægningsmødes</b><br>
+                Denne fase træder i kraft efter at man har gennemgået produktbackloggen med kunden. Springplanlægningsmødet går ud på at produktejer sammen med teamet beslutter hvad der skal ske i næste sprint. Her tager man udgangspunkt i mål, prioriteringer, estimater samt teamet udviklingshastighed. Efterfølgende flytter man kravene fra produktbackloggen til en sprintbacklog, hvor man så nedbryder kravene til mindre opgaver (tasks) og man laver en taskboard (to do liste)  <br><br>
+
+                <b>Scrummaster</b><br>
+                Fungere som en slags coach og er en mellemmand mellem teamet og produktejeren. Scrummasterens ansvar er at holde støj væk fra teamet, sørge for ressourcer og holde lede det daglige standup møde.<br><br>
+
+                <b>Story</b><br>
+                Er kravene og kan skrives  på følgende måde eksempelvis: 
+                ”Som bruger vil jeg gerne kunne finde billige rejser”
+
+            </p>
+            
+            <p>
+                <b>Standup møde</b><br>
+                På dette møde er det vigtigt ikke at diskutere. Det er teammedlemmerne der må tale. Andre må gerne deltage i mødet, dog uden at sige noget. På dette møde opfølger man på planen og man får fordelt opgaver gennem disse spørgsmål:
+            <ul>
+                <li>
+                    Hvad fik vi lavet igår?
+                </li>
+                <li>
+                    Hvad skal vi have lavet i dag?
+                </li>
+                <li>
+                    Er der forhindringer?  
+                </li>
+            </ul>
+    </div>
+
+ <!---------------------------- Elementer i scrum SLUTTER HER ------------------------------------------>    
+  
+<div class="col-md-5 col-sm-12 offset-md-2 sektion1">   
+   <p>
+        <b>Sprintbackloggen og taskboard</b><br> 
+        Vises som ”stories” i venstre side af taskboardet. Disse storys nedbrydes til tasks, der prioriteres og sættes ind i to-do feltet, udefra den story den hører til.
+
+        De tasks man skal arbejde på til dagen efter, smides ind ”in Progress” under dagens standup møde. Hvis en task er udført smides den over i ”verify” feltet, hvor den bliver gennemset af et andet teammedlem, som tester eller kommentere på den. Når den er godkendt flyttes tasken over i ”done” feltet. Med denne metode kan man bedre holde styr på hvad man er noget til og hvad man mangler.  
+
+    </p>
+</div>
+            
+<!--------------------------------- SCRUM illustration STARTER HER------------------------------------------->    
+            
+            
+    <div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+                
+        <img src="img/Task%20board.JPG" alt="proto"/>
+        <p>
+            <small>Kilde: https://www.mountaingoatsoftware.com/agile/scrum/scrum-tools/task-boards</small>
+        </p>
+                
+    </div>
+
+ <!---------------------------- SCRUM SLUTTER HER ----------------------------------------------->    
+            
+  <!---------------------------- KILDER STARTER HER  ------------------------------------>             
+            
+<div class="col-md-10 col-sm-12 offset-md-2 sektion1">   
+    
+    <p>
+          <small> 
+            <h4 id="kilder">Kilder:</h4><br>
+              Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2.udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 129-130.<br> 
+              Torben Larsen, Anne Mette Busch m. fl. Kommunikation i multimediedesign (KiM) 2.udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 131-132<br>
+              Torben Larsen, Anne Mette Busch m. fl. Kommunikation i multimediedesign (KiM) 2.udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 132-133. <br>
+              Torben Larsen, Anne Mette Busch m.fl. Kommunikation i multimediedesign (KiM) 2.udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 135 <br>
+              Torben Larsen, Anne Mette Busch m. fl. Kommunikation i multimediedesign (KiM) 2.udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 135<br>
+
+
+
+
+
+          </small>
+    </p>                
+</div>   
+  <!---------------------------- KILDER SLUTTER HER   ------------------------------------>  
+               
+            
+         
+
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

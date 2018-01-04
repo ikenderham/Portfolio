@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Læringsportfolio - Interaktionsdesign - HTML </title>
+
+    <!-- CSS -->
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <!-- Extra styles -->
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+    <!-- Navbar -->        <!-- MENU starter her -->
+     
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><h1>Lærings<b>portfolio</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Menu item (active) -->
+                <li>
+                    <a class="nav-link" href="index.html">Forside</a>
+                </li>
+
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet Kommunikation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kommunikation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                        <a class="dropdown-item" href="grund-kom-teori.html">Grundlæggende kommunikationsteori</a>
+                        <a class="dropdown-item" href="intro-design-thinking.html">Introduktion til design thinking</a>
+                        <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                        <a class="dropdown-item" href="information-arkitektur.html">Informationsarkitektur</a>
+                        <a class="dropdown-item" href="idegenerering.html">Idé-generering</a>
+                        <a class="dropdown-item" href="tekst-som-medie.html">Tekst som medie</a>
+                        <a class="dropdown-item" href="visualiseringsv%C3%A6rktojer.html">Visualiseringsværktøjer</a>
+                        <a class="dropdown-item" href="storytelling.html">Storytelling som brandstrategi</a>
+                        <a class="dropdown-item" href="retorisk-kommunikation.html">Retorisk kommunikationsstrategi</a>
+                        <a class="dropdown-item" href="semiotik.html">Semiotik</a>
+                        <a class="dropdown-item" href="visuel-kommunikation.html">Visuel kommunikation</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kom-reflektion.html">Refkleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for Kommunikation slutter -->
+                
+                
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet virksomhed -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Virksomhed
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="virksomhedens-grundlag.html">Virksomhedens forretningsmæssige grundlag</a>
+                        <a class="dropdown-item" href="ophavsret.html">Ophavsret og licenseringsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                        <a class="dropdown-item" href="udviklingsmetoder.html">Udviklingsmetoder</a>
+                        <a class="dropdown-item" href="udviklingsmetoder-specificering.html">Udviklingsmetoder og specificering af krav</a>
+                        <a class="dropdown-item" href="anvendelseafvaerktojer.html">Anvendelse af værktøjer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="virk-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for virksomhed slutter -->
+
+                <!-- Dette er en dropdown menu der tilhøre menupunktet visualisering -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Design og visualisering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="farveteori.html">Farveteori</a>
+                        <a class="dropdown-item" href="gestaltlovene.html">Gestaltlove og designprincipper</a>
+                        <a class="dropdown-item" href="foto.html">Foto</a>
+                        <a class="dropdown-item" href="typografi.html">Typografi</a>
+                        <a class="dropdown-item" href="photoshop.html">Photoshop</a>
+                        <a class="dropdown-item" href="illustrator.html">Illustrator</a>
+                        <a class="dropdown-item" href="indesign.html">Indesign</a>
+                        <a class="dropdown-item" href="video-production.html">Quick-and-dirty video production</a>
+                        <a class="dropdown-item" href="design-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item end -->
+                
+                <!-- Dette er en dropdown menu der tilhøre menupunktet Interaktion -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interaktion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="internettets-historie.html">Internettets historie</a>
+                        <a class="dropdown-item" href="struktur-i-html.html">Grundlæggende HTML</a>
+                        <a class="dropdown-item" href="css.html">CSS</a>
+                        <a class="dropdown-item" href="versionstyring.html">Versionstyring</a>
+                        <a class="dropdown-item" href="responsivdesign.html">Responsive design</a>
+                        <a class="dropdown-item" href="frameworks.html">Framework Bootstrap</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="inter-refleksion.html">Refleksion</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til interaktion slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Projekter -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projekter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="onepage-projekt.html">Onepage projekt</a>
+                        <a class="dropdown-item" href="prototyping-projekt.html">Prototyping projekt</a>
+                        <!--Devider mellem menupunkterne ---->
+                    </div>
+                </li>
+                <!-- Dropdown menu til projekter slutter slutter -->
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Main body --> <!-- DET HER ER MIN SIDEBAR --> 
+    <div class="main">
+        <div class="row">
+            <div class="col-md-2 fixed-sidebar hidden-sm-down d-none d-sm-none d-md-none d-md-block">
+                <div class="nav flex-column nav-pills affix" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" href="#tops">Grundelementer i html</a>
+                  <a class="nav-link" href="#indrykning">Indrykning</a>
+                  <a class="nav-link" href="#tags">Tags</a>
+                  <a class="nav-link" href="#semantiske-tags">Semantiske tags</a>
+                  <a class="nav-link" href="#definationslister">Definationslister</a>
+                  <a class="nav-link" href="#index">Index.html</a>
+                  <a class="nav-link" href="#links">Links</a>
+                  <a class="nav-link" href="#tabellerihtml">Tabeller i HTML</a>
+                  <a class="nav-link" href="#typeraflinks">Typer af links</a>
+                  <a class="nav-link" href="#billeder">Billeder</a>
+                  <a class="nav-link" href="#kommentar">Kommentar</a>
+                  <a class="nav-link" href="#validering">Validering</a>
+                  <a class="nav-link" href="#opgave">Opgave</a>
+                  <a class="nav-link" href="#kilder">Kilder</a>
+                  
+                    
+                  
+                    
+                    
+                </div>
+            </div>
+
+
+ <!---------------------------------------- STRUKTURERING AF HTML HER  ------------------------------------------>           
+<div class="col-md-10 col-sm-12 offset-md-2 sektion1">
+
+    <h2 id="tops">Strukturering af HTML</h2>
+   <p>
+        Et HTML dokument består altid af nogle grundlæggende elementer. 
+
+   </p>
+
+
+    </div>        
+<!---------------------------------GRUNDLÆGGENDE I HTML DOKUMENT her ------------------------------------------->            
+    <div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+        <h3 id="grundelementerne">Grundelementerne i HTML består af:</h3>
+        <p>
+        <ul>
+           
+            <li>
+                <b>&lt;!DOCTYPE html&gt;</b><br>
+                Doctype er det første man skriver i sit HTML dokument. Den fortæller browseren hvilken version HTML, der bliver anvendt. 
+            </li>
+            
+            <li><b>&lt;html&gt;</b><br>
+                Dette tag fortæller, at vi starter et HTML dokument og at det indeholder alle andre HTML tags. 
+            </li>
+            
+            <li><b>&lt;head&gt;</b><br>
+                Denne kode er placeret mellem &lt;html&gt; og &lt;body&gt;, fungere som en slags container af metatags. Alt der er placeret i &lt;head&lg; bliver ikke synligt på siden. Metatags indeholder metadata omkring siden. En meta tag indeholder typisk informationer, som beskrivelse af siden keywords (søgeord) eller andre metatags. <br><br>
+                &lt;head&gt; indeholder også &lt;title&gt;, som fungerer som titlen på siden.
+            </li>
+            
+            <li>
+                <b>&lt;body&gt;</b><br>
+                &lt;body&gt; er selve kroppen på siden. Det er alt det synlige på siden. Et body tag består som udgangspunkt af: 
+                    <ul>
+                        <li>
+                            <b>&lt;header&gt;</b><br>
+                            Fungere som en slags container for introduktionsindhold på siden eller navigationslinks. Det er her man normalt indsætter logo. 
+                        </li>
+                        <li>
+                            <b>&lt;nav&gt;</b><br>
+                            Består af navigationslink 
+                        </li>
+                        <li>
+                            <b>&lt;aside&gt;</b><br>
+                            Bruges som sidebar på en hjemmeside eller som en fakta boks
+                        </li>
+                        <li>
+                            <b>&lt;footer&gt;</b><br>
+                              Et område, hvor man typisk skriver adressen på virksomheden og kontakt informationer. Bliver også brugt til vigtige links. Footeren er altid lokaliseret i bunden af siden.
+                        </li>
+
+                    </ul>
+            </li>       
+        </ul>
+<br><br>
+        <b>Et eksempel:</b>
+        <p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &lt;head&gt; &lt;title&gt;&lt;/title&gt; &lt;/head&gt;<br>
+            &lt;body&gt;<br>
+                 &lt;header&gt;Dette er en header&lt;/header&gt;<br>
+                 &lt;nav&gt;Dette er navigationen&lt;/nav&gt;<br>
+            &lt;aside&gt;Dette er en sidebar&lt;/aside&gt;<br>
+                  <br>
+            &lt;/body&gt;<br>
+            <br>
+            &lt;/html&gt;<br>
+        </p>
+
+    </div>
+            
+
+ <!---------------------------- GRUNDELEMENTERNE SLUTTER HER ----------------------------------------------->    
+
+            
+            
+<!--------------------------------- INDRYKNING STARTER HER ------------------------------------------->                
+               
+ <div class="col-md-5 col-sm-12 offset-md-2 sektion1">
+     <br>
+     <br> 
+        
+        <h3 id="indrykning">Indrykning</h3>
+        <p>
+            Når man koder er det en rigtig god idé, at lave indrykninger. Det er med til at give dig en god struktur, og giver dig et godt overblik over din kode. Indrykning er meget vigtig, da et HTML dokument hurtigt kan blive uoverskueligt og stort. 
+        </p>
+ </div>
+
+ <!--------------------------------- INDRYKNING SLUTTER ------------------------------------------->    
+
+   <!--------------------------------- TAGS STARTER------------------------------------------->                
+ <div class="col-md-6 col-sm-12 offset-md-2 sektion1">
+        <br>
+        <br> 
+        <h3 id="tags">Tags</h3>
+        <p>
+             Et tag består af et åbningstag, som ser sådan her ud eksempelvis &lt;h1&gt; og et lukketag, der ser således ud &lt;/h1&gt;.  Hver tag har et navn som fx &lt;h1&gt; og består af en attribut, som en class ID, SRC eller andet. Hver attribut har en værdi. Alt der står mellem åbnings- og lukke tagget, vil tagget have indflydelse på. 
+        </p>
+     <br><br>
+     <b>Her er nogle eksempler på tags:</b>
+        <ul>
+            <li>&lt;p&gt;Dette er et afsnit&lt;/p&gt;</li>
+            <li>&lt;h1&gt; Dette er et heading element. Går fra h1 -> h6, jo mindre tal jo større overskrift. Bruges til, at angive vigtigheden af overskriften (hierarkiske niveauer). </li>
+        </ul>
+        
+
+     </div>
+
+ <!--------------------------------- TAGS SLUTTER ------------------------------------------->    
+ 
+            
+            
+   <!--------------------------------- SEMANTISKE TAGS STARTER HER ------------------------------------------->                
+ <div class="col-md-6 col-sm-12 offset-md-2 sektion1">
+
+        <h3 id="semantiske-tags">Semantiske tags</h3>
+     <p>
+         Semantiske tags er tags, der definerer deres indhold, som eksempelvis: &lt;header&gt; og &lt;nav&gt;, hvorimod ikke semantiske tags, ikke siger så meget som eksempelvis &lt;div&gt; og &lt;span&gt;. Semantiske tags, giver både mening for mennesker og maskiner. 
+
+         Semantiske tags er vigtige at have med i sin kode, da Google bruger det til at rangere din side, ved at den nemmere kan læse indholdet.  
+
+     </p>
+     <b>Andre semantiske tags</b>
+     <ul class="liste-style">
+        <li>&lt;header&gt;</li>
+         <li>&lt;footer&gt;</li> 
+         <li>&lt;p&gt;</li> 
+         <li>&lt;nav&gt;</li> 
+         <li>&lt;section&gt;</li> 
+         <li>&lt;article&gt;</li>
+         <li>&lt;aside&gt;</li>
+    </ul>
+<br><br>
+          <b>Ikke semantiske tags</b>
+     <ul class="liste-style">
+        <li>&lt;div&gt; Bruges til at inddele et område.</li>
+         <li>&lt;span&gt; Et område</li> 
+    </ul>
+</div>
+
+ <!--------------------------------- SEMANTISKE TAGS SLUTTER HER------------------------------------------->    
+             
+            
+            
+   <!--------------------------------- DEFINATION STARTER HER ------------------------------------------->                
+ <div class="col-md-6 col-sm-12 offset-md-2 sektion1">
+
+        <h3 id="definitionslister">Definitionslister:</h3>
+     <p>
+         Defineres med &lt;dt&gt;&lt;/dt&gt; som er (titlen)
+         &lt;dd&gt; &lt;/dd&gt; som er definitionen, vises indrykket i forhold til titlen.
+     </p>
+     <p>
+         <b>Et eksempel:</b>
+    </p>
+</div>
+
+ <!--------------------------------- DEFINATION SLUTTER HER ------------------------------------------->    
+            
+ <!--------------------------------- DEFINATION  ILLUSTRATION STARTER------------------------------------------->                
+ <div class="col-md-3 col-sm-12 offset-md-0 sektion1">
+        <a href="img/definationliste.JPG" target="_blank" >
+            <img src="img/definationliste.JPG" alt="lassotool">
+        </a>
+ </div>
+
+ <!------------------------------------------- DEFINATION  ILLUSTRATION SLUTTER ------------------------------------------->  
+            
+ <!---------------------------------------- INDEX HER  ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+
+    <h2 id="index">Index.html</h2>
+   <p>
+        Index.html er navnet, man kalder sin fil, der skal vises i en bestemt mappe. Den bruges til at fortælle browseren hvilken side, der skal vises som det første når man går ind på en side. 
+
+   </p>
+
+
+    </div>               
+  <!------------------------------------------- INDEX SLUTTER HER ------------------------------------------->  
+            
+ <!---------------------------------------- LINKS HER  ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+
+    <h2 id="links">Links</h2>
+   <p>
+       <b>Sådan angiver man et link i HTML.</b><br>
+        &lt;a href=”#”&gt;Her er et link&lt;/a&gt;
+        &lt;a&gt; fortæller det er et link<br>
+        href=”side2.html” fortæller hvor linket fører hen. 
+
+
+   </p>
+
+
+    </div>               
+  <!------------------------------------------- LINKS SLUTTER HER ------------------------------------------->  
+            
+ <!---------------------------------------- TABELLER  HER  ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+
+    <h2 id="tabellerihtml">Tabeller i HTML</h2>
+   <p>
+       <b>I HTML kan man lave tabeller. En tabel består altid af:</b><br>
+       <li>&lt;table&gt; Definere tabellens start</li>
+       <li>&lt;th&gt; Definere et tabelhoved</li>
+       <li>&lt;tr&gt; Definere en tabelrække</li>
+       <li>&lt;td&gt; Definere tabelcelle</li>
+
+   </p>
+
+
+    </div>               
+  <!------------------------------------------- TABELLER SLUTTER HER ------------------------------------------->  
+            
+            
+ <!---------------------------------------- TABELLER  HER  ------------------------------------------>           
+<div class="col-md-2 col-sm-12 offset-md-1 sektion1">
+    <a href="img/tabeller.JPG"><img src="img/tabeller.JPG"/> </a><br>
+    Tabeller er normalt uden kant, for at give den en kant, har vi givet den 1 px border. Tabeller kan indeholde, tekst, billeder og meget andet. <br><br>
+   <a href="img/tabelhtml.JPG"> <img src="img/tabelhtml.JPG"/></a>
+
+</div>               
+  <!------------------------------------------- TABELLER SLUTTER HER ------------------------------------------->  
+            
+            
+ <!---------------------------------------- Typer af links I HTML STARTER HER  ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+
+    <h2 id="typeraflinks">Typer af links</h2>
+   <p>
+       Man har i koden mulighed for, at indsætte forskellige skrifttyper i forskellige tykkelser, men man skal vide, at de fonte der er på ens computer, ikke kan vises hos ens brugere, hvis de ikke har den installeret. Derfor er en god ide at bruge skrifttyper som er hostet på nettet, fx Google fonts eller Adobe Typekit.
+   </p>
+    <ul>
+        <li><b>Eksterne links:</b> Det der menes med eksterne links, er at man linker til andre sider uden for serveren.</li>
+        <li><b>Interne links:</b> der linkes til en side, der ligger på samme server.</li>
+        <li><b>Absolute vs. Relativ adressering</b> Handler om at linke til filer der ligger i samme mappe, og at linke til filer der ligger i en helt anden mappe på serveren. s </li>
+
+    </ul>
+
+
+    </div>               
+  <!------------------------------------------- Typer af links SLUTTER HER ------------------------------------------->  
+            
+            
+ <!---------------------------------------- BILLEDER STARTER HER ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+    <h3 id="billeder">Billeder</h3>
+    <p>
+        Du kan indsætte et billede på din side ved hjælp af &lt;img&gt; tagget.
+    
+        Img tagget skal indeholde src=””
+        Src = Source, også kaldet stien på dansk.
+    <br>
+    <br>
+        Eksempel: &lt;img src=”stien til dit billede”>
+    <br>
+    <br>
+        I billeder skal man altid huske, at have en ”alt” attribut med – det er en alternativ tekst der kommer frem, hvis billedet ikke kan indlæses. Alt attributten bruges også til søgemaskiner. 
+        &lt;img&gt; er et tag, som ikke afsluttes med et &lt;/img&gt; tag. 
+    <br>
+    <br>
+        &lt;img&gt; tagget afsluttes således:
+        &lt;img src=”stien.html” alt=”stien” /&gt;
+    <br>
+    <br>
+        Ovenfor ser vi, at vi afslutter &lt;img&gt; med en skråstreg sidst i tagget.  
+
+</p>
+</div>               
+  <!------------------------------------------- BILLEDER SLUTTER HER ------------------------------------------->  
+ 
+            
+            
+     <!---------------------------------------- KOMMENTAR STARTER HER ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+    <h3 id="kommentar">Kommentar</h3>
+        <p>
+           Det er rigtig vigtigt at skrive kommentar i sin kode under hele processen. På den måde skaber du struktur og overblik over din kode. Du kan på den måde eksempelvis se hvor hver sektion starter og slutter.  
+        </p>
+    
+        <ul>
+            <li>HTML &lt;!--- Din kommentar her --&gt;</li>
+            <li>CSS /* Din kommentar her */</li>
+        </ul>
+</div>               
+  <!------------------------------------------- KOMMENTAR SLUTTER HER ------------------------------------------->  
+        
+            
+            
+            
+<!---------------------------------------- VALIDERING STARTER ------------------------------------------>           
+<div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+    <h3 id="validering">Validering</h3>
+        <p>
+            Det er rigtig vigtigt at skrive kommentar i sin kode under hele processen.<br>
+            På den måde skaber du struktur og overblik over din kode. Du kan på den måde eksempelvis se hvor hver sektion starter og slutter.  
+        </p>
+    
+        <ul>
+            <li>HTML &lt;!--- Din kommentar her --&gt;</li>
+            <li>CSS /* Din kommentar her */</li>
+        </ul>
+</div>               
+<!------------------------------------------- VALIDERING SLUTTER------------------------------------------->            
+   
+            
+            
+            
+<!---------------------------------------- OPGAVE STARTER ------------------------------------------>           
+<div class="col-md-5 col-sm-12 offset-md-2 sektion1">
+  <h3 id="opgave">Opgave:</h3>
+    <p>
+            Det er rigtig vigtigt at skrive kommentar i sin kode under hele processen.<br>
+            På den måde skaber du struktur og overblik over din kode. Du kan på den måde eksempelvis se hvor hver sektion starter og slutter.  
+    </p>
+    
+    <ol>
+        <li>Opret en mappe på din server, vælg et relevant navn </li>
+        <li>Opret en forside i denne mappe (index.html) </li>
+        <li>Opret mindst to andre sider og gerne flere (til besvarelse af de følgende opgaver) </li>
+        <li>Tilføj links fra forside til de øvrige, og fra de øvrige tilbage til forsiden, links mellem siderne er frivillig </li>
+        <li>Læg indhold ind på siderne (besvarelserne af opgave 7-9) </li>
+        <li>Anvend så mange af de HTML-tags du kender som muligt teoretisk opgave </li>
+        <li>Beskriv hvad du ved om HTML, hvordan det anvendes og de tags du kender </li>
+        <li>Hvad er semantiske tags og hvad bruges de til? Giv eksempler, og forklar hvorfor det et vigtigt at være bevidst om at anvende             semantiske tags 
+        </li>
+    <br>
+        <li>
+            <b>Vidensøgningsopgave:</b><br> 
+            Beskriv hvilke attributter på meta-tags der kan være relevante at anvende på en “almindelig” webside 
+            Løsning af denne øvelse er en væsentlig del af læring.
+</li>
+    </ol>
+</div>               
+  <!------------------------------------------- OPGAVE SLUTTER------------------------------------------->   
+         
+            
+  <!---------------------------------------- OPGAVE ILLUSTRATION STARTER ------------------------------------------>           
+<div class="col-md-3 col-sm-12 offset-md-1 sektion1">
+    <b>Klik på billedet for at se min side</b><br><br>
+    <a href="http://huss0045.web.eadania.dk/web/"><img src="img/minside.png" alt="minside" /></a>
+</div>
+  <!------------------------------------------- OPGAVE ILLUSTRATION SLUTTER------------------------------------------->           
+            
+  <!-------------------------------------- KILDER STARTER HER  -------------------------------------------------------->             
+            
+<div class="col-md-10 col-sm-12 offset-md-2 sektion1">   
+    
+    <p>
+          <small> 
+            <h4 id="kilder">Kilder:</h4><br>
+              <a href="https://fronter.com/eadania/links/files.phtml/1682136815$831952233$/Fag/1.+semester/Interaktionsudvikling/Dag+2+-+HTML/Intro+til+HTML.pdf">https://fronter.com/eadania/links/files.phtml/1682136815$831952233$/Fag/1.+semester/Interaktionsudvikling/Dag+2+-+HTML/Intro+til+HTML.pdf</a>
+          </small>
+    </p>                
+</div>   
+  <!---------------------------- KILDER SLUTTER HER   ------------------------------------>  
+               
+            
+         
+
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

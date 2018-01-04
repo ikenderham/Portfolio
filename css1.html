@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Læringsportfolio - Interaktionsdesign - CSS </title>
+
+    <!-- CSS -->
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <!-- Extra styles -->
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+    <!-- Navbar -->        <!-- MENU starter her -->
+     
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><h1>Lærings<b>portfolio</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Menu item (active) -->
+                <li>
+                    <a class="nav-link" href="index.html">Forside</a>
+                </li>
+
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet Kommunikation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kommunikation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                        <a class="dropdown-item" href="grund-kom-teori.html">Grundlæggende kommunikationsteori</a>
+                        <a class="dropdown-item" href="intro-design-thinking.html">Introduktion til design thinking</a>
+                        <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                        <a class="dropdown-item" href="information-arkitektur.html">Informationsarkitektur</a>
+                        <a class="dropdown-item" href="idegenerering.html">Idé-generering</a>
+                        <a class="dropdown-item" href="tekst-som-medie.html">Tekst som medie</a>
+                        <a class="dropdown-item" href="visualiseringsv%C3%A6rktojer.html">Visualiseringsværktøjer</a>
+                        <a class="dropdown-item" href="storytelling.html">Storytelling som brandstrategi</a>
+                        <a class="dropdown-item" href="retorisk-kommunikation.html">Retorisk kommunikationsstrategi</a>
+                        <a class="dropdown-item" href="semiotik.html">Semiotik</a>
+                        <a class="dropdown-item" href="visuel-kommunikation.html">Visuel kommunikation</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="reflektioner-kom.html">Refklektioner</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for Kommunikation slutter -->
+                
+                
+                               <!-- Dette er en dropdown menu der tilhøre menupunktet virksomhed -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Virksomhed
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="virksomhedens-grundlag.html">Virksomhedens forretningsmæssige grundlag</a>
+                        <a class="dropdown-item" href="ophavsret.html">Ophavsret og licenseringsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                        <a class="dropdown-item" href="udviklingsmetoder.html">Udviklingsmetoder</a>
+                        <a class="dropdown-item" href="projektarbejde-udviklingsmetoder.html">Udviklingsmetoder og specificering af krav</a>
+                        <a class="dropdown-item" href="anvendelseafvaerktojer.html">Anvendelse af værktøjer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Reflektioner</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu item for virksomhed slutter -->
+
+                <!-- Dette er en dropdown menu der tilhøre menupunktet visualisering -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Design og visualisering
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Farveteori</a>
+                        <a class="dropdown-item" href="#">Gestaltlove og designprincipper</a>
+                        <a class="dropdown-item" href="#">Foto</a>
+                        <a class="dropdown-item" href="#">Typografi</a>
+                        <a class="dropdown-item" href="#">Photoshop</a>
+                        <a class="dropdown-item" href="#">Illustrator</a>
+                        <a class="dropdown-item" href="#">Indesign</a>
+                        <a class="dropdown-item" href="#">Quick-and-dirty video production</a>
+                        <a class="dropdown-item" href="#">Typografi</a>
+
+                    </div>
+                </li>
+                <!-- Dropdown menu item end -->
+                
+                <!-- Dette er en dropdown menu der tilhøre menupunktet Interaktion -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interaktion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Internettets historie</a>
+                        <a class="dropdown-item" href="#">Grundlæggende HTML</a>
+                        <a class="dropdown-item" href="#">CSS</a>
+                        <a class="dropdown-item" href="#">Versionstyring</a>
+                        <a class="dropdown-item" href="#">Responsive design</a>
+                        <a class="dropdown-item" href="#">Framework Bootstrap</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Reflektioner</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til interaktion slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Projekter -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projekter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Onepage projekt</a>
+                        <a class="dropdown-item" href="#">Onepage projekt</a>
+                        <div class="dropdown-divider"></div> <!--Devider mellem menupunkterne ---->
+                        <a class="dropdown-item" href="#">Reflektioner</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til projekter slutter slutter -->
+                
+                                                <!-- Dette er en dropdown menu der tilhøre menupunktet Reflektioner -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Reflektioner
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Virksomhed</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Design og visualisering</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Interaktionsudvikling</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Kommunikation</a>
+                    </div>
+                </li>
+                <!-- Dropdown menu til reflektioner sluter slutter -->
+                
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Main body --> <!-- DET HER ER MIN SIDEBAR --> 
+    <div class="main">
+        <div class="row">
+            <div class="col-md-2 fixed-sidebar hidden-sm-down d-none d-sm-none d-md-none d-md-block">
+                <div class="nav flex-column nav-pills affix" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" href="#tops">Formel overdragelse af produkt</a>
+                  <a class="nav-link" href="#agilsystemudvikling">Agil systemudvikling og drift</a>
+                  <a class="nav-link" href="#opsamling">Opsamling af ønsker til videreudvikling</a>
+                  <a class="nav-link" href="#roller">Roller</a>
+                    <a class="nav-link" href="#salgsogkundemodet">SALGS- OG KUNDEMØDET </a>
+                  <a class="nav-link" href="#kilder">Kilder</a>
+
+                </div>
+            </div>
+
+
+ <!---------------------------------------- CSS STARTER HER  ------------------------------------------>           
+<div class="col-md-9 col-sm-12 offset-md-2 sektion1">
+
+    <h2 id="tops">CSS</h2>
+   <p>
+        CSS står for Cascading Style Sheets. Det bruges til, at designe udseendet på sin hjemmeside og refereres og navngives i HTML dokumentet. CSS er med til, at adskille struktur og udsende på en side. CSS bruges eksempelvis til at indsætte baggrundsbillede, baggrundsfarve, skrifttype, skriftstørrelse og meget andet.  CSS bruges også til at loade en side hurtigere, ved brug af eksternt stylesheet. 
+   </p>
+    
+<br>
+<br>
+    <h3 id="csshvor">Hvor skriver man CSS?</h3>
+    <p>CSS kan skrives 3 forskellige steder. Man kan vælge at indsætte sin: </p>
+    <ul>
+        <li>
+            <b>Embedded stylesheet</b><br>
+            Indsættes i &lt;stylel&gt; &lt;/style&gt;  i &lt;head&gt; elementet. 
+        </li>
+        <li>
+            <b>Inline stylesheet</b><br>
+            Her skrives CSS koden direkte i html linjerne.
+        </li>
+        <li>
+            <b>Eksternt stylesheet</b><br>
+            Her linkes der til en ekstern stylesheet. Sørger for CSS og HTML er adskilt. 
+        <br>
+            Det gør det også nemmere at rette i sit stylesheet, hvis man har mange HTML sider. Her skal man kun rette i css dokumentet. 
+        </li>
+    </ul>
+
+    </div>        
+<!------------------------------------- CSS SLUTTER HER ---------------------------------------------------->
+    
+<!---------------------------------CSS SYNTAX HER -------------------------------------->            
+    <div class="col-md-4 col-sm-12 offset-md-2 sektion1">
+        <h3 id="css-syntax">CSS Syntax</h3>
+        <p>
+            <b>Selector:</b><br>
+            Beskriver hvad det er, der skal styles på. Det kunne være en bestemt klasse eller et bestemt ID. Det kunne også være header, nav, et heading element, som h1 eller andet på siden.<br><br>  <br>
+
+            I eksemplet nedenfor tager jeg udgangspunkt i en h1 overskrift<br><br>
+
+            Man starter med, at angive hvad man vil style. Hvor efter man indsætter en krøllet parentes, der peger ind mod selector og en krøllet parentes, der peger den anden vej.<br><br>
+
+            <b>Eksempel:</b><br><br>
+
+            h1 { }
+            Ind imellem de to krøllede parenteser skriver vi vores egenskab vi vil ændre på efterfulgt af kolon, det kunne i det tilfælde være skriftstørrelsen på vores h1 tag og skrives således:<br><br>
+
+            h1 {font-size:}
+
+        </p>
+        
+        <p>
+            Efter kolon indsættes værdien, der ønsker vores egenskab skal have og lukker den ved brug af semikolon.  Hvis vi eksempelvis vil have alle h1 tags til at være i størrelse 22px, vil vi skrive sådan:<br><br><br>
+
+            h1 {font-size: 22px;}<br><br><br>
+
+            Vi kan tilføje andre CSS egenskaber og værdier til den samme selector, ved at indsætte dem efter vores semikolon. 
+
+        </p>
+       
+    </div>
+            
+
+ <!---------------------------- CSS SYNTAX SLUTTER HER ----------------------------------------------->    
+
+ <!--------------------------------- CSS SYNTAX STARTER HER ------------------------------------------>                
+               
+ <div class="col-md-4 col-sm-12 offset-md-1 sektion1">
+     <a href="img/htmlen.png"> <img src="img/htmlen.png" alt="html" /></a>
+     
+ </div>
+
+ <!--------------------------------- CSS SYNTAX SLUTTER ------------------------------------------->    
+
+            
+            
+<!---------------------------------------- DE PRIMÆRE SELECTORS STARTER ------------------------------------------>           
+<div class="col-md-8 col-sm-12 offset-md-2 sektion1">
+  <h3 id="opgave">DE PRIMÆRE SELECTORS</h3>
+    <ol>
+        <li>
+            <b>Type/element selector</b><br>
+            Bruges til helt almindelige tags som h1, body, header, fotter osv. 
+        </li>
+        <li>
+            <b>Id selector</b><br>
+            Bruges når det er et specifikt element med et bestemt ID der skal styles. Selector i CSS for ID starter med # efterfulgt af ID navn, som eksempelvis:
+        <br>
+        <br>    
+            #undermenu {}
+        </li>
+        <li>
+            <b>Class selector</b><br>
+            Bruges når flere elementer skal styles ens.  Selector i CSS for classes starter med et punktum, efterfulgt af class navn som eksempelvis:
+        <br>
+        <br>
+            .klassenavn  {}
+        </li>
+        <li>
+            <b>Pseudo-class selectors</b><br>
+            Eksempelvis a:link og a:visited
+        </li>
+        </ol>
+        <br>
+        <br>
+    <p><b>Strukturelle selectors (decendant)</b><br> 
+           Med denne form for selector kan man mere specifikt gå ind og udpege et element inde I et andet element. Det kan eksempelvis være vi gerne vil style a i vores nav.Skrives således i css: 
+        <br>
+        <br>
+       a nav{ font-size 22px; }
+    </p>
+    <br>
+    <br>
+    
+    <p> 
+        <b>Child selectors</b><br>
+        Bruges når man gerne vil udpege mere specifikt, hvad man vil have ændret. Her separeres der med en pil ”&gt;”<br>
+        Som eksempel kan vi tage denne kode:<br>
+        <br>
+        div > p {<br>
+            Background-color:yellow;<br>
+                 } 
+<br><br>
+        Den fortæller at alle p’er hvor forældrene er en div og give dem en gul baggrundsfarve. 
+    </p>
+</div>               
+  <!------------------------------------------- SELECTORS SLUTTER -----------------------------> 
+            
+            
+ 
+            
+  <!---------------------------- KILDER STARTER HER  ------------------------------------>             
+            
+<div class="col-md-9 col-sm-12 offset-md-2 sektion1">   
+    
+    <p>
+          <small> 
+                  Kilder<br>Torben Larsen, Anne Mette Busch, m.fl. Kommunikation i multimediedesign (KiM), 2. udgave, 2015, Hans Reitzels Forlag, ISBN 13: 9788741261683, s. 301-302. <br/>
+          </small>
+    </p>                
+</div>   
+  <!---------------------------- KILDER SLUTTER HER   ------------------------------------>  
+               
+            
+         
+
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
